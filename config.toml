@@ -1,9 +1,9 @@
 baseurl = "https://www.ardianta.com"
-title = "Ardianta"
-theme = "pargo"
+title = "MuryP | Front End"
+theme = "murypStudio"
 
 googleAnalytics = "UA-54154424-1"
-disqusShortname = "ardianta"
+disqusShortname = "alifmuryp"
 
 [permalinks]
   post = "/blog/:slug/"
@@ -11,10 +11,10 @@ disqusShortname = "ardianta"
 
 [params]
     # Site Author
-    author = "Dian"
+    author = "MuryP"
 
     # Description/subtitle for homepage
-    description = "Hello, saya Dian. Blog ini belum jadi. Sabar ya..."
+    description = "MuryP, MuryP Studio, Internet, Technology, hardware, Operating Sistem, Software, Jaringan Komunikasi, JarKom, TIK, Ringkasan, Alief Prihantoro, Alif MuryP, Buku, Ebook,My Project Drawing/Desain,UI/UX,front end,Blogging, SEO"
 
 [frontmatter]
 date = ["date", "publishDate", "lastmod"]

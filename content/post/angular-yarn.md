@@ -27,7 +27,7 @@ ng set --global packageManager=yarn
 
 Percobaan:
 
-![Angular CLI dengan Yarn](/img/angular/angular-yarn.png)
+[Angular CLI dengan Yarn](/img/angular/angular-yarn.png)
 
 Untuk mengembalikan ke NPM:
 
@@ -40,3 +40,4 @@ __Kenapa Pakai Yarn?__
 Menurut saya Yarn lebih cepat daripada NPM dan Yarn bisa digunakan Offline.
 
 Sumber: https://medium.com/@beeman/using-yarn-with-angular-cli-db2e318e43c5
+[halo](https://muryp.my.id "title")

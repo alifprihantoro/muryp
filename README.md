@@ -1,4 +1,4 @@
-## Ardianta Blog
+## MuryP Studio
 
 [![pipeline status](https://gitlab.com/ardianta/blog/badges/master/pipeline.svg)](https://gitlab.com/ardianta/blog/commits/master)
 [![Hugo version](https://img.shields.io/badge/hugo-v0.73.0-ff69b4.svg)](http://gohugo.io/)
@@ -23,7 +23,7 @@ Then run the hugo server:
 
 ```bash
 ▶ cd ardianta-blog
-▶ hugo server
+▶ hugo ser
 
 Started building sites ...
 .

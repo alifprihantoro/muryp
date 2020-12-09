@@ -15,11 +15,83 @@ description: "Mengatasi Error karena Shortcode instagram tidak lagi bisa melakuk
 typora-root-url: ../../static
 ---
 
+{{< class coba halo >}}
+| Tables        | Are           | Cool  |
+| ------------- |:-------------:| -----:|
+| col 3 is      | right-aligned | $1600 |
+| col 2 is      | centered      |   $12 |
+| zebra stripes | are neat      |    $1 |
+
+| coba head |
+|  --- |
+| col1 | col2 | col3 |
+
+[link](/blog)
+
+{{< html >}}
+<div class="home">tes untuk html</div>
+{{< /html >}}
+
+```
+ <div color="red"> hello</div>
+```
+
+{{< html >}}
+<style> li{font-weight:bold;}</style>
+<div class="home">yang keua</div>
+<ul>
+  <li><a href="/">satu</a></li>
+  <li><a href="/">dua</a></li>
+  <li><a href="/">dua</a></li>
+  <li><a href="/">dua</a></li>
+  <li><a href="/">dua</a></li>
+  <li><a href="/">dua</a></li>
+  <li><a href="/">dua</a></li>
+  <li><a href="/">dua</a></li>
+  <li><a href="/">dua</a></li>
+  <li><a href="/">dua</a></li>
+</ul>
+</ul>
+{{< /html >}}
+
+
+> Compromise minimum solution:
+
+Hello | World | Example |
+------- |||
+Hello |||
+
+[cOba](https://muryp.my.id)
+[Link Twitter](https://twitter.com/petanikode)
+- [*Link miring*](#!)
+- [**Link tebal**](#!)
+- [~~Link Tercoret~~](#!)
+- [`Link kode`](#!)
+- [coba bisa](https://)
+- [cOba2]({{ $.Site.sosmed }})
+[1]
+
+
+{{< highlight html >}}
+<section id="main">
+  <div>
+   <h1 id="title">{{ .Title }}</h1>
+    {{ range .Pages }}
+        {{ .Render "summary"}}
+    {{ end }}
+  </div>
+</section>
+{{< /highlight >}}
+
+hello **this is going to be bold**<link href="style.css" rel="stylesheet"></link>
+
 Beberapa hari ini build website saya selalu gagal. Akhirnya beberapa artikel tertunda untuk terbit.
 <a href='/'> halo ini percobaan</a>
 Errornya seperti ini:
+[Tautan .blank](#URL "Title")
+{<a href="http://example.com/" target="_blank">Hello, world!</a>}
 
-![error embed instagram](/img/fix-hugo-instagram/error-embed-instagram.png)
+![error embed instagram](/img/fix-hugo-instagram/error-embed-instagram.png){.coba}
 
 Kalau diperhatikan, error ini disebabkan karena Github Action tidak bisa mengakses API oEmbed Instagram.
 
