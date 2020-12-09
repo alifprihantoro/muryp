@@ -1,5 +1,5 @@
-baseurl = "https://www.ardianta.com"
-title = "MuryP | Front End"
+baseurl = "https://vigilant-meninsky-1cbebe.netlify.app/"
+title = "MuryP"
 theme = "murypStudio"
 
 googleAnalytics = "UA-54154424-1"
@@ -31,20 +31,20 @@ expiryDate = ["expiryDate"]
   [[menu.main]]
     identifier = "art"
     name = "Art"
-    url = "https://ardiantapargo.deviantart.com/"
+    url = "https://alifmuryp.deviantart.com/"
     wight = 2
   [[menu.main]]
     identifier = "twitter"
     name = "Twitter"
-    url = "https://twitter.com/ardiantapargo"
+    url = "https://twitter.com/alifmuryp"
     wight = 3
   [[menu.main]]
     identifier = "github"
     name = "Github"
-    url = "https://github.com/ardianta"
+    url = "https://github.com/alifmuryp"
     wight = 4
   [[menu.main]]
     identifier = "rss"
     name = "RSS"
-    url = "http://feeds.feedburner.com/ardianta"
+    url = "http://feeds.feedburner.com/alifmuryp"
     wight = 5
