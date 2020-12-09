@@ -1,0 +1,19 @@
+image: monachus/hugo
+ 
+variables:
+  GIT_SUBMODULE_STRATEGY: recursive
+ 
+test:
+  script:
+  - hugo
+  except:
+  - master  
+ 
+pages:
+  script:
+  - hugo --environment production
+  artifacts:
+    paths:
+    - public
+  only:
+  - master    
