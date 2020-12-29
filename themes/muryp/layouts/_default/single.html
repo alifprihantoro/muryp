@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html>
+<head>
+  {{ partial "head.html" . }}
+  <link rel="stylesheet" href="/css/post.css" type="text/css" media="all" />
+  <style type="text/css" media="all">
+    .mainPostingan {
+      overflow:auto;margin-top:80px;max-width:1080px !important;
+    }
+    @media only screen and (min-width:720px){
+      .mainPostingan {width:80vw !important;}
+    }
+  </style>
+</head>
+<body>
+  {{ partial "navHeader.html" . }}
+  <div style="" class="mainPostingan">
+      <hr />
+      <h1>{{ .Title }}</h1>
+    <div class="post-content post-body">
+      <!-------------- body post -------------->
+        {{ .Content | emojify }}
+    </div>
+  </div>
+  {{ partial "footer.html" . }}
+</body>
+</html>

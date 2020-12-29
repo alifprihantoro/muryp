@@ -1,20 +1,20 @@
-baseurl = "https://vigilant-meninsky-1cbebe.netlify.app/"
+baseurl = "https://muryp.my.id/"
 title = "MuryP"
-theme = "murypStudio"
+theme = "muryp"
 
-googleAnalytics = "UA-54154424-1"
+googleAnalytics = "UA-code"
 disqusShortname = "alifmuryp"
 
 [permalinks]
-  post = "/blog/:slug/"
-  page = "/:slug/"
+  post = "blog/:slug/"
+  pages = "/:slug/"
 
 [params]
     # Site Author
     author = "MuryP"
 
     # Description/subtitle for homepage
-    description = "MuryP, MuryP Studio, Internet, Technology, hardware, Operating Sistem, Software, Jaringan Komunikasi, JarKom, TIK, Ringkasan, Alief Prihantoro, Alif MuryP, Buku, Ebook,My Project Drawing/Desain,UI/UX,front end,Blogging, SEO"
+    description = "MuryP, MuryP Beta, Internet, Technology, hardware, Operating Sistem, Software, Jaringan Komunikasi, JarKom, TIK, Ringkasan, Alief Prihantoro, Alif MuryP, Buku, Ebook,My Project Drawing/Desain,UI/UX,front end,Blogging, SEO"
 
 [frontmatter]
 date = ["date", "publishDate", "lastmod"]
