@@ -5,6 +5,11 @@ theme = "muryp"
 googleAnalytics = "UA-code"
 disqusShortname = "alifmuryp"
 
+[[redirects]]
+  from = "/*"
+  to = "/"
+  status = 404
+
 [permalinks]
   artikel = "/:slug/"
   pages = "/:slug/"
