@@ -18,9 +18,9 @@
       <hr />
       <h1>{{ .Title }}</h1>
     <div class="post-content post-body">
-      <!-------------- body post -------------->
         {{ .Content | emojify }}
     </div>
+  {{ partial "disqus.html" . }}
   </div>
   {{ partial "footer.html" . }}
 </body>

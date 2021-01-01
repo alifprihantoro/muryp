@@ -20,36 +20,6 @@ span.myIcon::before {
   content: "";
   margin: 12px;
 }
-span.facebook {
-  background-color: #4867aa
-}
-span.twitter {
-  background-color: #1da1f2
-}
-span.pinteres {
-  background-color: #ca2128
-}
-span.linkedin {
-  background-color: #0673ab
-}
-span.github {
-  background-color: #000;
-}
-span.youtube {
-  background-color: red;
-}
-span.instagram {
-  background-color: rgb(195, 84, 245)
-}
-span.whatsapp {
-  background-color: #4dc247
-}
-span.gmail {
-  background-color: #141b23
-}
-span.telegram {
-  background-color: #22a9f7
-}
 .iniCoba {
   min-height: 40vh !important;
   min-width: 100% !important;

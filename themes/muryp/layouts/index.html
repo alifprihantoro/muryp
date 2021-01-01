@@ -9,6 +9,11 @@
         {{ partial "navHeader.html" . }}
         {{ partial "bagianAtas.html" . }}
   <div class="main">
+    <div class="btn">
+        {{ range $name, $taxonomy := .Site.Taxonomies.series }}
+        <a href="/tags/{{$name}}"> {{$name}} </a>
+        {{ end }}
+    </div>
         {{ partial "skill.html" . }}
         {{ partial "readmore.html" . }}
         {{ partial "contact.html" . }}

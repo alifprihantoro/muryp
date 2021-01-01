@@ -195,9 +195,50 @@
       width: 100%;
       opacity: 1;
     }
+     .mynav h2 {
+  padding: 10px;
+  box-shadow: 0 0 10px rgba(0,0,0,0.2);
+}
+.dropdown a{
+  padding:15px;
+  margin: 15px;
+  border-radius: 5px;
+  box-shadow: 0 0 15px rgb(0,0,0,.08);
+  line-height: 60px;
+}
 /* ========== SosMed ==========*/
-#sosmed {
+.nav .sosmednav {
   margin:25px 50px ;
+}
+.nav span.facebook {
+  background-color: #4867aa
+}
+.nav span.twitter {
+  background-color: #1da1f2
+}
+.nav span.pinteres {
+  background-color: #ca2128
+}
+.nav span.linkedin {
+  background-color: #0673ab
+}
+.nav span.github {
+  background-color: #000;
+}
+..youtube {
+  background-color: red;
+}
+.nav span.instagram {
+  background-color: rgb(195, 84, 245)
+}
+.nav span.whatsapp {
+  background-color: #4dc247
+}
+.nav span.gmail {
+  background-color: #141b23
+}
+.nav span.telegram {
+  background-color: #22a9f7
 }
 div.sosmedmenu {
   display: block;;width: 100%;
@@ -209,12 +250,12 @@ div.sosmedmenu a {
   color: #fff;
   padding: 10px
 }
-svg.navsosmed {
+svg.nav span {
   width: 25px;
   fill: black;
   padding: 10px;
 }
-svg.navsosmed:hover {
+svg.nav span:hover {
   background:#00008b;
 }
 /*svg*/
@@ -330,14 +371,6 @@ a.ohmyheader svg {
 ::-ms-input-placeholder {
   color:#00008b;
 }
-.contactkulah {
-  text-align: center;
-  color:#00008b;
-  padding-bottom: 20px;
-}
-.contactkulah span {
-  background-color:#00008b;
-}
 .Contactb {
   border-radius: 50px;
   box-shadow: 0 0 10px rgba(0,0,0,0.2);
@@ -378,14 +411,7 @@ a.ohmyheader svg {
   background: #023c77 !important;
 }
 /* ========== Footer ========== */
- #footer h2 {
-  padding: 10px;
-  box-shadow: 0 0 10px rgba(0,0,0,0.2);
-  margin: 10px auto;
-  color: #fff;
-  text-align: center;
-  width: 80%;
-}
+
 #footer {
   background:#00008b;
   padding: 50px 10px;
@@ -395,21 +421,8 @@ a.ohmyheader svg {
   box-shadow: 0 -8px 15px rgba(0,0,0,0.2);
   border-radius: 30px 30px 0 0;
 }
-.sosmednav2 span{
-  margin:15px auto;
-  background-color: transparent !important;
-}
 .credit a {
   color: #fff;
   padding: 10px 10px;
   line-height: 35px;
-}
-#footer hr {
-  color: #fff;
-  background: #fff;
-  margin:15px auto;
-}
-.contactFooter {
-  width: 100%;
-  text-align: center;
 }
