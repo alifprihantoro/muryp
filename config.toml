@@ -3,7 +3,7 @@ title = "MuryP"
 theme = "muryp"
 
 googleAnalytics = "UA-code"
-disqusShortname = "alifmuryp"
+disqusShortname = "muryp"
 
 [taxonomies]
   category = "categories"
@@ -11,7 +11,7 @@ disqusShortname = "alifmuryp"
   halo = "halo"
 
 [permalinks]
-  artikel = "/:slug/"
+  blog = "/:slug/"
   pages = "/:slug/"
 
 [params]
@@ -19,37 +19,10 @@ disqusShortname = "alifmuryp"
     author = "MuryP"
 
     # Description/subtitle for homepage
-    description = "MuryP, MuryP Beta, Internet, Technology, hardware, Operating Sistem, Software, Jaringan Komunikasi, JarKom, TIK, Ringkasan, Alief Prihantoro, Alif MuryP, Buku, Ebook,My Project Drawing/Desain,UI/UX,front end,Blogging, SEO"
+    description = "MuryP, MuryP Beta, Internet, Technology, hardware, Operating Sistem, Software, Jaringan Komunikasi, JarKom, TIK, Ringkasan, Alief Prihantoro, Alif MuryP, Buku, Ebook,My Project Drawing/Desain,UI/UX,front end,Blogging, SEO,catatan"
 
 [frontmatter]
 date = ["date", "publishDate", "lastmod"]
 lastmod = [":git", "lastmod", "date", "publishDate"]
 publishDate = ["publishDate", "date"]
 expiryDate = ["expiryDate"]
-
-[menu]
-  [[menu.main]]
-    identifier = "about"
-    name = "About"
-    url = "/about/"
-    wight = 1
-  [[menu.main]]
-    identifier = "art"
-    name = "Art"
-    url = "https://alifmuryp.deviantart.com/"
-    wight = 2
-  [[menu.main]]
-    identifier = "twitter"
-    name = "Twitter"
-    url = "https://twitter.com/alifmuryp"
-    wight = 3
-  [[menu.main]]
-    identifier = "github"
-    name = "Github"
-    url = "https://github.com/alifmuryp"
-    wight = 4
-  [[menu.main]]
-    identifier = "rss"
-    name = "RSS"
-    url = "http://feeds.feedburner.com/alifmuryp"
-    wight = 5

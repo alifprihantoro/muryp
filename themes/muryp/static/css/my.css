@@ -60,7 +60,7 @@
       overflow-y: scroll;
       height: 100vh;
       top: 0;
-      background: #fff;;
+      background: rgb(235,235,235);
       margin-bottom: 0;
       transition: 1s;
       opacity: 0;
@@ -83,7 +83,7 @@
       text-shadow: 2px 2px 5px rgb(0,0,0,0.2)
     }
     div.navku li:hover {
-      background-color:rgba(0,0,0,0.2) ;
+      background-color:rgba(0,0,0,.1) ;
       color: #333;
     }
     .nav label span {
@@ -141,7 +141,7 @@
       margin: auto;
       text-align: center;
       border-bottom: 5px solid;
-      color: darkblue;
+      color: rgb(0,0,139,0.8);
     }
     input[id^="nav"] {
       display: none;
@@ -167,7 +167,7 @@
       color: transparent;
       left: 0;
       width: 50px;
-      background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='24' height='24' fill='darkblue' viewBox='0 0 24 24'%3E%3Cpath d='M0 12c0 6.627 5.373 12 12 12s12-5.373 12-12-5.373-12-12-12-12 5.373-12 12zm7.58 0l5.988-5.995 1.414 1.416-4.574 4.579 4.574 4.59-1.414 1.416-5.988-6.006z'/%3E%3C/svg%3E");
+      background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='24' height='24' fill='rgb(0,0,139,0.8)' viewBox='0 0 24 24'%3E%3Cpath d='M0 12c0 6.627 5.373 12 12 12s12-5.373 12-12-5.373-12-12-12-12 5.373-12 12zm7.58 0l5.988-5.995 1.414 1.416-4.574 4.579 4.574 4.59-1.414 1.416-5.988-6.006z'/%3E%3C/svg%3E");
       background-position: right;
       background-repeat: no-repeat;
       transition-duration: .6s;
@@ -197,13 +197,14 @@
     }
      .mynav h2 {
   padding: 10px;
-  box-shadow: 0 0 10px rgba(0,0,0,0.2);
+  box-shadow: 0 0 5px rgba(0,0,0,.1);
+  color: rgb(0,0,139,.8);
 }
 .dropdown a{
   padding:15px;
   margin: 15px;
   border-radius: 5px;
-  box-shadow: 0 0 15px rgb(0,0,0,.08);
+  box-shadow: 0 0 10px rgb(0,0,0,.02);
   line-height: 60px;
 }
 /* ========== SosMed ==========*/
@@ -328,7 +329,7 @@ a.ohmyheader svg {
 .readMore{
   display: block;
   border-radius:5px ;
-  box-shadow: 0 0 15px rgb(0,0,0,.1);
+  box-shadow: 0 0 10px rgb(0,0,0,.1);
   margin: 25px auto !important;
   padding:15px;
   width:80%;
@@ -341,7 +342,7 @@ a.ohmyheader svg {
   text-align: center;
 }
 .readMore a{
-  color: darkblue;
+  color: rgb(0,0,139,0.8);
 }
 /* ======== Pagenation ========= */
 .pagination {
@@ -372,13 +373,12 @@ a.ohmyheader svg {
   color:#00008b;
 }
 .Contactb {
-  border-radius: 50px;
-  box-shadow: 0 0 10px rgba(0,0,0,0.2);
-  padding: 20px 0;
-  margin-top: 50px !important;
+  border-radius: 5px;
+  box-shadow: 0 0 10px rgba(0,0,0,.1);
   padding-bottom: 100px;
 }
 /* form */
+
 #ContactForm1 {
   margin: auto;
   padding: 5px;
@@ -392,13 +392,14 @@ a.ohmyheader svg {
   padding: 10px;
   resize: none;
   margin: 0 0 10px 10px;
-  border: 1px solid#00008b
+  border: 1px solid#00008b;
+  background-color: transparent;
 }
 #ContactForm1 textarea {
   height: 150px;
 }
 #ContactForm1 button {
-  background-color:#00008b !important;
+  background-color: rgb(0,0,139,.8)  !important;
   padding: 10px!important;
   color: #fff;
   font-weight: bold;
@@ -407,8 +408,8 @@ a.ohmyheader svg {
   width: 80%;
 }
 #ContactForm1 button:hover {
-  border-radius: 50px;
-  background: #023c77 !important;
+  border-radius: 5px;
+  background: darkblue !important;
 }
 /* ========== Footer ========== */
 
@@ -418,8 +419,8 @@ a.ohmyheader svg {
   color: #fff;
   text-align: center;
   margin-top: 20px;
-  box-shadow: 0 -8px 15px rgba(0,0,0,0.2);
-  border-radius: 30px 30px 0 0;
+  box-shadow: 0 -8px 15px rgba(0,0,0,.1);
+  border-radius: 5px 5px 0 0;
 }
 .credit a {
   color: #fff;

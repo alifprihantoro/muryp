@@ -1,6 +1,6 @@
 [[redirects]]
   from = "/*"
-  to = "/about"
+  to = "/"
   status = 404
   
 [build.processing]

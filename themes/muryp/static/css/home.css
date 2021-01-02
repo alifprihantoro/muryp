@@ -2,7 +2,7 @@
 .BagianAtas {
   text-align: center;
   background-image: url("/img/bg.webp");
-  background-color: rgb(0,0,0,.3);
+  background-color: rgb(0,0,0,.1);
   background-size: 140vh;
   background-position: center;
   background-repeat: no-repeat;
@@ -14,8 +14,8 @@
   align-items: left;
   margin: auto;
   padding: 10px;
-  box-shadow: 5px 5px 10px rgba(0,0,0,0.2);
-  border-radius: 0 0 20px 20px;
+  box-shadow: 5px 5px 10px rgba(0,0,0,.1);
+  border-radius: 0 0 5px 5px;
   color: darkblue;
 }
 .bagianDalam {
@@ -23,11 +23,14 @@
   margin-top: 50px;
 }
 .btn {
-  color: #fff;
-  background: #d10b0cba;
+  color: rgb(255,255,255,.8);
+  background:darkblue;
   padding: 10px 50px;
-  border-radius: 50px;
-  margin-top:15px
+  border-radius: 5px;
+  margin-top:100px !important;
+}
+a:hover.btn{
+  color:#fff !important;
 }
 .bagianDalam p{
   font-weight: 500;
@@ -49,8 +52,8 @@
   min-width: 50px;
   width: 50px;
   padding: 5px;
-  box-shadow: 0 0 10px rgba(0,0,0,0.2);
-  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0,0,0,.1);
+  border-radius: 5px;
   fill: darkblue;
   font-size: 50px;
 }

@@ -1,7 +1,7 @@
 <hr/>
     <h1 class="mypost" alt="My Projek">{{ if .IsHome }} My Post {{ else }} {{ .Title }} {{ end }}</h1>
     <div class="myread">
-      {{ with .Site.GetPage "/artikel" }}
+      {{ with .Site.GetPage "/blog" }}
 	{{ range .Paginator.Pages }}
       <div class="content">
         <a href="{{ .RelPermalink }}">
