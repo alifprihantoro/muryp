@@ -1,0 +1,38 @@
+.dark-mode {
+  background-color: rgb(0,0,0,.9);
+  color: rgb(255,255,255,.8) !important;
+}
+.dark-mode svg{
+  fill:rgb(255,255,255,.8);
+}
+.dark-mode #darkBtn svg{
+  transform: rotate(180deg);
+}
+.dark-mode a{
+  color: rgb(255,255,255,.5);
+  font-weight: bold;
+}
+.dark-mode .mynav h2,.dark-mode .main h1,.dark-mode .h1myskill,.dark-mode h1.Contact  {
+  color: rgb(255,255,255,.8) !important;
+}
+.dark-mode span{
+  color: #000;
+}
+.dark-mode .header,.dark-mode #navbar,.dark-mode .pagination li,.dark-mode #ContactForm1 button,.dark-mode .btn a,.dark-mode .kategori a,{
+/* darkblue */
+  background-color: rgb(0,0,0,.3) !important;
+}
+.dark-mode .navku {
+/* white */
+  background-color:rgb(50,50,50) !important ;
+}
+.dark-mode .navku a{
+  color: rgb(255,255,255,.5);
+}
+.dark-mode #navbar {
+  color: red !important;
+  border-color: red !important;
+}
+.dark-mode b,.dark-mode h1,.dark-mode h2,.dark-mode h3,.dark-mode h4 {
+  color: rgb(189,189,254,.8) !important;
+}
