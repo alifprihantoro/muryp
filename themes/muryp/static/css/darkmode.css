@@ -9,7 +9,7 @@
   transform: rotate(180deg);
 }
 .dark-mode a{
-  color: rgb(255,255,255,.5);
+  color: rgb(255,255,255,.5) !important;
   font-weight: bold;
 }
 .dark-mode .mynav h2,.dark-mode .main h1,.dark-mode .h1myskill,.dark-mode h1.Contact  {

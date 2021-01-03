@@ -5,9 +5,21 @@
 {{ template "_internal/google_news.html" . }}
 {{ template "_internal/opengraph.html" . }}
 {{ template "_internal/twitter_cards.html" . }}
+<meta content='darkblue' name='msapplication-navbutton-color' />
+<meta content='darkblue' name='apple-mobile-web-app-status-bar-style' />
+<meta content='darkblue' name='theme-color' />
 <!-- Icon -->
-<link rel="icon" href="/img/logo.svg" />
+<link rel="icon" href="/img/favicon.ico" />
 <link rel="stylesheet" href="/css/reset.css" />
 <link rel="stylesheet" href="/css/my.css" />
+{{ if .IsHome }}
+<link rel="stylesheet" href="/css/home.css" type="text/css" media="all" />
+<link rel="stylesheet" href="/css/read.css" type="text/css" media="all" />
+{{ end }}
+{{- if eq .Kind "page" -}}
+<link rel="stylesheet" href="/css/post.css" type="text/css" media="all" />
+{{- end -}}
+<link rel="stylesheet" href="/css/darkmode.css" />
 <!-- Taru kode Google Analytic di sini, karena menurut aturan harus di dalam Head -->
+<script src="/js/darkmode.js" type="text/javascript" charset="utf-8"></script>
 {{ template "_internal/google_analytics.html" . }}

@@ -6,7 +6,7 @@ draft: false
 type: page
 
 image: ""
-description: "Blog ini berisi hasil pembuatan projek baik berupa front end maun app lainnya."
+description: "Blog ini berisi catatan pribadi dan beberapa informasi seputar dunia teknologi.."
 ---
 
 <!-- Hello, nama saya **Alief MuryP**, disingkat MuryP.
