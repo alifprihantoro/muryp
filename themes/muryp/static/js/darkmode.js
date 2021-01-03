@@ -1,4 +1,4 @@
- if(localStorage.getItem('theme') == 'dark')
+if(localStorage.getItem('theme') == 'dark')
   setDarkMode()
 function setDarkMode() {
   let isDark = document.body.classList.toggle("dark-mode")
