@@ -177,13 +177,16 @@
     {
       content: ".";
       position: absolute;
-      color: transparent;
-      left: 0;
-      width: 50px;
-      background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='24' height='24' fill='rgb(0,0,139,0.8)' viewBox='0 0 24 24'%3E%3Cpath d='M0 12c0 6.627 5.373 12 12 12s12-5.373 12-12-5.373-12-12-12-12 5.373-12 12zm7.58 0l5.988-5.995 1.414 1.416-4.574 4.579 4.574 4.59-1.414 1.416-5.988-6.006z'/%3E%3C/svg%3E");
-      background-position: right;
+      color: transparent !important;
+      left: 10px;
+      width: 24px;
+      height: 24px;
+      background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='24' height='24' fill='rgb(255,255,255,.5)' viewBox='0 0 24 24'%3E%3Cpath d='M0 12c0 6.627 5.373 12 12 12s12-5.373 12-12-5.373-12-12-12-12 5.373-12 12zm7.58 0l5.988-5.995 1.414 1.416-4.574 4.579 4.574 4.59-1.414 1.416-5.988-6.006z'/%3E%3C/svg%3E");
+      background-position: center;
       background-repeat: no-repeat;
       transition-duration: .6s;
+      background-color: darkblue;
+      border-radius: 50%;
     }
     /*checked btn*/
     .mynav2 input[id^="nav"]:checked + label {
@@ -191,7 +194,7 @@
       background: rgba(0,0,0,0.1);
     }
     .mynav2 input[id^="nav"]:checked + label::before {
-      transform: rotate(-90deg) translate(-15px,0)
+      transform: rotate(-90deg)
     }
     /*isi unchecked*/
     .mynav2 input[id^="nav"] ~ .mynav {
@@ -388,6 +391,9 @@ a.ohmyheader svg {
   right: 5px;
 }
 @media only screen and (min-width:720px) {
+  .BagianAtas {
+    text-align:left !important;display:flex;flex-direction:column;justify-content:space-evenly;align-items:left;margin:auto;
+  }
   #navbar{
     top: 0;
     right: 0;
@@ -402,7 +408,7 @@ a.ohmyheader svg {
 </style>
 {{ if .IsHome }}
 <style type="text/css" media="all">
-  .BagianAtas{text-align:center;background-image:url(/img/bg.webp);background-color:rgb(0,0,0,.1);background-size:140vh;background-position:center;background-repeat:no-repeat;height:90vh;text-align:left;display:flex;flex-direction:column;justify-content:space-evenly;align-items:left;margin:auto;padding:10px;box-shadow:5px 5px 10px rgba(0,0,0,.1);border-radius:0 0 5px 5px;color:#00008b}.bagianDalam{display:block;margin-top:50px}.btn{color:rgb(255,255,255,.8);background-color:#00008b;padding:10px 50px;border-radius:5px;margin-top:100px!important}a:hover.btn{color:#fff!important}.bagianDalam p{font-weight:500}#sosmedh{margin:50px auto}.myskill{display:inline-flex;align-content:center;align-items:center;margin:auto}.myskillcontainer{margin:0 10px 0 10px}.myskillcontainer svg{min-width:50px;width:50px;padding:5px;box-shadow:0 0 10px rgba(0,0,0,.1);border-radius:5px;fill:#00008b;font-size:50px}.myskillcontainer p{margin-top:15px}span.facebook:hover{background-color:#4867aa}span.twitter:hover{background-color:#1da1f2}span.pinteres:hover{background-color:#ca2128}span.linkedin:hover{background-color:#0673ab}span.github:hover{background-color:#000}span.youtube:hover{background-color:red}span.instagram:hover{background-color:#c354f5}span.whatsapp:hover{background-color:#4dc247}span.gmail:hover{background-color:#141b23}span.telegram:hover{background-color:#22a9f7}
+  .BagianAtas{background-image:url(/img/bg.png);background-color:rgb(0,0,0,.1);background-size:100vh;background-position:center;background-repeat:no-repeat;height:90vh;box-shadow:5px 5px 10px rgba(0,0,0,.1);border-radius:0 0 5px 5px;color:#00008b;padding:25px 10px;}.bagianDalam{display:block;}.btn{color:rgb(255,255,255,.8);background-color:#00008b;padding:10px 50px;border-radius:5px;}a:hover.btn{color:#fff!important}.bagianDalam p{font-weight:500}#sosmedh{margin:50px auto}.myskill{display:inline-flex;align-content:center;align-items:center;margin:auto}.myskillcontainer{margin:0 10px 0 10px}.myskillcontainer svg{min-width:50px;width:50px;padding:5px;box-shadow:0 0 10px rgba(0,0,0,.1);border-radius:5px;fill:#00008b;font-size:50px}.myskillcontainer p{margin-top:15px}span.facebook:hover{background-color:#4867aa}span.twitter:hover{background-color:#1da1f2}span.pinteres:hover{background-color:#ca2128}span.linkedin:hover{background-color:#0673ab}span.github:hover{background-color:#000}span.youtube:hover{background-color:red}span.instagram:hover{background-color:#c354f5}span.whatsapp:hover{background-color:#4dc247}span.gmail:hover{background-color:#141b23}span.telegram:hover{background-color:#22a9f7}
 .main{max-width:720px!important;text-align:center;margin:auto}.main hr{border-color:transparent;box-shadow:0 -5px 5px rgb(0,0,0,.1);background-color:0 0;margin-top:20px}@media only screen and (min-width:720px){.myread{grid-template-columns:auto auto}}
 </style>
 {{ end }}
@@ -412,7 +418,60 @@ a.ohmyheader svg {
 </style>
 {{- end -}}
 <style type="text/css" media="all">
-  .dark-mode{background-color:rgb(0,0,0,.9);color:rgb(255,255,255,.8)!important}.dark-mode svg{fill:rgb(255,255,255,.8)}.dark-mode #darkBtn svg{transform:rotate(180deg)}.dark-mode a{color:rgb(255,255,255,.5)!important;font-weight:700}.dark-mode .h1myskill,.dark-mode .main h1,.dark-mode .mynav h2,.dark-mode h1.Contact{color:rgb(255,255,255,.8)!important}.dark-mode span{color:#000},.dark-mode #ContactForm1 button,.dark-mode #navbar,.dark-mode .btn a,.dark-mode .header,.dark-mode .kategori a,.dark-mode .pagination li{background-color:rgb(0,0,0,.3)!important}.dark-mode .navku{background-color:#323232!important}.dark-mode .navku a{color:rgb(255,255,255,.5)}.dark-mode #navbar{color:red!important;border-color:red!important}.dark-mode b,.dark-mode h1,.dark-mode h2,.dark-mode h3,.dark-mode h4{color:rgb(189,189,254,.8)!important}
+.dark-mode {
+  background-color: rgb(0,0,0,.9);
+  color:#5f5f5f !important;
+}
+.dark-mode svg{
+  fill:rgb(255,255,255,.8);
+}
+.dark-mode #darkBtn svg{
+  transform: rotate(180deg);
+}
+.dark-mode a{
+  color: rgb(255,255,255,.5) !important;
+  font-weight: bold;
+}
+.dark-mode .mynav h2,.dark-mode .main h1,.dark-mode .h1myskill,.dark-mode h1.Contact  {
+  color: rgb(255,255,255,.8) !important;
+}
+.dark-mode .mynav span{
+  background-color: #000 !important;
+}
+.dark-mode .header,.dark-mode #navbar,.dark-mode .pagination li,.dark-mode #ContactForm1 button ,.dark-mode .btn a,.dark-mode .bagianDalam .btn,.dark-mode .kategori a,.dark-mode #footer, .dark-mode blockquote{
+/* darkblue */
+  background: rgb(0,0,0,.3) !important;
+  background-color: rgb(0,0,0,.3) !important;
+}
+.dark-mode     .mynav2 input[id^="nav"] + label::before{
+  background-color: rgb(0,0,0,.3) !important;
+}
+.dark-mode #ContactForm1 input,.dark-mode #ContactForm1 textarea{
+  border-color:rgb(255,255,255,.5) !important;
+}
+.dark-mode ::placeholder {
+  color:rgb(255,255,255,.5) !important;
+}
+.dark-mode :-ms-input-placeholder {
+  color:rgb(255,255,255,.5) !important;
+}
+.dark-mode ::-ms-input-placeholder{
+  color:rgb(255,255,255,.5) !important;
+}
+.dark-mode .navku {
+/* white */
+  background-color:rgb(50,50,50) !important ;
+}
+.dark-mode .bagianDalam *,.dark-mode .mynav *{
+  color: rgb(255,255,255,.5) !important;
+  border-color: rgb(255,255,255,.5) !important;
+}
+.dark-mode b,.dark-mode h1,.dark-mode h2,.dark-mode h3,.dark-mode h4 {
+  color: rgb(255,255,255,.5) !important;
+}
+.dark-mode .readMore,.dark-mode .BagianAtas{
+  box-shadow: 0 0 5px rgb(255,255,255,.07);
+}
 </style>
 <!-- Taru kode Google Analytic di sini, karena menurut aturan harus di dalam Head -->
 {{ template "_internal/google_analytics.html" . }}

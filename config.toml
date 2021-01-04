@@ -5,6 +5,9 @@ theme = "muryp"
 googleAnalytics = "UA-code"
 disqusShortname = "muryp"
 
+[outputs]
+    home = ["HTML", "RSS", "JSON"]
+
 [taxonomies]
   category = "categories"
   tag = "tags"
