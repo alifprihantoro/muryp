@@ -5,8 +5,11 @@ theme = "muryp"
 googleAnalytics = "UA-code"
 disqusShortname = "muryp"
 
+DefaultContentLanguage = "id"
+
 [outputs]
     home = ["HTML", "RSS", "JSON"]
+    blog = ["HTML", "RSS", "JSON"]
 
 [taxonomies]
   category = "categories"
@@ -16,6 +19,7 @@ disqusShortname = "muryp"
 [permalinks]
   blog = "/:slug/"
   pages = "/:slug/"
+  en = "/en/:slug/"
 
 [params]
     # Site Author

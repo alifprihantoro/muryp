@@ -1,13 +1,13 @@
 ---
-title: "About Me"
-slug: about
+title: "Tentang Saya"
+slug: tentang
 date: 2017-12-17T19:50:57+08:00
 draft: false
 
 type: page
 
 image: "/img/about-me.jpg"
-description: "Hello, Saya Dian. Salam kenal!"
+description: "Halo, Saya MuryP. Salam kenal!"
 ---
 
 {{< html >}}

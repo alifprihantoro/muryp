@@ -77,7 +77,7 @@ function search(searchQuery)
             }
         });
 
-        if (results.length > 0)
+        if (results.length < 99)
         {
             searchResults.appendChild(
                 htmlToElement("<div><b>Found: ".concat(results.length, "</b></div>"))
