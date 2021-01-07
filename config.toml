@@ -2,7 +2,7 @@ baseurl = "https://muryp.my.id/"
 title = "MuryP"
 theme = "muryp"
 
-googleAnalytics = "UA-code"
+googleAnalytics = "G-4XH6NY1N24"
 disqusShortname = "muryp"
 
 DefaultContentLanguage = "id"
@@ -14,7 +14,7 @@ DefaultContentLanguage = "id"
 [taxonomies]
   category = "categories"
   tag = "tags"
-  halo = "halo"
+  note = "note"
 
 [permalinks]
   blog = "/:slug/"

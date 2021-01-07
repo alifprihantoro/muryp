@@ -1,6 +1,7 @@
 <!DOCTYPE html>
 <html>
 <head>
+  ini note
   {{ partial "head.html" . }}
   <link rel="stylesheet" href="/css/post.css" type="text/css" media="all" />
 </head>
@@ -38,20 +39,21 @@
       </footer>
       <div class="nav-post">
 <div class="prev-post">
-	{{ if .PrevPage }}
-	<div class="btn">	<a class="link-reverse" href="{{ .PrevPage.Permalink }}?ref=footer">« Sebelumnya</a></div>
-	<a class="link-reverse" href="{{ .PrevPage.Permalink }}?ref=footer">{{ .PrevPage.Title | truncate 50 "..."}}</a>
+	{{ if .NextPage }}
+	<div class="btn">	<a class="link-reverse" href="{{ .NextPage.Permalink }}?ref=footer">« Sebelumnya</a></div>
+	<a class="link-reverse" href="{{ .NextPage.Permalink }}?ref=footer">{{ .NextPage.Title | truncate 50 "..."}}</a>
 	{{ end }}
 </div>
       <div class="next-post">
-	{{ if .NextPage }}
-	<div class="btn">	<a class="link-reverse" href="{{ .NextPage.Permalink }}?ref=footer">Sebelumnya »</a></div>
-	<a class="link-reverse" href="{{ .NextPage.Permalink }}?ref=footer">{{ .NextPage.Title | truncate 50 "..." }}</a>
+	{{ if .PrevPage }}
+	<div class="btn">	<a class="link-reverse" href="{{ .PrevPage.Permalink }}?ref=footer"alt="selanjutnya">selanjutnya »</a></div>
+	<a class="link-reverse" href="{{ .PrevPage.Permalink }}?ref=footer">{{ .PrevPage.Title | truncate 50 "..." }}</a>
 	{{ end }}
 </div>
       </div>
     </div>
   </div>
+  {{ partial "disqus.html" . }}
   <div class="sidebar">
       {{ partial "related.html" . }}
       {{ partial "contact.html" . }}

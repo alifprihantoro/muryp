@@ -8,4 +8,4 @@ tags = ["blog", "personal", "portfolio"]
 features = ["archive", "disqus"]
 min_version = "0.26"
 
-DisqusShortname = "shortname"
+DisqusShortname = "muryp"
