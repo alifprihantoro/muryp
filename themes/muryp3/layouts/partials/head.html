@@ -11,12 +11,13 @@
 <!-- Icon -->
 <link rel="icon" href="/img/favicon.ico" />
 <link rel="stylesheet" href="/css/svg.css" type="text/css" media="all" />
-  {{ partial "css/main.html" . }}
 
+{{ if .IsHome }}
   {{ partial "css/home.html" . }}
-
+{{ end }}
+{{ if eq .Kind "page" }}
   {{ partial "css/laman.html" . }}
-
+{{ end }}
   {{ partial "css/end.html" . }}
 <!-- Taru kode Google Analytic di sini, karena menurut aturan harus di dalam Head -->
 {{ template "_internal/google_analytics.html" . }}
