@@ -5,8 +5,6 @@ theme = "muryp"
 googleAnalytics = "G-4XH6NY1N24"
 disqusShortname = "muryp"
 
-DefaultContentLanguage = "id"
-
 [outputs]
     home = ["HTML", "RSS", "JSON"]
     blog = ["HTML", "RSS", "JSON"]
@@ -14,11 +12,12 @@ DefaultContentLanguage = "id"
 [taxonomies]
   category = "categories"
   tag = "tags"
-  note = "note"
+  catatan = "catatan"
+  learn = "learn"
 
 [permalinks]
   blog = "/:slug/"
-  pages = "/:slug/"
+  laman = "/:slug/"
   en = "/en/:slug/"
 
 [params]

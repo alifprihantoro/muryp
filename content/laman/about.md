@@ -1,6 +1,6 @@
 ---
 title: "Tentang Saya"
-slug: tentang
+slug: about
 date: 2017-12-17T19:50:57+08:00
 draft: false
 
