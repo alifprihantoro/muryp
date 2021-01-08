@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html>
+<head>
+  ini note
+  {{ partial "head.html" . }}
+  <link rel="stylesheet" href="/css/post.css" type="text/css" media="all" />
+</head>
+<body>
+  {{ partial "navHeader.html" . }}
+  {{ partial "headerPost.html" . }}
+  {{ partial "breadcrumb.html" . }}
+  <div class="responsive">    
+  <div class="mainPostingan">
+      <hr />
+    <div style="overflow:hidden;" class="post-content post-body">
+      <!-------------- body post -------------->
+        {{ .Content | emojify }}
+      <!--------------Footer Post -------------->
+      <footer class="footerPost">
+        <div class="kategori">
+          Kategori
+{{ with .Params.tags }}
+    {{range .}}
+            <a href="/tags/{{ . | urlize }}">{{ . }}</a>
+    {{end}}
+{{ end }}
+        </div>
+        <div class="authorBottom">
+          <div class="imgAuthor">
+            <img src="https://1.bp.blogspot.com/-BWCKsx7BTRA/X7cXQfC7beI/AAAAAAAAAKw/4ALOzE5uPRkg80BcaNPTBbaNlLxRnyW_gCLcBGAsYHQ/s2048/profil-muryp-studio-min.png" alt="" class="author" />
+          </div>
+          <div class="infoBottom">
+            <h1 class=""><a href="/author" name="InfoMuryPFooter">MuryP</a></h1>
+            <p>
+              Hello world!<br />I'm MuryP from Indonesian. I like Coding and Drawing. I hope you enjoy.
+            </p>
+          </div>
+        </div>
+      </footer>
+      <div class="nav-post">
+<div class="prev-post">
+	{{ if .NextPage }}
+	<div class="btn">	<a class="link-reverse" href="{{ .NextPage.Permalink }}?ref=footer">« Sebelumnya</a></div>
+	<a class="link-reverse" href="{{ .NextPage.Permalink }}?ref=footer">{{ .NextPage.Title | truncate 50 "..."}}</a>
+	{{ end }}
+</div>
+      <div class="next-post">
+	{{ if .PrevPage }}
+	<div class="btn">	<a class="link-reverse" href="{{ .PrevPage.Permalink }}?ref=footer"alt="selanjutnya">selanjutnya »</a></div>
+	<a class="link-reverse" href="{{ .PrevPage.Permalink }}?ref=footer">{{ .PrevPage.Title | truncate 50 "..." }}</a>
+	{{ end }}
+</div>
+      </div>
+    </div>
+  </div>
+  {{ partial "disqus.html" . }}
+  <div class="sidebar">
+      {{ partial "related.html" . }}
+      {{ partial "contact.html" . }}
+  </div>
+  </div>
+  {{ partial "footer.html" . }}
+</body>
+</html>
