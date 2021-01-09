@@ -1,4 +1,5 @@
 +++
+ authors=["muryp"] 
 title = "Beberapa aplikasi yang bisa kalian coba untuk menggambar digital"
 date = 2020-09-01T03:30:00Z
 updated = 2020-09-01T03:30:04Z

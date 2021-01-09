@@ -1,4 +1,5 @@
 +++
+ authors=["muryp"] 
 title = "Spesial Kemerdekaan ke-74 : Menyerahnya Jepang kepada Sekutu"
 date = 2019-08-16T23:47:00Z
 updated = 2019-08-16T23:47:57Z

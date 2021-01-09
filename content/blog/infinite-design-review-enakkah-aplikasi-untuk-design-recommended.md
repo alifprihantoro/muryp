@@ -1,4 +1,5 @@
 +++
+ authors=["muryp"] 
 title = "Infinite Design review, enakkah? aplikasi untuk design recommended"
 date = 2019-07-27T03:01:00Z
 updated = 2019-08-05T15:19:25Z

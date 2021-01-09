@@ -1,4 +1,5 @@
 +++
+ authors=["muryp"] 
 title = "Belajar Linux via Android"
 date = 2020-08-31T03:30:00Z
 updated = 2020-08-31T03:30:02Z

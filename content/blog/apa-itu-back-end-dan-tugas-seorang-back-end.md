@@ -1,4 +1,5 @@
 +++
+ authors=["muryp"] 
 title = "Apa itu Back End? Dan Tugas seorang Back End"
 date = 2020-11-22T23:42:00Z
 updated = 2020-11-22T23:43:55Z

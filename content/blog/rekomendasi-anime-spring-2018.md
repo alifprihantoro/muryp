@@ -1,4 +1,5 @@
 +++
+ authors=["muryp"] 
 title = "Rekomendasi Anime Spring 2018"
 date = 2018-07-07T21:58:00Z
 updated = 2018-07-07T22:00:55Z

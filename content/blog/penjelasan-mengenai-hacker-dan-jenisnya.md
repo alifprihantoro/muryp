@@ -1,4 +1,5 @@
 +++
+ authors=["muryp"] 
 title = "Penjelasan mengenai hacker dan jenisnya"
 date = 2020-11-28T02:01:00Z
 updated = 2020-11-28T02:01:33Z

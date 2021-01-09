@@ -1,4 +1,5 @@
 +++
+ authors=["muryp"] 
 title = "Sepesial Hari KOWAL: Awal DIbentuknya"
 date = 2020-01-04T20:05:00Z
 updated = 2020-01-04T20:05:57Z

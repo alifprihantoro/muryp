@@ -1,4 +1,5 @@
 +++
+ authors=["muryp"] 
 title = "Liburan Yang Terasa Singkat"
 date = 2018-07-07T21:39:00Z
 updated = 2018-07-07T21:39:15Z

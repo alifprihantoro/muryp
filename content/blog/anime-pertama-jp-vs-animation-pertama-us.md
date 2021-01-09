@@ -1,4 +1,5 @@
 +++
+ authors=["muryp"] 
 title = "Anime Pertama (JP) VS Animation Pertama (US)"
 date = 2020-09-05T21:41:00Z
 updated = 2020-09-05T21:41:18Z

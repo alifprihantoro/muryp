@@ -1,4 +1,5 @@
 +++
+ authors=["muryp"] 
 title = "Indonesia Emas yang Diperebutkan Dunia"
 date = 2020-01-02T15:53:00Z
 updated = 2020-01-02T15:53:42Z

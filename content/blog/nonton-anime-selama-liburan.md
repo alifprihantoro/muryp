@@ -1,4 +1,5 @@
 +++
+ authors=["muryp"] 
 title = "Nonton Anime selama Liburan"
 date = 2018-07-07T21:34:00Z
 updated = 2018-07-07T21:34:06Z

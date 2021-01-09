@@ -1,4 +1,5 @@
 +++
+ authors=["muryp"] 
 title = "Jerman Kalah 2 Kali dan Pernah Terpecah menjadi 2"
 date = 2020-01-02T06:49:00Z
 updated = 2020-01-02T06:49:56Z

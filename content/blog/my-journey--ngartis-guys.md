@@ -1,4 +1,5 @@
 +++
+ authors=["muryp"] 
 title = "My Journey : Ngartis Guys"
 date = 2020-09-01T03:36:00Z
 updated = 2020-09-01T03:36:00Z

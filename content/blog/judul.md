@@ -1,4 +1,5 @@
 +++
+ authors=["muryp"] 
 title = "Judul"
 date = 2020-10-30T03:05:00Z
 updated = 2020-10-30T03:05:49Z

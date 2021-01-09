@@ -1,4 +1,5 @@
 +++
+ authors=["muryp"] 
 title = "Hal yang munhkin akan terjadi"
 date = 2019-12-08T17:13:00Z
 updated = 2019-12-08T17:13:33Z

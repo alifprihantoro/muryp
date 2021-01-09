@@ -1,4 +1,5 @@
 +++
+ authors=["muryp"] 
 title = "Apa itu server? Dan jenis-jenisnya"
 date = 2020-11-24T02:55:00Z
 updated = 2020-11-24T04:06:02Z

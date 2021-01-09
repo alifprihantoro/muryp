@@ -1,4 +1,5 @@
 +++
+ authors=["muryp"] 
 title = "Cara membuat efek lampu pada medibang"
 date = 2020-08-31T21:49:00Z
 updated = 2020-08-31T21:49:11Z

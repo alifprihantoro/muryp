@@ -1,4 +1,5 @@
 +++
+ authors=["muryp"] 
 title = "tips trik agar belajar lebih mudah"
 date = 2020-09-01T21:10:00Z
 updated = 2020-09-01T21:10:49Z

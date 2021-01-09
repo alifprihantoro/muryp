@@ -1,4 +1,5 @@
 +++
+ authors=["muryp"] 
 title = "Comand/Syntax Termux dan Linux Ubuntu"
 date = 2020-08-17T01:11:00Z
 updated = 2020-11-24T01:54:26Z

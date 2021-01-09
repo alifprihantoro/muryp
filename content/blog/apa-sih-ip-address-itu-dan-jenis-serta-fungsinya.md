@@ -1,4 +1,5 @@
 +++
+ authors=["muryp"] 
 title = "Apa Sih IP Address Itu? Dan Jenis Serta Fungsinya"
 date = 2020-11-26T02:07:00Z
 updated = 2020-11-26T02:07:20Z

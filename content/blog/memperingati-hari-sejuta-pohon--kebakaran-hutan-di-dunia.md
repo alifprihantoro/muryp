@@ -1,4 +1,5 @@
 +++
+ authors=["muryp"] 
 title = "Memperingati Hari Sejuta Pohon : Kebakaran hutan di Dunia"
 date = 2020-01-07T13:50:00Z
 updated = 2020-01-07T13:50:12Z

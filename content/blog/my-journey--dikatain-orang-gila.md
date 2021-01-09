@@ -1,4 +1,5 @@
 +++
+ authors=["muryp"] 
 title = "My Journey : Dikatain Orang Gila"
 date = 2020-09-05T21:29:00Z
 updated = 2020-09-05T21:29:18Z

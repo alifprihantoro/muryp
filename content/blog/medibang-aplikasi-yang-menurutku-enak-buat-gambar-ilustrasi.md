@@ -1,4 +1,5 @@
 +++
+ authors=["muryp"] 
 title = "Medibang aplikasi yang menurutku enak buat gambar ilustrasi"
 date = 2019-07-27T03:00:00Z
 updated = 2019-07-27T03:00:00Z

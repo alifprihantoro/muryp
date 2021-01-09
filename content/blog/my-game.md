@@ -1,4 +1,5 @@
 +++
+ authors=["muryp"] 
 title = "My Game"
 date = 2017-12-22T01:52:00Z
 updated = 2017-12-22T01:59:09Z

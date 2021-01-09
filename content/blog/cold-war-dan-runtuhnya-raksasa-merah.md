@@ -1,4 +1,5 @@
 +++
+ authors=["muryp"] 
 title = "Cold War dan runtuhnya raksasa Merah"
 date = 2020-09-05T21:50:00Z
 updated = 2020-09-05T21:50:24Z

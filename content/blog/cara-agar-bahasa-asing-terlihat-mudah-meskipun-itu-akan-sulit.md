@@ -1,4 +1,5 @@
 +++
+ authors=["muryp"] 
 title = "cara agar bahasa asing terlihat mudah meskipun itu akan sulit"
 date = 2020-09-01T03:00:00Z
 updated = 2020-09-01T03:00:04Z
