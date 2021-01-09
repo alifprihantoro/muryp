@@ -20,6 +20,8 @@
       <span class='gmail' /></a>
     <a class='ln' expr:href='"https://timeline.line.me/social-plugin/share?url=" + data:post.url' target='_blank' title='Share On Line'>
       <span class='line' /></a>
+    <input value='{{ .Permalink}}' id='klipboard' type='text' />
+    <button onclick='klipboard()'><span class='kuclipboard' /></button>
   </div>
   <!-- end -->
   <label for='sosmedshare'>
