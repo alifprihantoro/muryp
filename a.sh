@@ -1,1 +1,1 @@
-hugo server
+hugo server --minify
