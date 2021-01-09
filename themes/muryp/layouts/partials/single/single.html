@@ -5,85 +5,49 @@
 </head>
 <body>
   {{ partial "navHeader.html" . }}
-  {{ partial "headerPost.html" . }}
-{{ if eq .Section "laman" }}{{else}}
-{{ partial "breadcrumb.html" . }}{{end}}
-  <div class="responsive">    
-  <div class="mainPostingan">
+  {{ partial "post/header.html" . }}
+  {{ if eq .Section "laman" }}{{else}}
+  {{ partial "post/breadcrumb.html" . }}{{end}}
+  <div class="responsive">
+    <div class="mainPostingan">
       <hr />
-    <div style="overflow:hidden;" class="post-content post-body">
-      <!-------------- body post -------------->
-        {{ .Content | emojify }}
-                {{ range .Param "authors" }}
-	{{ $name := . }}
-	{{ $path := printf "/%s/%s" "authors" ($name | urlize) }}
-	{{ with $.Site.GetPage $path }}
-		<h2>{{ .Title }} loh{{ .Params.description }}</h2>
-		<img src="/img{{ $path }}.jpg">
-		<p>{{ .Params.bio }}{{ . | urlize }}</p>
-		<p><a href="https://twitter.com/{{ .Params.twitter }}">Twitter</a></p>
-	{{ end }}
-{{ end }}
-
-      <!--------------Footer Post -------------->
-{{ if eq .Section "laman" }}
-{{ else }}
-      <footer class="footerPost">
-        
-
-{{ with .Params.tags }}
-        <div class="kategori">
-          Kategori
-    {{range .}}
-            <a href="/tags/{{ . | urlize }}">{{ . }}</a>
-    {{end}}
-        </div>
-    {{ else }}
-{{ end }}
-{{ with .Params.catatan }}
-        <div class="kategori">
-          Kategori
-    {{range .}}
-            <a href="/catatan/{{ . | urlize }}">{{ . }}</a>
-    {{end}}
-        </div>
-    {{ else }}
-{{ end }}
-
-        <div class="authorBottom">
-          <div class="imgAuthor">
-            <img src="https://1.bp.blogspot.com/-BWCKsx7BTRA/X7cXQfC7beI/AAAAAAAAAKw/4ALOzE5uPRkg80BcaNPTBbaNlLxRnyW_gCLcBGAsYHQ/s2048/profil-muryp-studio-min.png" alt="" class="author" />
+      <div style="overflow:hidden;" class="post-content post-body">
+        <!-------------- body post -------------->
+        {{ .Content | safeHTML }}
+        tes
+        <!--------------Footer Post -------------->
+        {{ if eq .Section "laman" }}
+        {{ else }}
+        <footer class="footerPost">
+    {{ partial "post/params.html" . }}
+    {{ partial "authors/min.html" . }}
+        </footer>
+        <div class="nav-post">
+          <div class="prev-post">
+            {{ if .NextInSection }}
+            <div class="btn">
+              <a class="link-reverse" href="{{ .NextInSection.Permalink }}?ref=footer">« Sebelumnya</a>
+            </div>
+            <a class="link-reverse" href="{{ .NextInSection.Permalink }}?ref=footer">{{ .NextInSection.Title | truncate 50 "..."}}</a>
+            {{ end }}
           </div>
-          <div class="infoBottom">
-            <h1 class=""><a href="/author" name="InfoMuryPFooter">MuryP</a></h1>
-            <p>
-              Hello world!<br />I'm MuryP from Indonesian. I like Coding and Drawing. I hope you enjoy.
-            </p>
+          <div class="next-post">
+            {{ if .PrevInSection }}
+            <div class="btn">
+              <a class="link-reverse" href="{{ .PrevInSection.Permalink }}?ref=footer"alt="selanjutnya">selanjutnya »</a>
+            </div>
+            <a class="link-reverse" href="{{ .PrevInSection.Permalink }}?ref=footer">{{ .PrevInSection.Title | truncate 50 "..." }}</a>
+            {{ end }}
           </div>
         </div>
-      </footer>
-      <div class="nav-post">
-<div class="prev-post">
-	{{ if .NextInSection }}
-	<div class="btn">	<a class="link-reverse" href="{{ .NextInSection.Permalink }}?ref=footer">« Sebelumnya</a></div>
-	<a class="link-reverse" href="{{ .NextInSection.Permalink }}?ref=footer">{{ .NextInSection.Title | truncate 50 "..."}}</a>
-	{{ end }}
-</div>
-      <div class="next-post">
-	{{ if .PrevInSection }}
-	<div class="btn">	<a class="link-reverse" href="{{ .PrevInSection.Permalink }}?ref=footer"alt="selanjutnya">selanjutnya »</a></div>
-	<a class="link-reverse" href="{{ .PrevInSection.Permalink }}?ref=footer">{{ .PrevInSection.Title | truncate 50 "..." }}</a>
-	{{ end }}
-</div>
+        {{ end }}
       </div>
-      {{ end }}
     </div>
-  </div>
- {{ partial "disqus.html" . }}
-  <div class="sidebar">
-      {{ partial "related.html" . }}
+    {{ partial "post/disqus.html" . }}
+    <div class="sidebar">
+      {{ partial "post/related.html" . }}
       {{ partial "contact.html" . }}
-  </div>
+    </div>
   </div>
   {{ partial "footer.html" . }}
 </body>

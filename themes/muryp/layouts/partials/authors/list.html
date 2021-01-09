@@ -1,0 +1,21 @@
+<hr />
+<h1 class="mypost" alt="My Projek">{{ .Title }}</h1>
+<div class="myread">
+  {{ range .Site.Taxonomies.authors }}
+  <div class="content">
+    <div class="date">
+      <span class="rest">  Artikel 
+      </span>
+      <span class="day">    {{ .Count }}
+      </span>
+    </div>
+    <div class="readMore">
+      <a href="{{ .Page.Permalink }}">{{ .Page.Title }}</a> <br />
+      {{ .Page.Description  }}
+    </div>
+  </div>
+  {{ end }}
+
+</div>
+
+<hr />

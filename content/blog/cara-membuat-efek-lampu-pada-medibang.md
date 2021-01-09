@@ -9,7 +9,6 @@ blogimport = true
 	uri = "https://www.blogger.com/profile/14798613158789333825"
 +++
 
-{{< html >}}
-{{< html >}}
+ {{< html >}} 
 Hello World!<div><span>&nbsp; &nbsp; Kalian ingin menggambar sebuah lampu yang bis menyala seperti neon? Kalian hanya perlu menggunakan beberapa</span><br /></div>
 {{< /html >}}

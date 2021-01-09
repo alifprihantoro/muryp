@@ -1,6 +1,6 @@
 ---
 title: "{{ replace .TranslationBaseName "-" " " | title }}"
-slug: {{ .BaseFileName }}
+slug: {{ .BaseName }}
 date: {{ .Date }}
 draft: true
 show_comments: true

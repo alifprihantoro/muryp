@@ -6,7 +6,11 @@
     <body class="">
         {{ partial "navHeader.html" . }}
   <div style="margin:50px auto;" class="main">
+         {{ if eq .Section "authors" }}
+        {{ partial "authors/pages.html" . }}
+         {{else}}
         {{ partial "list.html" . }}
+         {{end}}
 </div>
         {{ partial "footer.html" . }}
     </body>

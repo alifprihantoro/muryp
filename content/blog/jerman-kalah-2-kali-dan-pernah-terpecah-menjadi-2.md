@@ -9,8 +9,7 @@ blogimport = true
 	name = "MuryP"
 	uri = "https://www.blogger.com/profile/14798613158789333825"
 +++
-{{< html >}}
-{{< html >}}
+ {{< html >}} 
 
 Tahukah kalian? <b>Jerman</b> yang Kalah dalam <i>Perang</i> <i>Dunia</i> <i>1</i> dan <i>2</i>. Dan pernah terpecah menjadi dua saat <i>Cold War </i>sekarang kembali bangkit.&nbsp;
 {{< /html >}}

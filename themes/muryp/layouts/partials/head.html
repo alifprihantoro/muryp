@@ -11,6 +11,11 @@
 <!-- Icon -->
 <link rel="icon" href="/img/favicon.ico" />
 <link rel="stylesheet" href="/css/svg.css" type="text/css" media="all" />
+  {{ if eq .Params.Image "" }}
+{{ range first 1 (.Resources.ByType "image") }} 
+ <img src="{{ .Permalink }}" />logikaku
+{{ end }}
+{{ end }}
   {{ partial "css/main.html" . }}
 {{- if .IsHome -}}
   {{ partial "css/home.html" . }}

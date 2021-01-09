@@ -9,7 +9,6 @@ blogimport = true
 	uri = "https://www.blogger.com/profile/14798613158789333825"
 +++
 
-{{< html >}}
-{{< html >}}
+ {{< html >}} 
 &nbsp; &nbsp; Perlu diketahui saya hanya tinggal dengan Adik, Ibu dan Nenek Saya. Banyak yang ingin ku keluarkan kata-kata kepada keluargaku. Tapi Saya bukanlah orang yang seperti itu.<br />&nbsp; &nbsp; Banyak pemikiran keluargaku yang menurutku itulah kesalahan yang terjadi di keluargaku.
 {{< /html >}}

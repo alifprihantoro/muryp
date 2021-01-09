@@ -9,8 +9,7 @@ blogimport = true
 	name = "MuryP"
 	uri = "https://www.blogger.com/profile/14798613158789333825"
 +++
-{{< html >}}
-{{< html >}}
+ {{< html >}} 
 
 Tahukah kalian? Indonesia memiliki kekayaan yang sangat berlimpah, sehingga membuat negara lain melirik san ingin menguasai kekayaan tersebut. Kekayaan yang berupa SDA ini membuat negara-negara Eropa ingin menguasai dan menjajah. Seperti Inggris, Portugis, dan Belanda. Tujuan mereka tak lain adalah ingin menguasai alam Indinesia yang dimana rempah"
 {{< /html >}}

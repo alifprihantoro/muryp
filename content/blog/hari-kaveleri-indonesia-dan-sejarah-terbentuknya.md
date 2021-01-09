@@ -9,7 +9,6 @@ blogimport = true
 	uri = "https://www.blogger.com/profile/14798613158789333825"
 +++
 
-{{< html >}}
-{{< html >}}
+ {{< html >}} 
 Hello world!<div>Sebelum saya memulai artikel ini, Saya mengucapkan Selamat Hari Kaveleri. Di hari spesial ini, saya akan membahas mengenai sejarah dan fakta-fakta mengenai kaveleri. Dan siapa yang membentuk dan memimpin batalyon tersebut.</div><div><br></div>
 {{< /html >}}

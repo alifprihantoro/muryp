@@ -9,7 +9,6 @@ blogimport = true
 	uri = "https://www.blogger.com/profile/14798613158789333825"
 +++
 
-{{< html >}}
-{{< html >}}
+ {{< html >}} 
 <h1 style="text-align: left;">&nbsp;<span style="font-size: x-large;">Judul</span></h1><p style="text-align: left;">Beberapa dari kalian sering mendengar sebuah istilah UI/UX, front end, back end atau full stack development.&nbsp; Hal tersebut ialah sebuah bidang dalam dunia IT(Informasi Teknologi) dalam pembuatan sebuh Website.</p><p style="text-align: left;"><br /></p><p><br /></p><p><br /></p><p><br /></p><p><br /></p><p><br /></p>
 {{< /html >}}
