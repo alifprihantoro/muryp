@@ -4,6 +4,7 @@ date = 2020-09-05T21:41:00Z
 updated = 2020-09-05T21:41:18Z
 tags = ["Sejarah", "Anime"]
 blogimport = true 
+authors= ["muryp"]
 [author]
 	name = "MuryP"
 	uri = "https://www.blogger.com/profile/14798613158789333825"

@@ -14,6 +14,7 @@ disqusShortname = "muryp"
   tag = "tags"
   catatan = "catatan"
   learn = "learn"
+  author = "authors"
 
 [permalinks]
   blog = "/:slug/"

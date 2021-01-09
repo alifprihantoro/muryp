@@ -14,10 +14,23 @@
     <div style="overflow:hidden;" class="post-content post-body">
       <!-------------- body post -------------->
         {{ .Content | emojify }}
+                {{ range .Param "authors" }}
+	{{ $name := . }}
+	{{ $path := printf "/%s/%s" "authors" ($name | urlize) }}
+	{{ with $.Site.GetPage $path }}
+		<h2>{{ .Title }} loh{{ .Params.description }}</h2>
+		<img src="/img{{ $path }}.jpg">
+		<p>{{ .Params.bio }}{{ . | urlize }}</p>
+		<p><a href="https://twitter.com/{{ .Params.twitter }}">Twitter</a></p>
+	{{ end }}
+{{ end }}
+
       <!--------------Footer Post -------------->
 {{ if eq .Section "laman" }}
 {{ else }}
       <footer class="footerPost">
+        
+
 {{ with .Params.tags }}
         <div class="kategori">
           Kategori
@@ -36,6 +49,7 @@
         </div>
     {{ else }}
 {{ end }}
+
         <div class="authorBottom">
           <div class="imgAuthor">
             <img src="https://1.bp.blogspot.com/-BWCKsx7BTRA/X7cXQfC7beI/AAAAAAAAAKw/4ALOzE5uPRkg80BcaNPTBbaNlLxRnyW_gCLcBGAsYHQ/s2048/profil-muryp-studio-min.png" alt="" class="author" />
