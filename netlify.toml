@@ -13,7 +13,7 @@
   
 [build]
   publish = "public"
-  command = "hugo"
+  command = "hugo --minify"
 
 [context.production]
   command = "hugo"
