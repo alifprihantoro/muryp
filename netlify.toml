@@ -10,3 +10,13 @@
   pretty_urls = true
 [build.processing.images]
   compress = true
+  
+[build]
+  publish = "public"
+  command = "hugo --minify"
+
+[context.production]
+  command = "hugo --minify"
+  [context.production.environment]
+    HUGO_VERSION = "0.36"
+    HUGO_ENV = "production"
