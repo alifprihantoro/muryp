@@ -92,12 +92,6 @@ blockquote {
 .disqus,.main,.mainPostingan {
   max-width: 720px!important
 }
-.main h1, .h1myskill, h1.Contact {
-  padding: 5px;
-  color: #00008b !important;
-  margin-top: 50px;
-  text-align: center;
-}
 /* ========= Header ========== */
 .header {
   padding: 20px 0;
@@ -121,7 +115,7 @@ blockquote {
 .nav input[type=checkbox] {
   display: none
 }
-#darkBtn svg {
+#darkBtn svg{
   fill: #fff !important;
 }
 #navbar {
@@ -314,7 +308,7 @@ div.sosmedmenu a {
   padding: 10px
 }
 .nav span {
-  background-color: rgb(0,0,139,.8);
+  background-color: rgb(0,0,139,.5);
 }
 /* sosmed */
 .sosmednav span {
@@ -349,6 +343,10 @@ a.ohmyheader svg {
   margin: 25px auto !important;
   padding: 15px;
   width: 80%;
+  
+}
+div.content:hover{
+  transform: translate(10px,-10px) ;
 }
 .myread {
   display: grid;
@@ -386,10 +384,13 @@ a.ohmyheader svg {
 .pagination a,.Total{
   padding: 15px;
   margin: 15px;
-  background: rgb(0,0,139,.8);
+  background: rgb(0,0,139,.5);
   max-width: 50%;
   color: rgb(255,255,255,.8);
   font-weight: 900;
+}
+.pagination a:hover{
+  background: darkblue;
 }
 /* ========== Contact ========== */
 ::placeholder {
@@ -480,5 +481,8 @@ a.ohmyheader svg {
   #darkBtn {
     right: 60px !important;
   }
+}
+.content:hover{
+  transform: translate(15px,-15px) !important;
 }
 </style>

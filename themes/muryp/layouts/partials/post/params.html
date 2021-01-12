@@ -1,6 +1,6 @@
           {{ with .Params.tags }}
           <div class="kategori">
-            Kategori
+            Kategori : 
             {{range .}}
             <a href="/tags/{{ . | urlize }}">{{ . }}</a>
             {{end}}
@@ -9,7 +9,7 @@
           {{ end }}
           {{ with .Params.catatan }}
           <div class="kategori">
-            Kategori
+            Kategori : 
             {{range .}}
             <a href="/catatan/{{ . | urlize }}">{{ . }}</a>
             {{end}}
