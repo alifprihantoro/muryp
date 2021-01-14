@@ -9,7 +9,7 @@ to [report any issue](https://github.com/muryp/muryp/issues).
 
 ## Requirements
 
-You need to install Hugo min. `0.73.0` to build and run this blog
+You need to install Hugo min. `0.80.0` to build and run this blog
 
 ## Build
 
@@ -23,7 +23,7 @@ Then run the hugo server:
 
 ```bash
 ▶ cd muryp
-▶ hugo ser
+▶ hugo version
 
 Started building sites ...
 .
