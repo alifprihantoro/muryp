@@ -1,7 +1,7 @@
 ## MuryP Studio
 
 [![pipeline status](https://gitlab.com/muryp/muryp/badges/master/pipeline.svg)](https://gitlab.com/muryp/muryp/commits/master)
-[![Hugo version](https://img.shields.io/badge/hugo-v0.73.0-ff69b4.svg)](http://gohugo.io/)
+[![Hugo version](https://img.shields.io/badge/hugo-v0.80.0-ff69b4.svg)](http://gohugo.io/)
 
 This is my blog's source code. Sorry, I don't accept pull request, because
 this repository is [mirrored from Gitlab](https://gitlab.com/muryp/muryp/). But, feel free
