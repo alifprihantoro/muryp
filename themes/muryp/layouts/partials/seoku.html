@@ -106,7 +106,7 @@
       "headline": {{ .Title }},
       "author": {
         "@type": "Person",
-        "name": "{{ .Site.Params.github }}"
+        "name": "{{ .Site.Params.gitlab }}"
       },
       "datePublished": "{{ .Date.Format "2006-01-02" }}",
       "description": {{ .Description }},
@@ -115,7 +115,7 @@
       "dateModified": "{{ .Lastmod.Format "2006-01-02" }}",
       "image": {
         "@type": "imageObject",
-        "url": "{{ with .Params.image }}{{ .Permalink }}{{ end }}"
+        "url": "{{ with .Params.image }}{{ . }}{{else}} https://muryp.github.io/muryp/img/noimg.png{{ end }}"
       },
       "publisher": {
         "@type": "Organization",

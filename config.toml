@@ -13,7 +13,6 @@ disqusShortname = "muryp"
   category = "categories"
   tag = "tags"
   catatan = "catatan"
-  learn = "learn"
   author = "authors"
 
 [permalinks]
@@ -21,8 +20,8 @@ disqusShortname = "muryp"
   laman = "/:slug/"
   en = "/en/:slug/"
 
-languageCode = "en-us"
-DefaultContentLanguage = "en"
+languageCode = "id-id"
+DefaultContentLanguage = "id"
 paginate = 12
 
 enableEmoji = true
@@ -41,6 +40,8 @@ canonifyURLs = true
     author = "MuryP"
     # Description/subtitle for homepage
     description = "MuryP, MuryP Beta, Internet, Technology, hardware, Operating Sistem, Software, Jaringan Komunikasi, JarKom, TIK, Ringkasan, Alief Prihantoro, Alif MuryP, Buku, Ebook,My Project Drawing/Desain,UI/UX,front end,Blogging, SEO,catatan"
+
+pygmentsUseClasses=true
 
 [frontmatter]
 date = ["date", "publishDate", "lastmod"]

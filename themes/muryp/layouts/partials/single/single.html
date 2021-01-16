@@ -11,13 +11,277 @@
   {{ partial "post/header.html" . }}
   {{ if eq .Section "laman" }}{{else}}
   {{ partial "post/breadcrumb.html" . }}{{end}}
+  <style type="text/css" media="all">
+    /* http://prismjs.com/download.html?themes=prism&languages=markup+css+clike+javascript+aspnet+bash+basic+c+csharp+cpp+coffeescript+ruby+css-extras+diff+elixir+fsharp+git+go+graphql+haskell+java+json+julia+kotlin+latex+less+makefile+markdown+matlab+nasm+nim+objectivec+pascal+perl+php+php-extras+powershell+processing+python+r+jsx+crystal+rust+sass+scala+sql+swift+twig+vbnet+vim+yaml&plugins=keep-markup */
+/**
+ * prism.js default theme for JavaScript, CSS and HTML
+ * Based on dabblet (http://dabblet.com)
+ * @author Lea Verou
+ */
+
+code[class*="language-"],
+pre[class*="language-"] {
+	color: black;
+	background: none;
+	text-shadow: 0 1px white;
+	font-family: Consolas, Monaco, 'Andale Mono', 'Ubuntu Mono', monospace;
+	text-align: left;
+	white-space: pre;
+	word-spacing: normal;
+	word-break: normal;
+	word-wrap: normal;
+	line-height: 1.5;
+
+	-moz-tab-size: 4;
+	-o-tab-size: 4;
+	tab-size: 4;
+
+	-webkit-hyphens: none;
+	-moz-hyphens: none;
+	-ms-hyphens: none;
+	hyphens: none;
+}
+
+pre[class*="language-"]::-moz-selection, pre[class*="language-"] ::-moz-selection,
+code[class*="language-"]::-moz-selection, code[class*="language-"] ::-moz-selection {
+	text-shadow: none;
+	background: #b3d4fc;
+}
+
+pre[class*="language-"]::selection, pre[class*="language-"] ::selection,
+code[class*="language-"]::selection, code[class*="language-"] ::selection {
+	text-shadow: none;
+	background: #b3d4fc;
+}
+
+@media print {
+	code[class*="language-"],
+	pre[class*="language-"] {
+		text-shadow: none;
+	}
+}
+
+/* Code blocks */
+pre[class*="language-"] {
+	padding: 1em;
+	margin: 1rem 0;
+	overflow: auto;
+}
+
+:not(pre) > code[class*="language-"],
+pre[class*="language-"] {
+	background: #f5f2f0;
+}
+
+/* Inline code */
+:not(pre) > code[class*="language-"] {
+	padding: .1em;
+	border-radius: .3em;
+	white-space: normal;
+}
+
+.token.comment,
+.token.prolog,
+.token.doctype,
+.token.cdata {
+	color: slategray;
+}
+
+.token.punctuation {
+	color: #999;
+}
+
+.namespace {
+	opacity: .7;
+}
+
+.token.property,
+.token.tag,
+.token.boolean,
+.token.number,
+.token.constant,
+.token.symbol,
+.token.deleted {
+	color: #905;
+}
+
+.token.selector,
+.token.attr-name,
+.token.string,
+.token.char,
+.token.builtin,
+.token.inserted {
+	color: #690;
+}
+
+.token.operator,
+.token.entity,
+.token.url,
+.language-css .token.string,
+.style .token.string {
+	color: #a67f59;
+	background: hsla(0, 0%, 100%, .5);
+}
+
+.token.atrule,
+.token.attr-value,
+.token.keyword {
+	color: #07a;
+}
+
+.token.function {
+	color: #DD4A68;
+}
+
+.token.regex,
+.token.important,
+.token.variable {
+	color: #e90;
+}
+
+.token.important,
+.token.bold {
+	font-weight: bold;
+}
+.token.italic {
+	font-style: italic;
+}
+
+.token.entity {
+	cursor: help;
+}
+
+img.emoji {
+    display: inline !important;
+    border: none !important;
+    box-shadow: none !important;
+    height: 1em !important;
+    width: 1em !important;
+    margin: 0 .07em !important;
+    vertical-align: -0.1em !important;
+    background: none !important;
+    padding: 0 !important;
+}
+
+a:hover {text-decoration: none}
+
+.post-content {
+    font-family: Merriweather, Georgia, Sans-serif;
+    /* font-size: 15px; */
+}
+
+.post-content h2, 
+.post-content h3, 
+.post-content h4, 
+.post-content h5,
+.post-content h6 {
+    font-family: Roboto, Sans;
+    margin: 1em 0;
+}  
+
+.post-content p {
+    margin-bottom: 1.5em;
+    letter-spacing: 0.01rem;
+}
+
+.post-content img, .post-content iframe {
+    max-width: 100%;
+}
+
+.post-content pre {
+    margin-bottom: 1.5em;
+    background: #f5f5f5;
+    padding: 1em;
+}
+
+/* List */
+.post-content ul, .post-content ol, .post-content dl {
+    margin-bottom: 1.5rem;
+}
+
+.post-content ul li, .post-content ol li{
+    margin-bottom: 0.5em;
+}
+
+/*--- Blockqute -----*/
+blockquote{
+  display:block;
+  background: whitesmoke;
+  padding: 15px 20px 15px 45px;
+  margin: 0 0 20px;
+  position: relative;
+
+  /*Font*/
+  /*font-family: Georgia, serif;*/
+  font-size: 16px;
+  line-height: 1.2;
+  color: #666;
+
+
+  /*Borders - (Optional)*/
+  border-left: 15px solid #008080;
+  border-right: 2px solid #008080;
+
+  /*Box Shadow - (Optional)*/
+  /*-moz-box-shadow: 2px 2px 15px #ccc;
+  -webkit-box-shadow: 2px 2px 15px #ccc;
+  box-shadow: 2px 2px 15px #ccc;*/
+}
+
+blockquote::before{
+  content: "\201C"; /*Unicode for Left Double Quote*/
+
+  /*Font*/
+  font-family: Georgia, serif;
+  font-size: 60px;
+  font-weight: bold;
+  color: #999;
+
+  /*Positioning*/
+  position: absolute;
+  left: 10px;
+  top:5px;
+}
+
+blockquote::after{
+  /*Reset to make sure*/
+  content: "";
+}
+
+blockquote a{
+  text-decoration: none;
+  cursor: pointer;
+  padding: 0 3px;
+  color: #c76c0c;
+}
+
+blockquote em{
+  font-style: italic;
+}
+/*--- End Blockqute -----*/
+
+@media only screen and (max-width: 570px) { 
+    .post-outer { 
+        padding-right: 0 !important;
+        padding-left: 0 !important;
+    }
+
+    .post-outer .card {
+        border-left: none;
+        border-right: none;
+        border-radius: 0;
+    }
+}
+
+  </style>
+  <script async='async' defer='defer' src="/js/prism.js" type="text/javascript" charset="utf-8"></script>
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
   <div class="responsive">
     <div class="mainPostingan">
       <hr />
       <div style="overflow:hidden;" class="post-content post-body">
         <!-------------- body post -------------->
         {{ .Content | safeHTML }}
-        tes
         <!--------------Footer Post -------------->
         {{ if eq .Section "laman" }}
         {{ else }}
