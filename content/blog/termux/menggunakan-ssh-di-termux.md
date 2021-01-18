@@ -20,10 +20,12 @@ thumbnail: "thumb/none.png"
 description: "Bagaimana cara kita bisa memasang ssh melalui termux? Dan manfaatnya apa?" 
 keywords: "Bagaimana cara kita bisa memasang ssh melalui termux? Dan manfaatnya apa?" 
 --- 
-cd ~/.ssh/ #pindah ke direktori ssh
-
-# membuat private key dan public key
-ssh-keygen -t rsa -C "dian@petanikode.com" -b 4096
+1. Buat folder **.ssh** jika tidak ada, lalu masuk dan buat key
+```
+$ mkdir .ssh
+$ cd ~/.ssh/
+$ ssh-keygen -t rsa -C "yourmail@domain.com" -b 4096
+```
 
 exam :
 ```
@@ -51,23 +53,37 @@ The key's randomart image is:
 ```
 
 ## tambah ssh key
-> ssh-add ~/.ssh/id_rsa
+```
+ssh-add ~/.ssh/id_rsa 
+```
 
-jika error :
-To fix this run below command :
-
+jika error dengan pesan :
+```
+ssh-add ~/.ssh/github
+Could not open a connection to your authentication agent.
+```
+gunakan :
 ```
 $ eval "$(ssh-agent -s)"
-$ Agent pid 59566
+Agent pid 59566
 ```
 ## lalu tambah lagi
 
-> $ ssh-add ~/.ssh/id_rsa
+```
+$ ssh-add ~/.ssh/id_rsa
+Identity added: /data/data/com.termux/files/home/.ssh/your_id (yourmail@domain.com)
+```
+## copy publick key ke github/gitlab 
+1. copy code dengan cara ``` cat your_id.pub ```
+2. copy kode tersebut di github/gitlab, pada menu setting ada menu ssh 
+3. tambah ssh 
+4. pastekan disitu
+5. kembali ke comand line
 
-
-
-
-
+## Lalu cek apakah sudah terhubung
+```
+ssh -T git@gitlab.com 
+```
 
 > jika ada yang belum paham atau ada kesalahan silanhkan kunjungi refrensi dibawah.
 
