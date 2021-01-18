@@ -1,12 +1,12 @@
 ---
-title: "MuryP Beta - Personal Blog"
+title: "Catatan Saya"
 date: 2018-01-25T20:12:09+08:00
 draft: false
 
 type: page
 
 image: ""
-description: "Blog ini berisi catatan pribadi dan beberapa informasi seputar dunia teknologi.."
+description: "Daftar catatan yang saya miliki. MuryP Beta"
 ---
 
 <!-- Hello, nama saya **Alief MuryP**, disingkat MuryP.
