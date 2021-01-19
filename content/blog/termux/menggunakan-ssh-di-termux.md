@@ -14,7 +14,7 @@ tags:
 - Keamanan Jaringan
 
 
-image: "img/muryp.min.png" 
+image: "img/none.min.png" 
 thumbnail: "thumb/none.png" 
  
 description: "Bagaimana cara kita bisa memasang ssh melalui termux? Dan manfaatnya apa?" 

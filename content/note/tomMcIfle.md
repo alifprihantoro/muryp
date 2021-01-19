@@ -9,7 +9,8 @@ type: post
 catatan:
     - bisnis
     - Marketing
-    - Youtube
+    - Youtube 
+    - Tom Mc Ifle
 
 image: ""
 thumbnail : ""

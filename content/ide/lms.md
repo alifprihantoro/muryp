@@ -30,3 +30,30 @@ rencananya blog ini sama seperti wikinya onno center dimana kalian juga bisa men
 
 Oh ya meskipun tahun 2021 ini banyak bermunculan tutorial yang lebih berkualitas, saya datang dengan kerecehan. Dengan bermodal hp kita bisa membuat web yang super layaknya kita menggunakan laptop. Dengan syarat kamu harus tahan dengan layar kecil, dua jari dan agak ribet, karena gak ada plugin yang mendukung. Tapi sudah ada beberapa plugin yang bisa digunakan.
 
+> update selasa 19 january 2021 
+
+catatan sebelumnya :
+
+Type page :
+Ide LMS
+Untuk materi dari vedeo dan blog
+Untuk nilai dari soal tanya jawab
+Buat makalah, buku, jurnal,
+ tanya jawab live stream
+Code war
+Coding bareng
+Share project
+Code Game (saling mencari celah) atau buat game kusus dimana untuk menang dibutuhkan skill programming. Mulai dari inspek elmen, kuis mengenai programmer, dan mungkin membutuhkan tools programming untuk menyelesaikannya.
+
+catatan kedua dahulu :
+
+E-Learning
+
+Bisa gunakan google form
+Buat sendiri :
+Javascript quiz
+Alat untuk generate (text form==>js)
+Soal diacak
+Kalau bisa buat add dan remove
+
+https://www.sitepoint.com/simple-javascript-quiz/
