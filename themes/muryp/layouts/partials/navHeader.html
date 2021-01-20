@@ -84,7 +84,7 @@ function setDarkMode() {
       <li><a href="/contact">CONTACT</a></li>
       <li><a href="/note">Catatanku</a></li>
       <li><a href="/bookmark">Bookmark</a></li>
-      <li><a href="/ide">Ide</a></li>
+      <li><a href="/ideku">Kumpulan Ide</a></li>
     </ul>
     <input type="checkbox" id="nav1" />
     <label for="nav1">Contact Me
@@ -112,7 +112,7 @@ function setDarkMode() {
     </label>
     <div class="mynav dropdown">
         {{ range $name, $taxonomy := .Site.Taxonomies.tags }}
-        <a href="/tags/{{$name}}"> {{$name}} </a>
+        <a href="/tags/{{$name}}"><b>{{ .Count }}</b> {{$name}} </a>
         {{ end }}
     </div>
     <input type="checkbox" id="nav5" />
@@ -120,7 +120,8 @@ function setDarkMode() {
     </label>
     <div class="mynav dropdown">
         {{ range $name, $taxonomy := .Site.Taxonomies.ide }}
-        <a href="/ide/{{$name}}"> {{$name}} </a>
+        <a href="/ide/{{$name}}">
+          <b>{{ .Count }}</b>{{.Page.Title }} </a>
         {{ end }}
     </div>
     <input type="checkbox" id="nav6" />
@@ -128,7 +129,9 @@ function setDarkMode() {
     </label>
     <div class="mynav dropdown">
         {{ range $name, $taxonomy := .Site.Taxonomies.catatan }}
-        <a href="/catatan/{{$name}}"> {{$name}} </a>
+       <div>
+       <a href="/catatan/{{$name}}"><b>{{ .Count }}</b> {{.Page.Title}} </a>
+       </div> 
         {{ end }}
     </div>
     <div style="margin:50vh"></div>
