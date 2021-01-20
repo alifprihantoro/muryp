@@ -7,7 +7,7 @@ authors:
  - MuryP
 show_comments: true 
  
-type: pages 
+type: post 
  
 ide: 
 - youtube

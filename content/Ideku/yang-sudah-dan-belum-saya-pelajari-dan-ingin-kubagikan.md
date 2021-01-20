@@ -147,6 +147,7 @@ Traceroute/ping
 https://keestalkstech.com/2014/04/click-to-select-all-on-the-pre-element/
 
 https://www.igniel.com/2018/08/syntax-highlighter-blog-css.html?m=1
+https://codingnconcepts.com/hugo/client-side-search-engine-hugo/
 
 =========== UI
 https://medium.com/paperpillar/tentang-ukuran-pada-desain-ui-bagian-1-b15a1edabdce

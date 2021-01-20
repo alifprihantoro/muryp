@@ -69,6 +69,14 @@ function setDarkMode() {
         </div>
         {{end}}
       </div>
+      <div class="widget-search widget">
+  <form class="widget-search__form" role="search" method="get" action="{{ "search" | absURL }}">
+    <label>
+      <input class="widget-search__field" type="search" placeholder="{{ T "search_placeholder" }}" value="" name="s" aria-label="{{ T "search_placeholder" }}">
+    </label>
+    <input class="widget-search__submit" type="submit" value="Search">
+  </form>
+</div>
     </div>
     <ul>
       <li><a href="/">HOME</a></li>
@@ -76,6 +84,7 @@ function setDarkMode() {
       <li><a href="/contact">CONTACT</a></li>
       <li><a href="/note">Catatanku</a></li>
       <li><a href="/bookmark">Bookmark</a></li>
+      <li><a href="/ide">Ide</a></li>
     </ul>
     <input type="checkbox" id="nav1" />
     <label for="nav1">Contact Me
@@ -99,12 +108,29 @@ function setDarkMode() {
 <a href="/about">About</a><a href="/contact">Contact</a><a href='/p/privacy.html'>privacy policy</a>  <a href='/p/disclaimer.html'>Disclaimer</a>  <a href='/p/faq.html'>F.A.Q</a>  <a href='/p/tos.html'>T.O.S</a>  <a href='/p/sitemap.html'>Sitemap</a>
     </div>
     <input type="checkbox" id="nav4" />
-    <label for="nav4">All Kategori
+    <label for="nav4">Kategori Blog
     </label>
     <div class="mynav dropdown">
         {{ range $name, $taxonomy := .Site.Taxonomies.tags }}
         <a href="/tags/{{$name}}"> {{$name}} </a>
         {{ end }}
     </div>
+    <input type="checkbox" id="nav5" />
+    <label for="nav5">Kategori Ide
+    </label>
+    <div class="mynav dropdown">
+        {{ range $name, $taxonomy := .Site.Taxonomies.ide }}
+        <a href="/ide/{{$name}}"> {{$name}} </a>
+        {{ end }}
+    </div>
+    <input type="checkbox" id="nav6" />
+    <label for="nav6">Kategori Catatan
+    </label>
+    <div class="mynav dropdown">
+        {{ range $name, $taxonomy := .Site.Taxonomies.catatan }}
+        <a href="/catatan/{{$name}}"> {{$name}} </a>
+        {{ end }}
+    </div>
+    <div style="margin:50vh"></div>
   </div>
 </nav>
