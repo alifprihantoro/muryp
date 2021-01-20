@@ -2,9 +2,6 @@
 title: "Catatan Saya"
 date: 2018-01-25T20:12:09+08:00
 draft: false
-
-type: page
-
 image: ""
 description: "Daftar catatan yang saya miliki. MuryP Beta"
 ---

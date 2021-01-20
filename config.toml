@@ -1,5 +1,5 @@
 baseurl = "https://muryp.my.id/"
-title = "MuryP"
+title = "MuryP Beta"
 theme = "muryp"
 
 googleAnalytics = "G-4XH6NY1N24"
@@ -7,7 +7,6 @@ disqusShortname = "muryp"
 
 [outputs]
     home = ["HTML", "RSS", "JSON"]
-    blog = ["HTML", "RSS", "JSON"]
 
 [taxonomies]
   ide = "ide"

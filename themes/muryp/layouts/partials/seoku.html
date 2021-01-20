@@ -1,6 +1,6 @@
 <!--- title tags --->
 {{- if .IsHome -}}
-<title itemprop="name">{{ .Title }}</title>
+<title itemprop="name">{{ .Site.Title }} | Personal Blog</title>
 {{- else -}}
 <title itemprop="name">{{ .Title }} | {{ .Site.Title }}</title>
 {{- end -}}
