@@ -422,8 +422,7 @@ div.content:hover{
 #ContactForm1_input {
   width: 100%
 }
-#ContactForm1 input,#ContactForm1 textarea {
-  width: 85%;
+input.widget-search__field,#ContactForm1 input,#ContactForm1 textarea {
   border: 0;
   padding: 10px;
   resize: none;
@@ -431,18 +430,19 @@ div.content:hover{
   border: 1px solid #00008b;
   background-color: transparent;
 }
+  #ContactForm1 input,#ContactForm1 textarea {width: 85%;}
 #ContactForm1 textarea {
   height: 150px;
 }
-#ContactForm1 button {
+input.widget-search__submit,#ContactForm1 button {
   background-color: rgb(0,0,139,.8)  !important;
   padding: 10px!important;
   color: #fff;
   font-weight: bold;
   text-transform: uppercase;
   border: transparent;
-  width: 80%;
 }
+ #ContactForm1 button{ width: 80%;}
 #ContactForm1 button:hover {
   border-radius: 5px;
   background: darkblue !important;
