@@ -172,3 +172,22 @@ gunakan scedule untuk sosmed
 tahap 1 : dan untuk blog upload aja gak usah mikirin dulu
 
 tahap 2 : perbaiki sambil buat konten sosmed
+
+## tambahan (21 jan 2021)
+mungkin ini menyambung yang diatas.
+sosmed :
+instagram : 
+- studio (microblog(tutorial, artikel, ),arts,logo,)
+- beta(share artikel, sedang ngapain(seputar IT), Dan hal lainnya yang bersifat personal seperti ide, rancangan, info update teknologi)
+twitter :
+- studio : reupload ig 
+- beta : sama diatas, bedanya ada yang hanya tulisan saja. Karena di ig gak bisa kasih tulisan aja.
+
+fb :
+- reupload aja kedua diatas
+
+pinterest :
+- semua kategori diatas dijadikan satu tapi dikasih mirip blog(ada menu/dipilah-pilah)
+
+git & github : semua projek dan latihan sampai tempat percobaan.
+

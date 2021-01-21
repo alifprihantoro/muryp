@@ -38,10 +38,13 @@ Bagi kalian yang tidak membutuhkan database, kalian harus menggunakan ini atau m
 - Menggunakan bahasa markdown yang mudah dimengerti.
 - Mungkin itu dulu. jika ada lagi silahkan tulis di kolom komentar dibawah.
 
-> ini belum jadi 
 
 ## Cara kerja 
+Secara singkat hugo akan mengolah file terpisah  menjadi satu kesatuan html/css/js. Dimana kita bisa lihat ketika kita menggunakan ```hugo --minify``` atau tanpa minify yang dimna hugo akan membuat sebuah file **public** dari hasil kodingan kita, yang dimana didalamnya terdapat hasil kodingan kita yang sudah dipilah berdasarkan url/slug. Misal : url/slug salah satu artikel adalah "hello-world" maka didalam file  **public** terdapat hasil olahan hugo berupa html,css,js. Kalian bisa eksplore sendiri. Maaf kalo gak paham.
 
 ## kesimpulan 
+Hugo adalah salah satu framrwork yang cepat,aman, dan mudah mengelolanya. Ya meskipun tak semudah menggunakan wordpress atau blogger yang klick-klick. Namun jika kalian sudah mempelajarinya, pasti kalian akan lebih suka menggunakan hugo ketimbang wordpress atau blogger. 
 
-thanks~
+## Penutup
+Trimakasih sudah membaca sampai akhir, semoga bermanfaat dan sampai jumpa di artikel selanjutnya. Oh ya jika kalian suka dengan konten ini silahkan bagikan ke keteman atau komunitasnu.
+
