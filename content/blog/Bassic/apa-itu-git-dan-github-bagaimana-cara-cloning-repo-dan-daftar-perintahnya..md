@@ -2,7 +2,7 @@
 title = "APA itu Git dan Github? Bagaimana cara cloning repo? Dan daftar perintahnya."
 date = 2020-11-24T23:49:00Z
 updated = 2020-11-24T23:58:46Z
-tags = ["Back End", "Catatan"]
+tags = ["Git", "Catatan"]
 blogimport = true 
 [author]
 	name = "MuryP"

@@ -191,3 +191,9 @@ pinterest :
 
 git & github : semua projek dan latihan sampai tempat percobaan.
 
+devianarts : untuk illustrasi/gambar
+behace & dribble : untuk illustrasi/gambar dan beberapa design
+
+linkedin : 
+- studio : arts
+- alifmuryp : front end/web
