@@ -196,4 +196,8 @@ behace & dribble : untuk illustrasi/gambar dan beberapa design
 
 linkedin : 
 - studio : arts
-- alifmuryp : front end/web
+- alifmuryp : front end/web 
+
+## update 23 january
+saya kedepannya ingin membuat single page aplication. Tapi setelah membaca dan mempelajari sedikit ternya saya tidak akan menggunakan sebagai blog. Karena ternyata tidak SEO. Meskipun aku sekarang tak terlalu memperhatikannya. Mungkin aku akan buat dua, yang satu untuk aplikasi(.apk) yang satu full web. 
+Oh ya, yang pasti single page ini saya buat projek coba-coba nantinya.

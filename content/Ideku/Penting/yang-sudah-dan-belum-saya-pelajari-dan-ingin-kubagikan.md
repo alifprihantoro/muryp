@@ -151,6 +151,9 @@ https://codingnconcepts.com/hugo/client-side-search-engine-hugo/
 
 devops pipeline
 
+sibgle page vs multi page 
+vue js vs react js vs node js vs angular 
+sistem autentifikasi google
 
 =========== UI
 https://medium.com/paperpillar/tentang-ukuran-pada-desain-ui-bagian-1-b15a1edabdce
