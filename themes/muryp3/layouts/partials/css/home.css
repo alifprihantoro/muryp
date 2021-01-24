@@ -1,10 +1,9 @@
 {{ $rumah := .Site.Params }}
 {{ $warna2 := $rumah.warna2 }}
 {{ $muda := $rumah.muda }}
-<style type="text/css" media="all">
   .BagianAtas {
     background-image: url({{$rumah.bagianAtas}});
-    background-color: {{$muda}};
+    background-color:rgba(211,210,210,0.1);
     background-size: 100vh;
     background-position: center;
     background-repeat: no-repeat;
@@ -89,4 +88,3 @@
     .myread {
       grid-template-columns: auto auto
     }}
-</style>

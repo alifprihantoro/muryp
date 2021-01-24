@@ -51,8 +51,8 @@
 <!-- tambahan -->
 <link rel="manifest" href="{{ .Site.BaseURL }}manifest.json" />
 <!-- Theme Color -->
-<meta name="theme-color" content="rgb(0,0,139,.8)" /> 
-<meta name="msapplication-TileColor" content="darkblue" />
+<meta name="theme-color" content="{{ .Site.Params.nav1 }}" /> 
+<meta name="msapplication-TileColor" content="{{ .Site.Params.nav1 }}" />
 
 <meta name="keywords" content="{{ .Site.Params.Description }},{{ .Params.keywords }}" />
 <meta name="imagemode" content="force" />
@@ -115,14 +115,14 @@
       "dateModified": "{{ .Lastmod.Format "2006-01-02" }}",
       "image": {
         "@type": "imageObject",
-        "url": "{{ with .Params.image }}{{ . }}{{else}} https://muryp.github.io/muryp/img/noimg.png{{ end }}"
+        "url": "{{ with .Params.image }}{{ . }}{{else}} {{ .Site.Params.noimg }}{{ end }}"
       },
       "publisher": {
         "@type": "Organization",
         "name": "{{ .Site.Title }}",
         "logo": {
           "@type": "imageObject",
-          "url": "https://www.muryp.my.id/img/favicon.png"
+          "url": "{{ .Site.Params.icon }}"
         }
       }
     }

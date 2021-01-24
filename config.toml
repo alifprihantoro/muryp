@@ -39,15 +39,16 @@ canonifyURLs = true
     author = "MuryP"
     # Description/subtitle for homepage
     description = "MuryP, MuryP Beta, Internet, Technology, hardware, Operating Sistem, Software, Jaringan Komunikasi, JarKom, TIK, Ringkasan, Alief Prihantoro, Alif MuryP, Buku, Ebook,My Project Drawing/Desain,UI/UX,front end,Blogging, SEO,catatan"
-    img = "/img/authors/muryp.png"
+    noimg = "/img/authors/muryp.png"
     thumb = "/img/authors/muryp.min.png"
+    icon = "/img/favicon.ico"
     bagianAtas = "/img/bg.png"
     # Color
     color = "#333" # warna bassic
     tebal = "color:#000;" #bold
     warna2 = "#00008b" # warna very dark
     # Background Color
-    bgbody = "#3333330d"
+    bgbody = "#eaeaea"
     muda = "#00008b80"       # -----warna muda
     nav1 = "#00008bcc" # warna darkblue (.8)
     nav2 = "#ebebeb"

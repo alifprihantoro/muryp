@@ -4,7 +4,6 @@
 {{ $nav1 := $rumah.nav1 }}
 {{ $bayangan := $rumah.bayangan }}
 {{ $muda := $rumah.muda }}
-<style type="text/css" media="all">
   /* ======== reset ========= */
   html {
     box-sizing: border-box
@@ -233,6 +232,7 @@
   .iconnav {
     padding: 10px;
   }
+  
   /*unchecked*/
   .mynav2 input[id^="nav"] + label {
     display: block;
@@ -337,62 +337,6 @@
   a.ohmyheader svg {
     width: 300px;
     transform: translate(0,6px);
-  }
-  /* ======== Share ========= */
-  .sosmedplus svg {
-    bottom: 20px;
-    left: 20px;
-  }
-  .pencarian svg {
-    bottom: 70px;
-    right: 15px;
-  }
-  .sosmedplus svg,.pencarian svg {
-    position: fixed;
-    background: {{$nav1}};
-    fill: #fff;
-    border-radius: 50%;
-    padding: 10px;
-    z-index: 9999999;
-    width: 50px
-  }
-  .pencarian svg {
-    background: {{$nav1}};
-  }
-  .sosmedplus svg:hover {
-    background: {{$warna2}};
-    padding: 12px
-  }
-  .pencarianBuka,.dropdownsosmedplus {
-    display: none
-  }
-
-  .pencarian input[type=checkbox]:checked ~ div.pencarianBuka,.sosmedplus input[type=checkbox]:checked ~ div.dropdownsosmedplus {
-    width: 100%!important;
-    display: block;
-    position: fixed;
-    bottom: 70px;
-    left: 0;
-    z-index: 9999999;
-  }
-  .sosmednav span:hover {
-    background-color: {{$warna2}} !important;
-    border-radius: 5px
-  }
-  .pencarianBuka {
-    text-align: right;
-    background: rgb(255,255,255,.8);
-    margin: auto;
-    height: 100vh;
-    bottom: 0!important;
-  }
-  .widget-search {
-    margin: 0;
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-    width: 80%;
   }
   /* ======== Readmore && Related ========= */
   .content {
@@ -525,6 +469,66 @@
     top: 15px;
     right: 5px;
   }
+  /* ======== Share ========= */
+  .sosmedplus svg {
+    bottom: 20px;
+    left: 20px;
+  }
+  .pencarian svg {
+    bottom: 70px;
+    right: 15px;
+  }
+  .sosmedplus svg,.pencarian svg {
+    position: fixed;
+    background: {{$nav1}};
+    fill: #fff;
+    border-radius: 50%;
+    padding: 10px;
+    z-index: 9999999;
+    width: 50px
+  }
+  .pencarian svg {
+    background: {{$nav1}};
+  }
+  .sosmedplus svg:hover {
+    background: {{$warna2}};
+    padding: 12px
+  }
+    .widget-search {
+    margin: 0;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 80%;
+  }
+  .pencarianBuka{
+    display: none;
+  }
+  .dropdownsosmedplus {
+    width: 0!important;
+    transition: 1s;
+  }
+  .pencarian input[type=checkbox]:checked ~ div.pencarianBuka,.sosmedplus input[type=checkbox]:checked ~ div.dropdownsosmedplus {
+    width: 100vw!important;
+    display: block;
+    position: fixed;
+    bottom: 70px;
+    left: 0;
+    z-index: 9999999 !important;
+    transition: 1s
+  }
+  .sosmednav span:hover {
+    background-color: {{$warna2}} !important;
+    border-radius: 5px
+  }
+  .pencarianBuka {
+    text-align: right;
+    background: rgb(255,255,255,.8);
+    margin: auto;
+    height: 100vh;
+    bottom: 0!important;
+  }
 @media only screen and (min-width:720px) {
     .BagianAtas {
       text-align: left !important;
@@ -548,4 +552,3 @@
   .content:hover {
     transform: translate(15px,-15px) !important;
   }
-</style>

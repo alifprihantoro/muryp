@@ -1,0 +1,12 @@
+{{ partial "main/head/seoku.html" . }}
+<link rel="stylesheet" href="/css/icon.css" type="text/css" media="all" />
+<style type="text/css" media="all">
+  {{ partial "css/main.css" . | safeCSS }}
+{{- if .IsHome -}}
+  {{ partial "css/home.css" . | safeCSS }}
+{{- end -}}
+{{- if eq .Kind "page" -}}
+  {{ partial "css/laman.css" . | safeCSS }}
+{{- end -}}
+  {{ partial "css/end.css" . | safeCSS }}
+</style>
