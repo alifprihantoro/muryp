@@ -1,0 +1,16 @@
+ {{ partial "main/topNav/search.html" . }}
+  <div class="BagianAtas">
+    <div class="bagianDalam">
+      <h1>Hello World!</h1>
+      <p>
+{{ .Site.Params.Kataku | safeHTML }}
+      </p>
+      <div class='sosmednav' id='sosmed'>
+      {{ range .Site.Menus.sosmed.Sort.ByWeight }}
+          <a href='{{ .URL }}' rel='nofollow' target='_blank' title='{{ .Name }}'>
+            <span class='{{ .Name }}' /></a>
+      {{ end }}
+      </div>
+      <h4><a href="mailto:alifmuryp@gmail.com" rel='nofollow' class='btn' target='_blank' title='Gmail'>Contact Me!<span class='gmail' /></a></h4>
+    </div>
+  </div>

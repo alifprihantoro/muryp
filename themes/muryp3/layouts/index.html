@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html>
+<head itemscope itemtype="{{ .Site.BaseURL }}">
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1" />
+
+  {{ partial "main/head.html" . }}
+</head>
+<body class="none">
+  {{ partial "main/topNav/main.html" . }}
+  {{ partial "home/bagianAtas.html" . }}
+  <div class="main">
+    {{ partial "home/skill.html" . }}
+    {{ partial "home/readmore.html" . }}
+    {{ partial "main/contact.html" . }}
+  </div>
+  {{ partial "main/footer.html" . }}
+  {{ partial "main/share.html" .}}
+  {{ partial "main/myjs.html" .}}
+</body>
+</html>

@@ -201,3 +201,15 @@ linkedin :
 ## update 23 january
 saya kedepannya ingin membuat single page aplication. Tapi setelah membaca dan mempelajari sedikit ternya saya tidak akan menggunakan sebagai blog. Karena ternyata tidak SEO. Meskipun aku sekarang tak terlalu memperhatikannya. Mungkin aku akan buat dua, yang satu untuk aplikasi(.apk) yang satu full web. 
 Oh ya, yang pasti single page ini saya buat projek coba-coba nantinya.
+
+## update 24 jan 2021
+untuk single aplikasi nantinya digunakan untuk portofolio. Inspirasi projek showcase WPU Unpas.
+web dibagi 6 bagian : 
+- muryp : catatan, ide, 
+- blog : berisi materi dan informasi 
+- studio : isi gambar, video(jika ada)
+- app : berisi aplikasi dan info tema yang sudah di buat. mirip download tema pada umumnya, link menuju projek.
+- portofolio : single page, simple,
+- LMS : nantinya berisi urutan Materi 
+
+Untuk masalah tema gunakan yang beta dulu. untuk masalah logo, pakek typography dulu aja. Untuk masalah warna, samain aja. oh ya di muryp.my.id dibuat seperti link menuju beberapa blog/bukan artikel. (readmorenya diganti).

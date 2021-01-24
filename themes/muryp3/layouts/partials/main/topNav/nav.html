@@ -1,0 +1,90 @@
+<nav class="nav">
+  <input type="checkbox" id="checkbox_toggle">
+  <label id="navbar" for="checkbox_toggle">
+    <span></span>
+    <span></span>
+    <span></span>
+  </label>
+  <div class="navku mynav mynav2">
+    <div class="cardInfo">
+      <a href="{{.Site.Params.Img}}"> <img src="{{.Site.Params.Thumb}}" alt="{{.Site.Params.Description}}"></a>
+      <div class="container">
+        <h4><b>{{.Site.Params.Author}}</b></h4>
+        <p>
+          {{.Site.Params.Kataku | safeHTML}}
+        </p>
+        {{ if not .IsHome }}
+        <div class='sosmednav'>
+          {{ range .Site.Menus.sosmed.Sort.ByWeight }}
+          <a href='{{ .URL }}' rel='nofollow' target='_blank' title='{{ .Name }}'>
+            <span class='{{ .Name }}' /></a>
+          {{ end }}
+        </div>
+        {{end}}
+      </div>
+    </div>
+    <ul>
+      {{ range .Site.Menus.main.Sort.ByWeight }}
+      <li>
+        <a href="{{ .URL }}">{{ .Name }}</a>
+      </li>
+      {{ end }}
+    </ul>
+    <input type="checkbox" id="nav1" />
+    <label for="nav1">Contact Me
+    </label>
+    <div class="mynav">
+      <div class='sosmednav'>
+        <h2>For bussines Contact :</h2>
+        {{ range .Site.Menus.contact.Sort.ByWeight }}
+        <a href='{{ .URL }}' rel='nofollow' target='_blank' title='{{ .Name }}'>
+          <span class='{{ .Name }}' /></a>
+        {{ end }}
+        <h2>Ask me on:</h2>
+        {{ range .Site.Menus.ask.Sort.ByWeight }}
+        <a href='{{ .URL }}' rel='nofollow' target='_blank' title='{{ .Name }}'>
+          <span class='{{ .Name }}' /></a>
+        {{ end }}
+      </div>
+    </div>
+    <input type="checkbox" id="nav3" />
+    <label for="nav3">Laman
+    </label>
+    <div class="mynav dropdown">
+      {{ with .Site.GetPage "/laman" }}
+      {{ range .Paginator.Pages}}
+      <a href="{{.Permalink}}">{{.Name}}</a>
+      {{ end }}
+      {{ end }}
+    </div>
+    <input type="checkbox" id="nav4" />
+    <label for="nav4">Kategori Blog
+    </label>
+    <div class="mynav dropdown">
+      {{ range $name, $taxonomy := .Site.Taxonomies.tags }}
+      <a href="/tags/{{$name}}">
+        <b>{{ .Count }}</b>{{.Page.Title }} </a>
+      {{ end }}
+    </div>
+    <input type="checkbox" id="nav5" />
+    <label for="nav5">Kategori Ide
+    </label>
+    <div class="mynav dropdown">
+      {{ range $name, $taxonomy := .Site.Taxonomies.ide }}
+      <a href="/ide/{{$name}}">
+        <b>{{ .Count }}</b>{{.Page.Title }} </a>
+      {{ end }}
+    </div>
+    <input type="checkbox" id="nav6" />
+    <label for="nav6">Kategori Catatan
+    </label>
+    <div class="mynav dropdown">
+      {{ range $name, $taxonomy := .Site.Taxonomies.catatan }}
+      <div>
+        <a href="/catatan/{{$name}}"><b>{{ .Count }}</b> {{.Page.Title}} </a>
+      </div>
+      {{ end }}
+    </div>
+    <div style="margin:50vh"></div>
+  </div>
+</nav>

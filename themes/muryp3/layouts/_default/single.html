@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html>
+<head itemscope itemtype="{{ .Site.BaseURL }}">
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1" />
+  {{ partial "main/head.html" . }}
+</head>
+<body>
+  {{ partial "main/topNav/main.html" . }}
+  {{ partial "post/header.html" . }}
+  {{ if eq .Section "laman" }}
+  {{else}}
+  {{ partial "post/breadcrumb.html" . }}
+  {{end}}
+  <div class="responsive">
+    <div class="mainPostingan">
+      <hr />
+      <div style="overflow:hidden;" class="post-content post-body">
+        {{ .Content | safeHTML }}
+        {{ partial "post/footer.html" . }}
+      </div>
+    </div>
+    {{ partial "post/disqus.html" . }}
+    <div class="sidebar">
+      {{ partial "post/related.html" . }}
+      {{ partial "main/contact.html" . }}
+    </div>
+  </div>
+  {{ partial "main/footer.html" . }}
+  {{ partial "main/share.html" .}}
+  {{ partial "main/myjs.html" . }}
+</body>
+</html>

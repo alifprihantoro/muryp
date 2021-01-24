@@ -1,0 +1,551 @@
+{{ $rumah := .Site.Params }}
+{{ $warna := $rumah.color }}
+{{ $warna2 := $rumah.warna2 }}
+{{ $nav1 := $rumah.nav1 }}
+{{ $bayangan := $rumah.bayangan }}
+{{ $muda := $rumah.muda }}
+<style type="text/css" media="all">
+  /* ======== reset ========= */
+  html {
+    box-sizing: border-box
+  }
+  *,::after,::before {
+    box-sizing: inherit;
+    max-width: 100%!important;
+    margin: 0;
+    padding: 0;
+    font-weight: 500
+  }
+@-ms-viewport {
+    width:device-width
+  }
+  article,aside,dialog,figcaption,figure,footer,header,hgroup,main,nav,section {
+    display: block
+  }
+  body {
+    font-family: sans-serif;
+    font-size: 1rem;
+    font-weight: 100;
+    line-height: 1.5;
+    color: {{ $warna }};
+    background-color: {{ $rumah.bgbody }}
+  }
+  blockquote cite {
+    font-size: 70%;
+    opacity: .8;
+  }
+  blockquote em {
+    font-weight: 600;
+  }
+  h1, h2, h3, h4, h5, h6 {
+    font-weight: 500;
+    line-height: 1.3em;
+    margin: 30px 0 20px 0;
+  }
+  h1 {
+    font-size: 200%
+  }
+  h2 {
+    font-size: 180%
+  }
+  h3 {
+    font-size: 160%
+  }
+  h4 {
+    font-size: 140%
+  }
+  h5 {
+    font-size: 120%
+  }
+  h6 {
+    font-size: 100%
+  }
+  p {
+    margin-top: 0;
+    margin-bottom: 1rem
+  }
+
+  pre {
+    overflow: auto
+  }
+
+  a,a:hover {
+    text-decoration: none;
+    font-weight: 700;
+    overflow: hidden;
+    color: {{$warna2}}
+  }
+
+  b,strong {
+    font-weight:bold;
+    {{ $rumah.tebal }}
+  }
+
+  blockquote {
+    background-color: {{$muda}};
+    padding: 15px;
+    margin: 5px;
+    border-left: 5px solid {{$warna2}};
+    color: #fff;
+    font-weight: 500;
+    text-align: left
+  }
+
+  .disqus,.main,.mainPostingan {
+    max-width: 720px!important
+  }
+  /* ========= Header ========== */
+  .header {
+    padding: 20px 0;
+    width: 100%;
+    position: relative;
+    top: 0;
+    height: 18px;
+    z-index: 5;
+    background-color: {{$nav1}};
+    height: 50px;
+  }
+  .header a {
+    position: absolute;
+    top: 10px;
+    left: 10px;
+    font-weight: bold;
+    font-size: 1em;
+    z-index: 9999;
+  }
+  /* ========= Navigasi ======== */
+  .nav input[type=checkbox] {
+    display: none
+  }
+  #darkBtn svg {
+    fill: #fff !important;
+  }
+  #navbar {
+    box-sizing: border-box;
+    display: inline-block;
+    width: 50px;
+    padding: 10px;
+    height: 50px;
+    cursor: pointer;
+    user-select: none;
+    flex-direction: column;
+    justify-content: space-evenly;
+    display: flex;
+    position: fixed;
+    z-index: 100;
+    right: 15px;
+    bottom: 15px;
+    background: {{$nav1}};
+    border-radius: 15px;
+  }
+  .navku {
+    position: fixed;
+    list-style: none;
+    text-align: right;
+    width: 100%;
+    z-index: 99;
+    max-width: 0!important;
+    overflow: scroll !important;
+    top: 0;
+    height: 100vh;
+    background: rgb(235,235,235);
+    transition: 1s;
+    opacity: 0;
+    right: 0;
+    font-weight: bold;
+    text-shadow: 2px 2px 5px {{$bayangan}};
+  }
+  div.navku li {
+    list-style: none;
+    cursor: pointer;
+    padding: 15px;
+  }
+  div.navku li a {
+    display: block;
+    width: 90%;
+    height: 20px;
+    color: {{$nav1}};
+    font-weight: bold;
+  }
+  div.navku li:hover {
+    background-color: {{$rumah.bgbody}};
+    color: {{$warna}};
+  }
+  .nav label span {
+    display: inherit;
+    width: 30px;
+    height: 0;
+    border-top: 5px solid #fff;
+    transition: .5s;
+    margin: 0 auto
+  }
+  .nav label span:nth-child(2) {
+    transform-origin: 0 0
+  }
+  .nav label span:nth-child(3) {
+    transform-origin: 0 0
+  }
+  .nav input[type=checkbox]:checked ~ #navbar {
+    animation: 4s
+  }
+  .nav input[type=checkbox]:checked ~ div.navku {
+    display: block;
+    max-width: 500px!important;
+    opacity: 1
+  }
+  .nav input[type=checkbox]:checked ~ label span {
+    display: flex;
+    width: 30px;
+    height: 0;
+    border-top: 1px;
+    transition: .5s;
+    margin: -9px 10px auto;
+  }
+  .nav input[type="checkbox"]:checked ~ label span:nth-child(1) {
+    transform: rotate(45deg) translate(5px,23px);
+    color: #fff;
+    border: 3.5px solid
+  }
+  .nav input[type=checkbox]:checked ~ label span:nth-child(2) {
+    transform: scale(0);
+    opacity: 0
+  }
+  .nav input[type="checkbox"]:checked ~ label span:nth-child(3) {
+    transform: rotate(-45deg) translate(-17px,4px);
+    color: #fff;
+    border: 3.5px solid
+  }
+  /*Info*/
+  .cardInfo img {
+    width: 100px;
+    height: 100px;
+    margin-top: 50px;
+  }
+  .cardInfo {
+    margin: auto;
+    text-align: center;
+    border-bottom: 5px solid;
+    color: {{$nav1}};
+  }
+  input[id^="nav"] {
+    display: none;
+  }
+  .iconnav {
+    padding: 10px;
+  }
+  /*unchecked*/
+  .mynav2 input[id^="nav"] + label {
+    display: block;
+    width: 100%;
+    color: {{$nav1}};
+    font-size: 24px;
+    cursor: pointer;
+    transition: all .6s;
+    border-bottom: 5px solid {{$nav1}};
+    margin-top: 10px;
+  }
+  .mynav2 input[id^="nav"] + label::before
+  {
+    content: ".";
+    position: absolute;
+    color: transparent !important;
+    left: 10px;
+    width: 24px;
+    height: 24px;
+    background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='24' height='24' fill='rgb(255,255,255,.5)' viewBox='0 0 24 24'%3E%3Cpath d='M0 12c0 6.627 5.373 12 12 12s12-5.373 12-12-5.373-12-12-12-12 5.373-12 12zm7.58 0l5.988-5.995 1.414 1.416-4.574 4.579 4.574 4.59-1.414 1.416-5.988-6.006z'/%3E%3C/svg%3E");
+    background-position: center;
+    background-repeat: no-repeat;
+    transition-duration: .6s;
+    background-color: {{$nav1}};
+    border-radius: 50%;
+  }
+  /*checked btn*/
+  .mynav2 input[id^="nav"]:checked + label {
+    width: 100%;
+    background: rgba(0,0,0,0.1);
+  }
+  .mynav2 input[id^="nav"]:checked + label::before {
+    transform: rotate(-90deg)
+  }
+  /*isi unchecked*/
+  .mynav2 input[id^="nav"] ~ .mynav {
+    width: 0;
+    height: 0;
+    opacity: 0;
+    transition: .6s;
+    overflow: hidden;
+    text-align: Right;
+  }
+  /*isi checked*/
+  .mynav2 input[id^="nav"]:checked + label + .mynav {
+    height: auto;
+    width: 100%;
+    opacity: 1;
+  }
+  .mynav h2 {
+    padding: 10px;
+    box-shadow: 0 0 5px rgba(0,0,0,.1);
+    color: {{$nav1}};
+  }
+  /* label */
+  .dropdown a {
+    padding: 15px;
+    margin: 15px;
+    border-radius: 5px;
+    box-shadow: 0 0 5px {{$rumah.bgbody}};
+    line-height: 60px;
+  }
+  .dropdown div {
+    display: inline-flex;
+  }
+  /* warna garis label */
+  .dropdown b {
+    margin-right: 2.5px;
+    padding-right: 2.5px;
+    border-right: 1px solid {{$nav1}};
+  }
+  /* ========== SosMed ==========*/
+  .nav .sosmednav {
+    margin: 25px 50px;
+  }
+  div.sosmedmenu,.btn span {
+    display: block;
+    width: 100%;
+    bottom: 0;
+    text-align: center;
+    padding: 10px
+  }
+  div.sosmedmenu a {
+    color: #fff;
+    padding: 10px
+  }
+  .nav span {
+    background-color: {{$nav1}};
+  }
+  /* sosmed */
+  .sosmednav span {
+    width: 50px;
+    height: 50px;
+    background-position: 50%;
+    background-repeat: no-repeat;
+    background-size: 30px;
+    display: inline-block;
+  }
+  .sosmednav span:hover {
+    background-color: {{$warna2}};
+  }
+  a.ohmyheader svg {
+    width: 300px;
+    transform: translate(0,6px);
+  }
+  /* ======== Share ========= */
+  .sosmedplus svg {
+    bottom: 20px;
+    left: 20px;
+  }
+  .pencarian svg {
+    bottom: 70px;
+    right: 15px;
+  }
+  .sosmedplus svg,.pencarian svg {
+    position: fixed;
+    background: {{$nav1}};
+    fill: #fff;
+    border-radius: 50%;
+    padding: 10px;
+    z-index: 9999999;
+    width: 50px
+  }
+  .pencarian svg {
+    background: {{$nav1}};
+  }
+  .sosmedplus svg:hover {
+    background: {{$warna2}};
+    padding: 12px
+  }
+  .pencarianBuka,.dropdownsosmedplus {
+    display: none
+  }
+
+  .pencarian input[type=checkbox]:checked ~ div.pencarianBuka,.sosmedplus input[type=checkbox]:checked ~ div.dropdownsosmedplus {
+    width: 100%!important;
+    display: block;
+    position: fixed;
+    bottom: 70px;
+    left: 0;
+    z-index: 9999999;
+  }
+  .sosmednav span:hover {
+    background-color: {{$warna2}} !important;
+    border-radius: 5px
+  }
+  .pencarianBuka {
+    text-align: right;
+    background: rgb(255,255,255,.8);
+    margin: auto;
+    height: 100vh;
+    bottom: 0!important;
+  }
+  .widget-search {
+    margin: 0;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 80%;
+  }
+  /* ======== Readmore && Related ========= */
+  .content {
+    display: flex;
+    border-radius: 5px;
+    box-shadow: 0 0 5px rgb(0,0,0,.1);
+    margin: 25px auto !important;
+    padding: 15px;
+    width: 80%;
+
+  }
+  div.content:hover {
+    transform: translate(10px,-10px);
+  }
+  .myread {
+    display: grid;
+    width: 100%;
+    grid-template-columns: auto;
+    text-align: left;
+  }
+  .myread a {
+    color: {{$nav1}};
+  }
+  .myread .date {
+    margin-right: 30px;
+    width: 64px;
+    text-align: center;
+  }
+  .myread .date .day {
+    font-weight: 700;
+    line-height: 0.45em;
+    font-size: 3em;
+    display: block;
+    margin: 20px auto;
+  }
+  .myread .date .rest {
+    display: block;
+    font-size: 0.75em;
+  }
+  /* ======== Pagenation ========= */
+  .pagination {
+    list-style: none;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    width: 100%;
+  }
+  .pagination a,.Total {
+    padding: 15px;
+    margin: 15px;
+    background: {{$muda}};
+    max-width: 50%;
+    color: rgb(255,255,255,.8);
+    font-weight: 900;
+  }
+  .pagination a:hover {
+    background: {{$warna2}};
+  }
+  /* ========== Contact ========== */
+  ::placeholder {
+    color: {{$nav1}};
+  }
+:-ms-input-placeholder {
+    color: {{$nav1}};
+  }
+  ::-ms-input-placeholder {
+    color: {{$nav1}};
+  }
+  .Contactb {
+    border-radius: 5px;
+    box-shadow: 0 0 5px rgb(0,0,0,.1);
+    padding-bottom: 100px;
+  }
+  /* form */
+
+  #ContactForm1 {
+    margin: auto;
+    padding: 5px;
+  }
+  #ContactForm1_input {
+    width: 100%
+  }
+  input.widget-search__field,#ContactForm1 input,#ContactForm1 textarea {
+    border: 0;
+    padding: 10px;
+    resize: none;
+    margin: 0 0 10px 10px;
+    border: 1px solid {{$nav1}};
+    background-color: transparent;
+  }
+  #ContactForm1 input,#ContactForm1 textarea {
+    width: 85%;
+  }
+  #ContactForm1 textarea {
+    height: 150px;
+  }
+  input.widget-search__submit,#ContactForm1 button {
+    background-color: {{$warna2}}  !important;
+    padding: 10px!important;
+    color: #fff;
+    font-weight: bold;
+    text-transform: uppercase;
+    border: transparent;
+  }
+  #ContactForm1 button {
+    width: 80%;
+  }
+  #ContactForm1 button:hover {
+    border-radius: 5px;
+    background: {{$nav1}} !important;
+  }
+  /* ========== Footer ========== */
+
+  #footer {
+    background: {{$nav1}};
+    padding: 50px 10px;
+    color: #fff;
+    text-align: center;
+    margin-top: 20px;
+    box-shadow: 0 -8px 15px rgba(0,0,0,.1);
+    border-radius: 5px 5px 0 0;
+  }
+  .credit a {
+    color: #fff;
+    padding: 10px 10px;
+    line-height: 35px;
+  }
+  #darkBtn {
+    position: absolute;
+    top: 15px;
+    right: 5px;
+  }
+@media only screen and (min-width:720px) {
+    .BagianAtas {
+      text-align: left !important;
+      display: flex;
+      flex-direction: column;
+      justify-content: space-evenly;
+      align-items: left;
+      margin: auto;
+    }
+    #navbar {
+      top: 0;
+      right: 0;
+    }
+    header {
+      text-align: right;
+    }
+    #darkBtn {
+      right: 60px !important;
+    }
+  }
+  .content:hover {
+    transform: translate(15px,-15px) !important;
+  }
+</style>
