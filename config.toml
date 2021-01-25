@@ -32,7 +32,7 @@ canonifyURLs = true
   github = "https://github.com/alifmuryp"
   gitlab = "https://gitlab.com/muryp"
   facebook = "https://facebook.com/alifmuryp"
-  og_image = "/images/noimg.png"
+  og_image = "https://muryp.gitlab.io/image/noimg.png"
   sitename = "MuryP Beta"
   twitter = "@alifmuryp"
     # Site Author
@@ -56,6 +56,9 @@ canonifyURLs = true
     
     # Font 
     font1 = "sans-serif"
+    #hosting
+    hostingImg = "https://muryp.gitlab.io/image/muryp"
+    hosting = "https://muryp.gitlab.io/image"
 
 pygmentsUseClasses=true
 

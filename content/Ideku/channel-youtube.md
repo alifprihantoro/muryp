@@ -20,7 +20,6 @@ description: "membuat channel youtube dan konten video di sosmed"
 keywords: "membuat channel youtube dan konten video di sosmed" 
 --- 
 # ingin mencoba membuat video
-
 saya rencananya juga ingin buat channel youtube dan video di mana aja seputar webdev di android. kalo yang lain, takut nanti salah, soalnya bukan bidangnya. Yang bidangnya aja bisa juga salah apalagi yang bukan. loh kok malah kayak curhat sih. oke lanjut, rencananya saya akan buat beberapa kategori :
 - tutorial
 - materi
