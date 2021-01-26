@@ -9,11 +9,11 @@
     <div class="cardInfo">
       <a href="{{.Site.Params.Img}}"> <img src="{{.Site.Params.Thumb}}" alt="{{.Site.Params.Description}}"></a>
       <div class="container">
-        <h4><b>{{.Site.Params.Author}}</b></h4>
+        <h4><a href="{{.Site.Params.urlAuthors}}">{{.Site.Params.Author}}</a></h4>
         <p>
           {{.Site.Params.Kataku | safeHTML}}
         </p>
-        {{ if not .IsHome }}
+        {{ if .IsHome }}
         <div class='sosmednav'>
           {{ range .Site.Menus.sosmed.Sort.ByWeight }}
           <a href='{{ .URL }}' rel='nofollow' target='_blank' title='{{ .Name }}'>
