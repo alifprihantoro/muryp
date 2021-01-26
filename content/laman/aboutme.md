@@ -1,5 +1,5 @@
 ---
-title: "MuryP - "
+title: "Mengenai Penulis"
 slug: author
 date: 2021-01-07T04:31:27Z
 draft: false

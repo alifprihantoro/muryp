@@ -32,17 +32,18 @@ canonifyURLs = true
   github = "https://github.com/alifmuryp"
   gitlab = "https://gitlab.com/muryp"
   facebook = "https://facebook.com/alifmuryp"
-  og_image = "https://muryp.gitlab.io/image/noimg.png"
   sitename = "MuryP Beta"
   twitter = "@alifmuryp"
+  og_image = "https://muryp.gitlab.io/image/noimg.png"
+  host = "https://muryp.gitlab.io/image"
+  img = "https://muryp.gitlab.io/image/authors/muryp.png"
+  thumb = "https://muryp.gitlab.io/image/authors/muryp.min.png"
+  icon = "https://muryp.gitlab.io/image/muryp/favicon.ico"
+  bagianAtas = "https://muryp.gitlab.io/image/bg.png"
     # Site Author
     author = "MuryP"
     # Description/subtitle for homepage
     description = "MuryP, MuryP Beta, Internet, Technology, hardware, Operating Sistem, Software, Jaringan Komunikasi, JarKom, TIK, Ringkasan, Alief Prihantoro, Alif MuryP, Buku, Ebook,My Project Drawing/Desain,UI/UX,front end,Blogging, SEO,catatan"
-    noimg = "/img/authors/muryp.png"
-    thumb = "/img/authors/muryp.min.png"
-    icon = "/img/favicon.ico"
-    bagianAtas = "/img/bg.png"
     # Color
     color = "#333" # warna bassic
     tebal = "color:#000;" #bold
@@ -56,9 +57,8 @@ canonifyURLs = true
     
     # Font 
     font1 = "sans-serif"
-    #hosting
-    hostingImg = "https://muryp.gitlab.io/image/muryp"
-    hosting = "https://muryp.gitlab.io/image"
+    
+    
 
 pygmentsUseClasses=true
 

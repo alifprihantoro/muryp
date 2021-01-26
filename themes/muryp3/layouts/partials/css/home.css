@@ -83,8 +83,7 @@
     font-weight: bold;
     font-family: Serif !important;
   }
-
-@media only screen and (min-width:720px) {
-    .myread {
-      grid-template-columns: auto auto
-    }}
+  .nameSite {
+    font-size: 40px;
+    font-weight: bold;
+  }

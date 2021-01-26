@@ -5,7 +5,7 @@
           {{ with $.Site.GetPage $path }}
           <div class="authorBottom">
             <div class="imgAuthor">
-              <a href="/img{{ $path }}.png">	<img src="/img{{ $path }}.min.png" alt="Profil {{ $path }}" class="author"></a>
+              <a href="{{ .Site.Params.host}}{{ $path }}.png">	<img src="{{ .Site.Params.host}}{{ $path }}.min.png" alt="Profil {{ $path }}" class="author"></a>
             </div>
             <div class="infoBottom">
               <h1><a href="{{ .Permalink }}" name="InfoMuryPFooter">{{ .Params.name }}</a></h1>
