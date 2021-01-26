@@ -1,7 +1,7 @@
 baseurl = "https://muryp.my.id/"
-title = "MuryP Studio"
+title = "MuryP Beta"
 theme = "muryp3"
-disqusShortname = "studio"
+disqusShortname = "muryp"
 
 [outputs]
     home = ["HTML", "RSS", "JSON"]
