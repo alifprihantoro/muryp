@@ -213,3 +213,15 @@ web dibagi 6 bagian :
 - LMS : nantinya berisi urutan Materi 
 
 Untuk masalah tema gunakan yang beta dulu. untuk masalah logo, pakek typography dulu aja. Untuk masalah warna, samain aja. oh ya di muryp.my.id dibuat seperti link menuju beberapa blog/bukan artikel. (readmorenya diganti).
+
+## update 29 jan 
+karena ada sedikit masalah di js. Saya putuskan untuk belajar javascript dasar dahulu. Terutama yang modern. Saya sekarang hanya mampu memahami saja, belum sepenuhnya benar-benar bisa menulis syntax sendiri. Untuk itu, aku akan kejar konten mengenai hugo untuk diselesaikan minggu ini, sembari belajar javascript dan mencatatnya sesau kegunaan apa nantinya dengan label. nanti ditulis disini saja. (ralat, ditulis terpisah aja di code.muryp.my.id : gak usah mikirin them, sama juga gak apa-apa)
+untuk MurypStudio ditangguhkan sampai bulan maret. Fokus ke konten. Baru setelah benar-benar memahami javascript buat MurypStudio dengan single page aja. soalnya cuman gambar dan tidak terlalu harus seo. 
+dan deadline bulan depan 
+minggu pertama : hugo harus selesai 
+minggu kedua : js dasar harus selesai sambil membenarkan hugo.
+minggu ketiga : js lanjutan harus diselesai 
+minggu keempat : menyelesaikan yang bolong
+
+febuari
+minggu pertama : menyelesaikan min. 1 tema yaitu muryp studio

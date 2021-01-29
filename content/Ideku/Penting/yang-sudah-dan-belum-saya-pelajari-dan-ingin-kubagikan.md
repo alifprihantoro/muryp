@@ -155,5 +155,11 @@ sibgle page vs multi page
 vue js vs react js vs node js vs angular 
 sistem autentifikasi google
 
+https://dewankomputer.com/2019/04/06/membuat-autocomplete-live-search-dari-file-json-dengan-jquery/
+
+https://www.dumetschool.com/blog/membuat-live-search-data-dengan-jquery
+
+https://www.w3schools.com/howto/tryit.asp?filename=tryhow_js_filter_list (yang digunakan)
+
 =========== UI
 https://medium.com/paperpillar/tentang-ukuran-pada-desain-ui-bagian-1-b15a1edabdce
