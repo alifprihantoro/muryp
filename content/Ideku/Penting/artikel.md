@@ -1,6 +1,6 @@
 ---
-title: "Hal Yang Sudah Dan Belum Saya Pelajari Dan Ingin Kubagikan"
-slug: hal-yang-sudah-dan-belum-saya-pelajari-dan-ingin-kubagikan
+title: "Ide artikel dan sumber dari apa yang kuketahui"
+slug: ide-artikel-dan-sumbernya
 date: 2021-01-19T03:19:35Z
 draft: false 
 authors:
@@ -17,8 +17,8 @@ ide:
 image: "img/none.png" 
 thumbnail : "thumb/none.png" 
  
-description: "daftar apa saja yang ingin ku ucatat kedepannya" 
-keywords: "daftar apa saja yang ingin ku ucatat kedepannya" 
+description: "Daftar sumber belajar saya saat saya menemukan bug, yang akan digunakan untuk ide untuk artikel berikutnya" 
+keywords: "Daftar sumber belajar saya saat saya menemukan bug, yang akan digunakan untuk ide untuk artikel berikutnya" 
 --- 
 
 > catatan ini adalah catatan dulu, sehingga masih acak-acakan

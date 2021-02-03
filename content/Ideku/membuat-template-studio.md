@@ -1,5 +1,5 @@
 ---
-title: "Membuat Template Studio"
+title: "Cara Saya Membuat Template Studio"
 slug: membuat-template-studio
 date: 2021-01-22T01:34:25Z
 draft: false 
@@ -19,6 +19,8 @@ thumbnail : "thumb/none.png"
 description: "Langakah saya membuat tema dari nol sampai jadi" 
 keywords: "Langakah saya membuat tema dari nol sampai jadi" 
 --- 
+> Mungkin akan di update kapan saja
+
 Hello World!
 Saya MuryP dari Indonesia. Saya sekarang sedang fokus di Front End. Saya sedang mencoba salah satu framework yaitu hugo. Kali ini saya sedang ingin membuat template untuk tempat menampung karya gambar, seperti desain, microblog, dan kayra seni digital lainnya.
 

@@ -1,5 +1,5 @@
 ---
-title: "Menggunakan Pinterest"
+title: "Ide Menggunakan Pinterest"
 slug: menggunakan-pinterest
 date: 2021-01-19T04:17:23Z
 draft: false 
