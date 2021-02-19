@@ -9,8 +9,8 @@ disqusShortname = "muryp"
 [taxonomies]
   ide = "ide"
   tag = "tags"
-  catatan = "catatan"
   author = "authors"
+  projek = "projek"
 
 [permalinks]
   blog = "/:slug/"
