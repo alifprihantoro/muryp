@@ -14,6 +14,7 @@ type: pages
 description: "Kumpulan channel youtube yabg saya subscribe (belum semua)" 
 keywords: "Kumpulan channel youtube yabg saya subscribe (belum semua)" 
 --- 
+> list ini akan terus ditambahkan seiring waktu
 
 ## Tech
 - [sekilas IT](https://youtube.com/c/SekilasIT)
