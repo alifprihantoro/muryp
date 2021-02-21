@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>web on MuryP Beta</title>
+    <link>https://muryp.my.id/ide/web/</link>
+    <description>Recent content in web on MuryP Beta</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <lastBuildDate>Tue, 19 Jan 2021 03:19:35 +0000</lastBuildDate><atom:link href="https://muryp.my.id/ide/web/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Ide artikel dan sumber dari apa yang kuketahui</title>
+      <link>https://muryp.my.id/ideku/penting/ide-artikel-dan-sumbernya/</link>
+      <pubDate>Tue, 19 Jan 2021 03:19:35 +0000</pubDate>
+      
+      <guid>https://muryp.my.id/ideku/penting/ide-artikel-dan-sumbernya/</guid>
+      <description>catatan ini adalah catatan dulu, sehingga masih acak-acakan
+ Editor web (tulisan/dokumentasi)(js)
+Ini adalah Daftar postingan yang akan datang dan history apa saja yabg telah kupelajari yang kemungkinan akan berguna lagi Framework = vue.js, angular, jquery Wiki github Codepen.io Web static github (skyll) Lambang javascript /unicode Refaktor Membuat checklist(save browser &amp;ndash;&amp;gt; text) Slide tpi htnl css js Arsitektur Risk-cv Seputar HUGO : Membuat sort code hugo (div, span,) Link tab (https only, selain domain.</description>
+    </item>
+    
+  </channel>
+</rss>

@@ -161,5 +161,7 @@ https://www.dumetschool.com/blog/membuat-live-search-data-dengan-jquery
 
 https://www.w3schools.com/howto/tryit.asp?filename=tryhow_js_filter_list (yang digunakan)
 
+https://kodify.net/hugo/count/print-pages-amount/
+
 =========== UI
 https://medium.com/paperpillar/tentang-ukuran-pada-desain-ui-bagian-1-b15a1edabdce

@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Idekus on MuryP Beta</title>
+    <link>https://muryp.my.id/ideku/</link>
+    <description>Recent content in Idekus on MuryP Beta</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <lastBuildDate>Fri, 22 Jan 2021 01:34:25 +0000</lastBuildDate><atom:link href="https://muryp.my.id/ideku/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Cara Saya Membuat Template Studio</title>
+      <link>https://muryp.my.id/ideku/membuat-template-studio/</link>
+      <pubDate>Fri, 22 Jan 2021 01:34:25 +0000</pubDate>
+      
+      <guid>https://muryp.my.id/ideku/membuat-template-studio/</guid>
+      <description>Mungkin akan di update kapan saja
+ Hello World! Saya MuryP dari Indonesia. Saya sekarang sedang fokus di Front End. Saya sedang mencoba salah satu framework yaitu hugo. Kali ini saya sedang ingin membuat template untuk tempat menampung karya gambar, seperti desain, microblog, dan kayra seni digital lainnya.
+Lah&amp;hellip; pas nulis ini saya malah jadi berubah pikiran mengenai penggunaan template. Tapi gak jadi&amp;hellip; hehehe&amp;hellip;
+dah lah lanjut. Kali ini saya mau membuat template mirip sosial media.</description>
+    </item>
+    
+    <item>
+      <title>Ide Menggunakan Pinterest</title>
+      <link>https://muryp.my.id/ideku/menggunakan-pinterest/</link>
+      <pubDate>Tue, 19 Jan 2021 04:17:23 +0000</pubDate>
+      
+      <guid>https://muryp.my.id/ideku/menggunakan-pinterest/</guid>
+      <description>dengan video ini saya mendapat ide mengingatkan ide dulu. Aku emg sering nyari design lewat google dan melupakan sosmed yang khusus membahas mengenai design. aku ingin membuat kategori akun sendiri. agar algoritma tidak berantakan dan kalau menggunakan
+youtube : pribadi, arts/design/budaya, ekonomi/politik, hiburan, IT/
+ig/tw : arts/design/budaya, ekonomi/politik, hiburan
+behance : ui/ux
+devianarts : arts
+pinterest : campuran</description>
+    </item>
+    
+    <item>
+      <title>Ide artikel dan sumber dari apa yang kuketahui</title>
+      <link>https://muryp.my.id/ideku/penting/ide-artikel-dan-sumbernya/</link>
+      <pubDate>Tue, 19 Jan 2021 03:19:35 +0000</pubDate>
+      
+      <guid>https://muryp.my.id/ideku/penting/ide-artikel-dan-sumbernya/</guid>
+      <description>catatan ini adalah catatan dulu, sehingga masih acak-acakan
+ Editor web (tulisan/dokumentasi)(js)
+Ini adalah Daftar postingan yang akan datang dan history apa saja yabg telah kupelajari yang kemungkinan akan berguna lagi Framework = vue.js, angular, jquery Wiki github Codepen.io Web static github (skyll) Lambang javascript /unicode Refaktor Membuat checklist(save browser &amp;ndash;&amp;gt; text) Slide tpi htnl css js Arsitektur Risk-cv Seputar HUGO : Membuat sort code hugo (div, span,) Link tab (https only, selain domain.</description>
+    </item>
+    
+  </channel>
+</rss>

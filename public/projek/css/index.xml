@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>CSS on MuryP Beta</title>
+    <link>https://muryp.my.id/projek/css/</link>
+    <description>Recent content in CSS on MuryP Beta</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <lastBuildDate>Tue, 16 Feb 2021 11:59:31 +0000</lastBuildDate><atom:link href="https://muryp.my.id/projek/css/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Projek Javascript Sederhana Part 1</title>
+      <link>https://muryp.my.id/projek/projek-javascript-sederhana-part-1/</link>
+      <pubDate>Tue, 16 Feb 2021 11:59:31 +0000</pubDate>
+      
+      <guid>https://muryp.my.id/projek/projek-javascript-sederhana-part-1/</guid>
+      <description>Hello world! Disini saya akan membuat sebuah playlist baru yaitu projek sederhana, yang memanfaatkan Javascript modern. Yang tentunya pasti diikuti dengan HTMl dan CSS. Projek ini memang pernah dibuat orang lain, perbedaannya terletak pada bahaskemungkinan struktur HTML, CSS, dan penambahan/pengurangan/perubahan pada kode yang sudah ada.
+Projek Javascript Sederhana Part 1 Cara Membuat Kalkulator sederhana untuk menghitung tip Buat HTML dasar dulu Buat fungsi javascriptnya dulu, pastikan sudah berfungsi dengqn baik Jika sudah tambahkan CSS untuk mempercantik Menurutmu Apakah projek kali ini sudah pernah kalian kerjakan?</description>
+    </item>
+    
+  </channel>
+</rss>
