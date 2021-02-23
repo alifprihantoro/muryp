@@ -32,7 +32,8 @@ keywords: "Daftar tools online gratis"
 - https://www.freewebsubmission.com/page-speed.html
 - https://gtmetrix.com
 - https://smallseotools.com/plagiarism-checker/
-- http://plagiarism.checker.ink
+- http://plagiarism.checker.ink 
+- 1.text.com
 
 
 ## Optimasi
@@ -47,3 +48,9 @@ keywords: "Daftar tools online gratis"
 - https://coolors.co/
 - https://colorhunt.co/
 - https://www.canva.com/colors/color-palettes/
+
+
+## Ingin dicoba 
+- https://trello.com/ (untuk management team work schedule)
+- https://slack.com/ (seperti discord tapi lebih spesifik)
+- https://www.postman.com/ (API)

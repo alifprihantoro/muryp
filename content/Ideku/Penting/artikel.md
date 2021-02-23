@@ -163,5 +163,7 @@ https://www.w3schools.com/howto/tryit.asp?filename=tryhow_js_filter_list (yang d
 
 https://kodify.net/hugo/count/print-pages-amount/
 
+https://skillcrush.com/blog/front-end-web-development-tools/#environments
+
 =========== UI
 https://medium.com/paperpillar/tentang-ukuran-pada-desain-ui-bagian-1-b15a1edabdce
