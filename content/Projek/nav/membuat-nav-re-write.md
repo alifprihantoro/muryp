@@ -21,13 +21,13 @@ Projek:
 description: "Bagaiamana saya membuat navigasi untuk blog saya?" 
 keywords: "Bagaiamana saya membuat navigasi untuk blog saya?" 
 --- 
+assalamualaikum warahmatullahi wabarakatuh 
 
-Hello world!
-Disini saya akan membuat sebuah playlist baru yaitu projek sederhana, yang memanfaatkan Javascript modern. Yang tentunya pasti diikuti dengan HTMl dan CSS. Projek ini memang pernah dibuat orang lain, perbedaannya terletak pada bahaskemungkinan struktur HTML, CSS, dan penambahan/pengurangan/perubahan pada kode yang sudah ada.
+Hai saya Alief Prihantoro, panggil saja muryp. Saya saat ini sedang mendalami mengenai front end. Pada artikel kali ini, saya akan memaparkan hasil projek kecil saya berupa navigasi yang responsive. Karena akan sangat panjang jika dijadikan satu, maka saya akan pecah menjadi kurang lebih 3 bagian. 
 
 # Projek Javascript Sederhana Part 1 
 
-## Cara Membuat Jam Analog sederhana
+## Cara Membuat Navigasi responsive
 
 ### Buat HTML dasar dulu
 ```html
@@ -35,13 +35,19 @@ Disini saya akan membuat sebuah playlist baru yaitu projek sederhana, yang meman
 <html>
   <head>
     <meta http-equiv="content-type" content="text/html; charset=utf-8" />
-    <title>Membuat Jam Analog Sederhana</title>
+    <title>Membuat Navigasi Responsive</title>
   </head>
   <body>
     
   </body>
 </html>
 ```
+### Tambahkan reset css terlebih dahulu
+```html 
+
+```
+
+
 
 ## Keterangan Penggunaan Konsep dan logika
 
