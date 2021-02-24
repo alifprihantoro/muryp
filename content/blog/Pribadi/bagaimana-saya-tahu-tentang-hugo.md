@@ -30,3 +30,14 @@ Bagaimana saya tahu mengenai Hugo? saya tahu pertama kali saat saya mencoba ingi
 
 Dan waktu itu saya sangat senang sekaligus menjadi bersemangat lagi untuk coding. Dan channel yang memperkenalkan hugo kepada saya ialah **sekolah koding**. Bisa dibilang channel itulah yang membuat saya menggunakan hugo dan setelah mencari tutorial di google, saya menemukan website petani kode. Ternyata Petani kode sudah menggunakan sejak lama. Untuk dasar-dasar saya belajar dari sekolah koding sedangkan untuk yang lebih advance saya belajar di petani kode dan beberapa website yang tidak bisa saya sebutkan karena lupa, soalnya bahasa inggris. Dan karena saat itu saya tidak pernah mencatat sumber belajar saya sehingga saya kehilangan satu tutorial yang beguna tapi saya tidak menyimpan link dan file-nya sudah kehapus. Yang dimana saya belum akrab dengan git.
 
+Entah sampai kapan saya akan menggunakan Hugo ini. Tapi yang pasti di masa yang akan mendatang kemungkinan saya akan membuat framework sendiri setidaknya untuk masalah file json. Eh json ini rencananya ingin saya buat untuk menggantikan database soalnya blog saya gak terlalu dinamis dan terkesan lebih aman kalau pakai SSG. Untuk versi web kemungkinan tidak mengguanakan json kalaupun pakai tidak usah repot-repot membangun API. Untuk bahasanya sendiri kemungkinan menggunakan js. Dan penggunaan sesungguhnya untuk aplikasi offline.
+
+Untuk penggunaan hugo sendiri menurutku sangat mudah dan praktis. Tak perlu ribet urus database segala macam. Dan untuk menangani hal-hal yang bersifat dinamis seperti komentar bisa menggunakan disqus.
+
+
+> oh ya mungkin saya akan memperbarui cerita ini, untuk pemberitahuan bisa follow media soaial saya.
+
+Oh mungkin segini dulu cerita singkat dari saya, gak tahu harus cerita apa lagi. semoga kedepannya lebih baik dan bagus lagi. terimakasih bagi yang membaca ini, 
+
+
+assalamualaikum warahmatullahi wabarakatuh
