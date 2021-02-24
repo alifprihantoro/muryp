@@ -46,5 +46,4 @@ Oh ya, saya baru ingat. Sepertinya saya pernah nulis mengenai cerita ini untuk v
 
 Oh mungkin segini dulu cerita singkat dari saya, semoga kedepannya lebih baik dan bagus lagi. terimakasih bagi yang membaca ini, 
 
-
-assalamualaikum warahmatullahi wabarakatuh
+Wassalamualaikum Warahmatullahi wabarakatuh
