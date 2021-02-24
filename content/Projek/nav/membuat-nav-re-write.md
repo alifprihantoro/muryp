@@ -44,9 +44,19 @@ Hai saya Alief Prihantoro, panggil saja muryp. Saya saat ini sedang mendalami me
 ```
 ### Tambahkan reset css terlebih dahulu
 ```html 
-
+<style type="text/css" media="all">
+  *{
+    margin: 0;
+    padding: 0;
+    max-width: 100vw!important;
+  }
+  body{
+    min-height: 100vh;
+  }
+  
+</style>
 ```
-
+### 
 
 
 ## Keterangan Penggunaan Konsep dan logika
