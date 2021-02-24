@@ -33,7 +33,8 @@ keywords: "Daftar tools online gratis"
 - https://gtmetrix.com
 - https://smallseotools.com/plagiarism-checker/
 - http://plagiarism.checker.ink 
-- 1.text.com
+- 1.text.com 
+- https://ipsaya.com/meta-tags.php
 
 
 ## Optimasi

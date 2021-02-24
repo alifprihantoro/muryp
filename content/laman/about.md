@@ -2,7 +2,7 @@
 title: "Tentang Saya"
 slug: about
 date: 2017-12-17T19:50:57+08:00
-draft: true
+draft: false
 
 type: page
 
