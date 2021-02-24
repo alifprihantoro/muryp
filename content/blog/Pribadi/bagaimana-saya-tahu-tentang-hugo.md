@@ -1,0 +1,32 @@
+---
+title: "Bagaimana Saya Tahu Tentang Hugo"
+slug: bagaimana-saya-tahu-tentang-hugo
+date: 2021-02-24T04:53:37Z
+draft: false 
+authors:
+ - MuryP
+show_comments: true 
+ 
+type: pages 
+ 
+tags: 
+- Journey
+
+
+ 
+ 
+ 
+description: "Perjalanan saya menemukan framework hugo." 
+keywords: "Perjalanan saya menemukan framework hugo." 
+--- 
+
+
+assalamualaikum warahmatullahi wabarakatuh
+
+
+Hai, Perkenalkan nama saya **Alief Prihantoro**. Dimana saya memutuskan untuk membut nama pena **Alif MuryP**. Dimana saya hanya menambahkan Mury ditengahnya saja. Untuk penyingkatan biasanya saya hanya menggunakan **muryp** saja. Kali ini saya akan menceritakan sealigus menyimpan cerita, karena ini masih berlangsung di kehidupan saya. Atau bisa dubilang mirip seperti diary namun hanya berpusat pada perkembangan mengenai skill, pengetahuan, kemampuan dan hal lainnya yang berkaitan dengan apa yang saya geluti saat ini dan nantinya.Hal ini saya lakukan untuk mengetahui kesalahan saya dimasa lalu dan memperbaikinya. 
+
+Bagaimana saya tahu mengenai Hugo? saya tahu pertama kali saat saya mencoba ingin membuat blog dari github. Dan saat itu saya sudah tahu mengenai hugo tapi belum terlalu menyadarinya. Karena saya menganggap tak sepowerfull ini. Dan setelah mencoba karena sudah nyerah untuk membuat framework sendiri.
+
+Dan waktu itu saya sangat senang sekaligus menjadi bersemangat lagi untuk coding. Dan channel yang memperkenalkan hugo kepada saya ialah **sekolah koding**. Bisa dibilang channel itulah yang membuat saya menggunakan hugo dan setelah mencari tutorial di google, saya menemukan website petani kode. Ternyata Petani kode sudah menggunakan sejak lama. Untuk dasar-dasar saya belajar dari sekolah koding sedangkan untuk yang lebih advance saya belajar di petani kode dan beberapa website yang tidak bisa saya sebutkan karena lupa, soalnya bahasa inggris. Dan karena saat itu saya tidak pernah mencatat sumber belajar saya sehingga saya kehilangan satu tutorial yang beguna tapi saya tidak menyimpan link dan file-nya sudah kehapus. Yang dimana saya belum akrab dengan git.
+
