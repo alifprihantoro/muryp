@@ -4,7 +4,7 @@ theme = "muryp3"
 disqusShortname = "muryp"
 
 [outputs]
-    home = ["HTML", "RSS", "JSON", "css"]
+    home = ["HTML", "RSS", "JSON"]
 
 [taxonomies]
   ide = "ide"

@@ -39,5 +39,4 @@ pengalaman pribadi saya, saya menggunakan keyboard ketika menulis konten saja. S
 
 Oh mungkin segini dulu cerita singkat dari saya, gak tahu harus cerita apa lagi. semoga kedepannya lebih baik dan bagus lagi. terimakasih bagi yang membaca ini, 
 
-
-assalamualaikum warahmatullahi wabarakatuh
+Wassalamualaikum Warahmatullahi wabarakatuh
