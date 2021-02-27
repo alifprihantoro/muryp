@@ -530,6 +530,25 @@
     top: 15px;
     right: 5px;
   }
+  .content:hover {
+    transform: translate(15px,-15px) !important;
+  }
+  /* ==========  lazy load   ========== */
+#container {
+  font-size: 20px;
+  line-height: 30px;
+  max-width: 600px;
+}
+#bg-image.lazy {
+   background-image: none;
+   background-color: #F1F1FA;
+}
+/*#bg-image {
+  background-image: url("https://ik.imagekit.io/demo/img/image10.jpeg?tr=w-600,h-400");
+  max-width: 600px;
+  height: 400px;
+}*/
+  /* ==========  responsive  ========== */
 @media only screen and (min-width:720px) {
     .BagianAtas {
       text-align: left !important;
@@ -552,7 +571,4 @@
         .myread {
       grid-template-columns: auto auto
         }
-  }
-  .content:hover {
-    transform: translate(15px,-15px) !important;
   }

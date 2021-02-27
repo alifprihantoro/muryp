@@ -21,6 +21,9 @@ keywords: "Beberapa tempat untuk belajar gratis"
 web :
 https://roadmap.sh/
 https://www.petanikode.com/
+freecodecamp
+The odin Projek
+mem.dev
 
 security :
-https://lms.onnocenter.or.id/wiki/index.php/Halaman_Utama
+https://lms.onnocenter.or.id/wiki/index.php/Halaman_Utama 

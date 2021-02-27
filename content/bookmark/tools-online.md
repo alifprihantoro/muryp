@@ -54,4 +54,7 @@ keywords: "Daftar tools online gratis"
 ## Ingin dicoba 
 - https://trello.com/ (untuk management team work schedule)
 - https://slack.com/ (seperti discord tapi lebih spesifik)
-- https://www.postman.com/ (API)
+- https://www.postman.com/ (API) 
+- emailjs.com 
+- caniuse.com 
+- 

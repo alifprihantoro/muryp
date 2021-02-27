@@ -20,7 +20,10 @@ keywords: "Beberapa tempat penyedia aset gratis"
 
 Icon
 https://iconmonstr.com/
-http://endlessicons.com
+http://endlessicons.com 
+flaticon.com 
+
+
 Font
 https://www.dafont.com/
 https://fonts.google.com/
@@ -33,6 +36,7 @@ https://unsplash.com/
 https://icons8.com/photos
 https://pixabay.com
 https://undraw.co/illustrations
+pexels.com
 Mockup+Design
 https://www.mockupworld.co(Mockup)
 https://freedesignresources.net (design)
