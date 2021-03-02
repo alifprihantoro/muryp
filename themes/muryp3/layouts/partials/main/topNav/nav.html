@@ -1,11 +1,12 @@
-<nav class="nav">
+<!--nav-->
+<nav class="nav humberger">
   <input type="checkbox" id="checkbox_toggle">
   <label id="navbar" for="checkbox_toggle">
     <span></span>
     <span></span>
     <span></span>
   </label>
-  <div class="navku mynav mynav2">
+  <div class="navku">
     <div class="cardInfo">
       <a href="{{.Site.Params.Img}}"> <img src="{{.Site.Params.Thumb}}" alt="{{.Site.Params.Description}}"></a>
       <div class="container">
@@ -30,11 +31,10 @@
       </li>
       {{ end }}
     </ul>
-    <input type="checkbox" id="nav1" />
-    <label for="nav1">Contact Me
-    </label>
-    <div class="mynav">
-      <div class='sosmednav'>
+    <div class="myArrow spoiler">
+      <input type="checkbox" id="contactNav">
+      <label for="contactNav">Contact Me</label>
+      <div class=contentSpoiler>
         <h2>For bussines Contact :</h2>
         {{ range .Site.Menus.contact.Sort.ByWeight }}
         <a href='{{ .URL }}' rel='nofollow' target='_blank' title='{{ .Name }}'>
@@ -47,44 +47,16 @@
         {{ end }}
       </div>
     </div>
-    <input type="checkbox" id="nav3" />
-    <label for="nav3">Laman
-    </label>
-    <div class="mynav dropdown">
-      {{ with .Site.GetPage "/laman" }}
-      {{ range .Paginator.Pages}}
-      <a href="{{.Permalink}}">{{.Name}}</a>
-      {{ end }}
-      {{ end }}
-    </div>
-    <input type="checkbox" id="nav4" />
-    <label for="nav4">Kategori Blog
-    </label>
-    <div class="mynav dropdown">
-      {{ range $name, $taxonomy := .Site.Taxonomies.tags }}
-      <a href="/tags/{{$name}}">
-        <b>{{ .Count }}</b>{{.Page.Title }} </a>
-      {{ end }}
-    </div>
-    <input type="checkbox" id="nav5" />
-    <label for="nav5">Kategori Ide
-    </label>
-    <div class="mynav dropdown">
-      {{ range $name, $taxonomy := .Site.Taxonomies.ide }}
-      <a href="/ide/{{$name}}">
-        <b>{{ .Count }}</b>{{.Page.Title }} </a>
-      {{ end }}
-    </div>
-    <input type="checkbox" id="nav6" />
-    <label for="nav6">Kategori Catatan
-    </label>
-    <div class="mynav dropdown">
-      {{ range $name, $taxonomy := .Site.Taxonomies.catatan }}
-      <div>
-        <a href="/catatan/{{$name}}"><b>{{ .Count }}</b> {{.Page.Title}} </a>
+    <div class="myArrow spoiler">
+      <input type="checkbox" id="lamanNav">
+      <label for="lamanNav">Laman</label>
+      <div class=contentSpoiler>
+        {{ with .Site.GetPage "/laman" }}
+        {{ range .Paginator.Pages}}
+        <a href="{{.Permalink}}">{{.Name}}</a>
+        {{ end }}
+        {{ end }}
       </div>
-      {{ end }}
     </div>
-    <div style="margin:50vh"></div>
   </div>
 </nav>
