@@ -1,62 +1,20 @@
-<!--nav-->
-<nav class="nav humberger">
-  <input type="checkbox" id="checkbox_toggle">
-  <label id="navbar" for="checkbox_toggle">
-    <span></span>
-    <span></span>
-    <span></span>
-  </label>
-  <div class="navku">
-    <div class="cardInfo">
-      <a href="{{.Site.Params.Img}}"> <img src="{{.Site.Params.Thumb}}" alt="{{.Site.Params.Description}}"></a>
-      <div class="container">
-        <h4><a href="{{.Site.Params.urlAuthors}}">{{.Site.Params.Author}}</a></h4>
-        <p>
-          {{.Site.Params.Kataku | safeHTML}}
-        </p>
-        {{ if .IsHome }}
-        <div class='sosmednav'>
-          {{ range .Site.Menus.sosmed.Sort.ByWeight }}
-          <a href='{{ .URL }}' rel='nofollow' target='_blank' title='{{ .Name }}'>
-            <span class='{{ .Name }}' /></a>
-          {{ end }}
+<div class="navTerbang">
+  <div class="nav">
+    <input type="checkbox" id="nav">
+    <label class="navBtn" for="nav">
+      <span></span>
+      <span></span>
+      <span></span>
+    </label>
+    <div class=kontenNav>
+      Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eius, magnam, illum nam itaque sint dolorem possimus debitis quam facere non laboriosam. Quidem beatae illum libero eaque, similique a quas nulla!
+      <div class="spoiler myArrow">
+        <input type="checkbox" id="listBar">
+        <label for="listBar">How much?</label>
+        <div class=spoilerKonten>
+          Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nulla consectetur repudiandae tenetur alias ipsum odio quis, natus suscipit earum incidunt aspernatur dignissimos qui distinctio mollitia modi, fugit id sint facere.
         </div>
-        {{end}}
-      </div>
-    </div>
-    <ul>
-      {{ range .Site.Menus.main.Sort.ByWeight }}
-      <li>
-        <a href="{{ .URL }}">{{ .Name }}</a>
-      </li>
-      {{ end }}
-    </ul>
-    <div class="myArrow spoiler">
-      <input type="checkbox" id="contactNav">
-      <label for="contactNav">Contact Me</label>
-      <div class=contentSpoiler>
-        <h2>For bussines Contact :</h2>
-        {{ range .Site.Menus.contact.Sort.ByWeight }}
-        <a href='{{ .URL }}' rel='nofollow' target='_blank' title='{{ .Name }}'>
-          <span class='{{ .Name }}' /></a>
-        {{ end }}
-        <h2>Ask me on:</h2>
-        {{ range .Site.Menus.ask.Sort.ByWeight }}
-        <a href='{{ .URL }}' rel='nofollow' target='_blank' title='{{ .Name }}'>
-          <span class='{{ .Name }}' /></a>
-        {{ end }}
-      </div>
-    </div>
-    <div class="myArrow spoiler">
-      <input type="checkbox" id="lamanNav">
-      <label for="lamanNav">Laman</label>
-      <div class=contentSpoiler>
-        {{ with .Site.GetPage "/laman" }}
-        {{ range .Paginator.Pages}}
-        <a href="{{.Permalink}}">{{.Name}}</a>
-        {{ end }}
-        {{ end }}
       </div>
     </div>
   </div>
-</nav>
+</div>

@@ -116,355 +116,167 @@
     fill: #fff !important;
   }
 
-  /*Info*/
-  .cardInfo img {
-    width: 100px;
-    height: 100px;
-    margin-top: 50px;
-  }
-  .cardInfo {
-    margin: auto;
-    text-align: center;
-    border-bottom: 5px solid;
-    color: {{$nav1}};
-  }
-
-  .mynav h2 {
-    padding: 10px;
-    box-shadow: 0 0 5px rgba(0,0,0,.1);
-    color: {{$nav1}};
-  }
-  /* label */
-  .dropdown a {
-    padding: 15px;
-    margin: 15px;
-    border-radius: 5px;
-    box-shadow: 0 0 5px {{$rumah.bgbody}};
-    line-height: 60px;
-  }
-  .dropdown div {
-    display: inline-flex;
-  }
-  /* warna garis label */
-  .dropdown b {
-    margin-right: 2.5px;
-    padding-right: 2.5px;
-    border-right: 1px solid {{$nav1}};
-  }
-    /*=======scroll========*/
-/* width */
-::-webkit-scrollbar {
-  width: 5px;
+input[type="checkbox"] {
+  /*spoiler global*/
+  padding: 5px;
+  opacity: 0;
 }
-
-/* Track */
-::-webkit-scrollbar-track {
-  background: rgb(0,0,0,.2);
+.spoiler label {
+  /* btn spoiler*/
+  cursor: pointer;
+  position: relative;
+  display: block;
+  border-top: 1px solid red;
+  border-bottom: 1px solid red;
+  text-align: right;
+  padding: 8px 19px 8px 15px;
+  width: 90%;
 }
-
-/* Handle */
-::-webkit-scrollbar-thumb {
+.shareTerbang label {
+  /*btn share reset btn spoiler*/
+  border: 0;
+  width: 50px!important;
+  height: 50px;
+}
+/*isi konten spoiler*/
+#nav[type="checkbox"]:checked ~  .kontenNav {
+  /*setelah di klick*/
+  opacity: 100%;
+  transform: translate(0,0);
+  position: fixed;
+  bottom: 0;
+  left: 0;
+}
+.kontenNav,.spoilerKonten {
+  /*reset daleman central*/
+  background: green;
+  overflow: hidden;
+  transition: all .6s;
+}
+.kontenNav {
+  /*reset daleman spoiler navigasi*/
+  width: 100vw!important;
+  height: 100vh;
+  transform: translate(999px,0);
+  overflow: scroll;
+  margin: 0;
+}
+.spoilerKonten {
+  /*reset daleman spoiler global*/
+  opacity: 0;
+  width: 100vw;
+  padding: 0;
+  height: 0;
+}
+.spoiler input[type="checkbox"]:checked ~  .spoilerKonten {
+  /*setelah di klick*/
+  opacity: 100%;
+  padding: 15px 0;
+  height: auto;
+}
+/* Melayang */
+.navTerbang,.shareTerbang {
+  position: fixed;
+  bottom: 0;
+  width: 50px;
+}
+.navTerbang {
+  z-index: 11;
+  right: 0;
+}
+.shareTerbang {
+  left: 0;
+  z-index: 10;
+}
+/* Tombol Nav & Spoiler*/
+i.iconShare {
+  background-size: 30px;
+  width: 50px;
+  min-height: 50px;
+  background-position: center;
+  background-repeat: no-repeat;
+  position: absolute;
+  left: 15px;
+  background-color: red;
+  border-radius: 15px;
+  bottom: 15px;
+  background-image: url("data:image/svg+xml, %3Csvg fill='white' viewBox='0 0 24 24' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath d='M5 7c2.761 0 5 2.239 5 5s-2.239 5-5 5-5-2.239-5-5 2.239-5 5-5zm11.122 12.065c-.073.301-.122.611-.122.935 0 2.209 1.791 4 4 4s4-1.791 4-4-1.791-4-4-4c-1.165 0-2.204.506-2.935 1.301l-5.488-2.927c-.23.636-.549 1.229-.943 1.764l5.488 2.927zm7.878-15.065c0-2.209-1.791-4-4-4s-4 1.791-4 4c0 .324.049.634.122.935l-5.488 2.927c.395.535.713 1.127.943 1.764l5.488-2.927c.731.795 1.77 1.301 2.935 1.301 2.209 0 4-1.791 4-4z' /%3E%3C/svg%3E");
+}
+/*Anak Panah (Arrow)*/
+.myArrow label::before {
+  /*sebelum checked*/
+  content: "";
+  position: absolute;
+  width: 0;
+  height: 0;
+  top: 50%;
+  left: 10px;
+  /*menambah anak panah*/
+  border-left: 8px solid red;
+  border-top: 8px solid transparent;
+  border-bottom: 8px solid transparent;
+  margin-top: -8px;
+  transition: all .5s;
+  width: 0;
+}
+.myArrow input[type="checkbox"]:checked ~ label::before {
+  /*setelah checked*/
+  transform: rotate(90deg) translate(5px,-13px);
+}
+/* humberger */
+.navBtn {
+  /*btn nav humberger*/
+  box-sizing: border-box;
+  width: 50px;
+  padding: 10px;
+  height: 50px;
+  cursor: pointer;
+  user-select: none;
+  flex-direction: column;
+  justify-content: space-evenly;
+  display: flex;
+  position: absolute;
+  border-radius: 15px;
+  z-index: 9;
+  bottom: 15px;
+  right: 15px;
   background: red;
 }
-
-/* Handle on hover */
-::-webkit-scrollbar-thumb:hover {
-  background: darkred;
+.navBtn span {
+  display: inherit;
+  width: 30px;
+  height: 0;
+  border-top: 5px solid #fff;
+  transition: .5s;
+  margin: 0 auto
 }
-    /*=======central nav========*/
-    .centralNav {
-      background: green;
-      color: #fff;
-      text-align: center;
-      width: 100vw;
-      padding: 15px 0 ;
-    }
-    /*=======navigation & spoiler========*/
-    /* icon */
-    .navicon {
-      background-size: 30px;
-      width: 50px;
-      min-height: 50px;
-      background-position: center;
-      background-repeat: no-repeat;
-      position: fixed;
-      left: 15px;
-      background-color: red;
-      border-radius: 15px;
-      transition: all .5s;
-      z-index: 5!important;
-    }
-    #mySearch i {
-      background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' fill='white' viewBox='0 0 24 24'%3E%3Cpath d='M23.111 20.058l-4.977-4.977c.965-1.52 1.523-3.322 1.523-5.251 0-5.42-4.409-9.83-9.829-9.83-5.42 0-9.828 4.41-9.828 9.83s4.408 9.83 9.829 9.83c1.834 0 3.552-.505 5.022-1.383l5.021 5.021c2.144 2.141 5.384-1.096 3.239-3.24zm-20.064-10.228c0-3.739 3.043-6.782 6.782-6.782s6.782 3.042 6.782 6.782-3.043 6.782-6.782 6.782-6.782-3.043-6.782-6.782zm2.01-1.764c1.984-4.599 8.664-4.066 9.922.749-2.534-2.974-6.993-3.294-9.922-.749z'/%3E%3C/svg%3E");
-      bottom: 15px;
-    }
-    #myShare i {
-      bottom: 70px;
-      background-image: url("data:image/svg+xml, %3Csvg fill='white' viewBox='0 0 24 24' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath d='M5 7c2.761 0 5 2.239 5 5s-2.239 5-5 5-5-2.239-5-5 2.239-5 5-5zm11.122 12.065c-.073.301-.122.611-.122.935 0 2.209 1.791 4 4 4s4-1.791 4-4-1.791-4-4-4c-1.165 0-2.204.506-2.935 1.301l-5.488-2.927c-.23.636-.549 1.229-.943 1.764l5.488 2.927zm7.878-15.065c0-2.209-1.791-4-4-4s-4 1.791-4 4c0 .324.049.634.122.935l-5.488 2.927c.395.535.713 1.127.943 1.764l5.488-2.927c.731.795 1.77 1.301 2.935 1.301 2.209 0 4-1.791 4-4z' /%3E%3C/svg%3E");
-    }
-    /*Anak Panah (Arrow)*/
-    .myArrow label::before {
-      /*sebelum checked*/
-      content: "";
-      position: absolute;
-      width: 0;
-      height: 0;
-      top: 50%;
-      left: 10px;
-      /*menambah anak panah*/
-      border-left: 8px solid red;
-      border-top: 8px solid transparent;
-      border-bottom: 8px solid transparent;
-      margin-top: -8px;
-      transition: all .5s;
-    }
-    .myArrow input[type="checkbox"]:checked ~ label::before {
-      /*setelah checked*/
-      transform: rotate(90deg) translate(5px,-13px);
-    }
-    /* humberger */
-.humberger label {
-  max-width: 50px;
+.navBtn span:nth-child(2),.navBtn span:nth-child(3) {
+  transform-origin: 0 0
 }
-.humberger label span {
-      display: inherit;
-      width: 30px;
-      height: 0;
-      border-top: 5px solid #fff;
-      transition: .5s;
-      margin: 0 auto
-    }
-    .humberger label span:nth-child(2) {
-      transform-origin: 0 0
-    }
-    .humberger label span:nth-child(3) {
-      transform-origin: 0 0
-    }
-    
-    /* Button Navigation sebelum checked*/
-    #navbar,#searchBtn,#shareBtn {
-      box-sizing: border-box;
-      width: 50px;
-      padding: 10px;
-      height: 50px;
-      cursor: pointer;
-      user-select: none;
-      flex-direction: column;
-      justify-content: space-evenly;
-      display: flex;
-      position: fixed;
-      z-index: 6;
-      border-radius: 15px;
-    }
-    #navbar {
-      z-index: 9;
-      bottom: 15px;
-      right: 15px;
-      background: red;
-    }
-#searchBtn span,#shareBtn span {
-      transform: translate(-99px,0);
-    }
-    #searchBtn {
-      left: 15px;
-      bottom: 15px;
-    }
-    #shareBtn {
-      left: 15px;
-      bottom: 70px;
-    }
-    
-    /* setelah checked btn*/
-    .humberger input[type="checkbox"]:checked ~ .navicon {
-      width: 0!important;
-      min-height: 0 !important;
-    }
-    /*humberger checked btn*/
-    .humberger input[type=checkbox]:checked ~ label span {
-      display: flex;
-      width: 30px;
-      height: 0;
-      border-top: 1px;
-      transition: .5s;
-      margin: -9px 10px auto;
-      opacity: 100%;
-    }
-    .humberger input[type="checkbox"]:checked ~ label span:nth-child(1) {
-      transform: rotate(45deg) translate(5px,23px)!important;
-      color: #fff;
-      border: 3.5px solid;
-    }
-    .humberger input[type=checkbox]:checked ~ label span:nth-child(2) {
-      transform: scale(0)!important;
-      opacity: 0
-    }
-    .humberger input[type="checkbox"]:checked ~ label span:nth-child(3) {
-      transform: rotate(-45deg) translate(-17px,4px) !important;
-      color: #fff;
-      border: 3.5px solid;
-    }
-
-/*global navigasi*/
-    input[type="checkbox"] {
-      position: absolute;
-      top: 0;
-      left: 0;
-      height: 100%;
-      opacity: 0;
-    }
-    /*spoiler global*/
-    .spoiler input[type="checkbox"] {
-      position: relative;
-      z-index: 8;
-      display: block;
-      padding: 15px;
-      opacity: 0;
-    }
-    .spoiler label {
-      /* btn spoiler */
-      cursor: pointer;
-      position: relative;
-      z-index: 8;
-      display: block;
-      border-top: 1px solid red;
-      border-bottom: 1px solid red;
-      text-align: right;
-      padding: 8px 19px 8px 15px;
-      width: 90% ;
-    }
-
-    /* Navigation slide (bagian dalam navigation) */
-    .navku {
-      position: fixed;
-      list-style: none;
-      text-align: right;
-      width: 100%!important;
-      z-index: 8;
-      max-width: 0!important;
-      overflow: scroll !important;
-      top: 0;
-      height: 100vh;
-      background: rgb(235,235,235);
-      transition: 1s;
-      opacity: 0;
-      right: 0;
-      font-weight: bold;
-      text-shadow: 2px 2px 5px #00000033;
-    }
-    .nav input[type=checkbox]:checked ~ #navbar {
-      animation: 4s
-    }
-    .nav input[type=checkbox]:checked ~ div.navku {
-      display: block;
-      max-width: 500px!important;
-      opacity: 1
-    }
-    /* navigation list */
-    li {
-      list-style: none;
-      cursor: pointer;
-      padding: 15px;
-    }
-    li a {
-      display: block;
-      width: 90%;
-      height: 20px;
-      color: #00008bcc;
-      font-weight: bold;
-      color: red;
-    }
-    li:hover {
-      background-color: red;
-      color: #333;
-      opacity: 100%!important;
-    }
-    /*isi konten Spoiler*/
-    #mySearch .contentSpoiler,#myShare .contentSpoiler {
-      width: 100%;
-      position: fixed;
-      bottom: 50%;
-      z-index: 9!important
-    }
-    .contentSpoiler {
-      /*reset daleman*/
-      height: 0;
-      opacity: 0;
-      background: red;
-      overflow: hidden;
-      transition: all .6s;
-
-    }
-    .spoiler input[type="checkbox"]:checked ~  .contentSpoiler {
-      /*setelah di klick*/
-      opacity: 100%;
-      padding: 30px;
-      height: auto;
-    }
-  {{if ne .RelPermalink "/search/"}}
-  .pencarian svg {
-    bottom: 20px;
-    left: 20px;
-  }
-    .widget-search {
-    margin: 0;
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-    width: 80%;
-    text-align: center;
-  }
-  /* ======== Share & search btn ========= */
-  .sosmedplus svg {
-    bottom: 80px;
-    left: 20px;
-  }
-  .sosmedplus svg:hover {
-    background: {{$warna2}};
-    padding: 12px
-  }
-  .sosmednav span:hover {
-    background-color: {{$warna2}} !important;
-    border-radius: 5px
-  }
-  .pencarianBuka {
-    text-align: right;
-    background: rgb(255,255,255,.8);
-    margin: auto;
-    height: 100vh;
-    bottom: 0!important;
-  }
-  {{end}}
-  /* ========== SosMed ==========*/
-  .nav .sosmednav {
-    margin: 25px 50px;
-  }
-  div.sosmedmenu,.btn span {
-    display: block;
-    width: 100%;
-    bottom: 0;
-    text-align: center;
-    padding: 10px
-  }
-  div.sosmedmenu a {
-    color: #fff;
-    padding: 10px
-  }
-  .nav span {
-    background-color: {{$nav1}};
-  }
-  /* sosmed */
-  .sosmednav span {
-    width: 50px;
-    height: 50px;
-    background-position: 50%;
-    background-repeat: no-repeat;
-    background-size: 30px;
-    display: inline-block;
-  }
-  .sosmednav span:hover {
-    background-color: {{$warna2}};
-  }
+/*humberger checked btn*/
+#nav[type=checkbox]:checked ~ .navBtn span {
+  display: flex;
+  width: 30px;
+  height: 0;
+  border-top: 1px;
+  transition: .5s;
+  margin: -9px 10px auto;
+  opacity: 100%;
+}
+#nav[type="checkbox"]:checked ~ .navBtn span:nth-child(1) {
+  transform: rotate(45deg) translate(5px,23px)!important;
+  color: #fff;
+  border: 3.5px solid;
+}
+#nav[type=checkbox]:checked ~ .navBtn span:nth-child(2) {
+  transform: scale(0)!important;
+  opacity: 0
+}
+#nav[type="checkbox"]:checked ~ .navBtn span:nth-child(3) {
+  transform: rotate(-45deg) translate(-17px,4px) !important;
+  color: #fff;
+  border: 3.5px solid;
+}
   a.ohmyheader svg {
     width: 300px;
     transform: translate(0,6px);
