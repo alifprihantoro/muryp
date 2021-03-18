@@ -86,7 +86,7 @@ margin-right: 15px;
   .main {
     max-width: 720px!important;
     text-align: center;
-    margin: auto
+    margin: auto;
   }
   .main h1, .h1myskill, h1.Contact {
   padding: 5px;
@@ -101,3 +101,6 @@ margin-right: 15px;
     font-size: 40px;
     font-weight: bold;
   }
+.readBg{/*bg readmore*/
+  background: rgb(0,0,0,.03);
+}

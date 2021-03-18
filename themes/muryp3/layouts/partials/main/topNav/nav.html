@@ -54,6 +54,7 @@
           Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nulla consectetur repudiandae tenetur alias ipsum odio quis, natus suscipit earum incidunt aspernatur dignissimos qui distinctio mollitia modi, fugit id sint facere.
         </div>
       </div>
+    {{ partial "main/list.html" . }}
 {{ $related := .Site.RegularPages.Related . | first 99 }}
 {{ with $related }}
 <h1 class="Contact">See Also</h1>

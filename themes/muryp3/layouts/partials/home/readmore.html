@@ -1,5 +1,5 @@
-<hr/>
-<h1>Blog Post</h1>
+<div class="readBg">
+<h1>Blog :</h1>
     <div class="myread">
       {{ with .Site.GetPage "/blog" }}
 	{{ range .Paginator.Pages}}
@@ -43,4 +43,4 @@
 {{ end }}
     </div>
       {{ end }}
-<hr/>
+</div>

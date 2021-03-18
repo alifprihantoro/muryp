@@ -187,6 +187,7 @@ input[type="checkbox"] {
   width: 50px;/*panjang*/
 }
 .navTerbang {
+  height: 50px;/*agar tidak menghalangi tombol diatas*/
   z-index: 11;/*tingkatan layer*/
   right: 0;/*jarak samping kiri/mirip seperti text-align:right*/
 }
