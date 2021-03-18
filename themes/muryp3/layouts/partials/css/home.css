@@ -47,23 +47,32 @@
 .infoSkill{
   width: 80%;
 }
+.infoSkill h3{
+  font-size: 1.5rem;
+  color: red;
+  font-weight: none;
+}
+.infoSkill p{
+  font-size: 1rem;
+  color: #000;
+  
+}
 .iconSkill{
   width:20%;
+  margin: auto;
 }
   .left {
 text-align:left;
+margin-left: 15px;
   }
   .right {
 text-align:right;
+margin-right: 15px;
   }
 
-  .myskillcontainer {
-    margin: 0 10px 0 10px
-  }
+
 
   .myskillcontainer svg {
-    min-width: 50px;
-    width: 50px;
     padding: 5px;
     box-shadow: 0 0 10px {{$rumah.bayangan}};
     border-radius: 5px;
