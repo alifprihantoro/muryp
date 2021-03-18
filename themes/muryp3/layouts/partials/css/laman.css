@@ -7,9 +7,7 @@
 .post-body pre {
     background-color: #000;
     /* warna background */
-    border-left: 5px solid {{$warna2}}
-
-;
+    border-left: 5px solid {{$warna2}};
 /* variasi border kiri */
 padding: 0;
 margin: .5em auto;
@@ -72,11 +70,10 @@ span.myIcon::before {
 content: "";
 margin: 12px
 }
-
 .iniCoba {
 min-height: 40vh!important;
-min-width: 100%!important;
-max-width: 100%!important
+min-width: 70%!important;
+max-width: 70%!important
 }
 .headerPostTerbang{
   position: sticky;
@@ -112,7 +109,7 @@ font-weight: 900
 
 header.breadcrumb {
 margin: 25px auto 25px 15px;
-width: 90%!important;
+width: 70%!important;
 text-align: left;
 }
 
@@ -133,13 +130,10 @@ z-index: 2
 .myjudul {
 position: absolute;
 top: 50%;
-left: 50%;
-transform: translate(-50%,-50%);
-background-color: {{$muda}}
-
-
-;
-width: 100%;
+left: 0;
+transform: translate(0,-50%);
+background-color: {{$muda}};
+width: 70%;
 height: 100%;
 display: flex;
 text-align: center;
@@ -248,22 +242,10 @@ text-align: center
 }
 
 @media only screen and (min-width:720px) {
-.responsive {
-display: grid;
-grid-template: 'main sidebar'
-}
-
 .mainPostingan {
-grid-area: main;
-width: 50vw!important
+margin: 0;
+width: 70%;
 }
-
-.sidebar {
-grid-area: sidebar;
-width: 40vw!important;
-text-align: center
-}
-
 .footerTop {
 display: grid;
 width: 100%;
