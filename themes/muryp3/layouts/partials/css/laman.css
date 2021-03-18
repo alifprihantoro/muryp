@@ -79,12 +79,13 @@ max-width: 70%!important
 position: relative;
 text-align: center;
 color: #fff;
+height: 500px;
+max-height: 50vh;
 }
 
 .headerPost img,.myjudul {
 border-radius: 0 0 5px 5px;
 height: 500px;
-
 }
 
 .headerPost img {

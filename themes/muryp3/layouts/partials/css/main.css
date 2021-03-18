@@ -388,6 +388,7 @@ i.iconShare {
     width: 100%;
     grid-template-columns: auto;
     text-align: left;
+    padding: 55px 0;
   }
   .myread a {
     color: {{$nav1}};
@@ -437,6 +438,7 @@ i.iconShare {
     margin-top: 20px;
     box-shadow: 0 -8px 15px rgba(0,0,0,.1);
     border-radius: 5px 5px 0 0;
+    text-align:left
   }
   .credit a {
     color: #fff;
@@ -479,6 +481,9 @@ i.iconShare {
   .nameSite {
     font-size: 35px;
     font-weight: bold;
+  }
+  .listPage p{
+    background:rgb(0,0,0,.1); padding:30px;border-radius:5px;
   }
   /* ==========  responsive  ========== */
 @media only screen and (min-width:720px) {
