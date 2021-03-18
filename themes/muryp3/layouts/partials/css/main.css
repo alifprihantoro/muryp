@@ -308,7 +308,9 @@ i.iconShare {
     
     background-color: transparent;
   }
-  
+  .sosmedhome{
+    text-align: center;
+  }
   .sosmedhome span,.sosmednav span {
     background-color: {{$nav1}};
     width: 50px;
