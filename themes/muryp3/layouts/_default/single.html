@@ -15,12 +15,11 @@
       <div style="overflow:hidden;" class="post-content post-body">
         {{ .Content | safeHTML }}
         {{ partial "post/footer.html" . }}
+      {{ partial "post/related.html" . }}
       </div>
     </div>
-    {{ partial "post/disqus.html" . }}
     <div class="sidebar">
-      {{ partial "post/related.html" . }}
-      {{ partial "main/contact.html" . }}
+      ini sidebar
     </div>
   </div>
   {{ partial "main/footer.html" . }}

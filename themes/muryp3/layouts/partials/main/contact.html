@@ -1,22 +1,14 @@
-    <div id="ContactForm1" class="Contactb">
-      <h1 class="Contact">Get in Touch</h1>
-      <blockquote>
-        Jika punya telegram lebih baik gunakan telegram dulu, nanti seterusnya pakek apa aja bisa. Soalnya jarang cek email.
-      </blockquote>
-      <div class='contactkulah'>
-        <form name="contact" method="POST" data-netlify="true">
-          <p>
-            <input placeholder="Your Name" type="text" name="name" />
-          </p>
-          <p>
-            <input placeholder="yourmail@mail.com" type="email" name="email" />
-          </p>
-          <p>
-            <textarea placeholder="Your message..." name="message"></textarea>
-          </p>
-          <p>
-            <button type="submit">Kirim</button>
-          </p>
-        </form>
-      </div>
-    </div>
+<h1 class="Contact">Get in Touch</h1>
+<blockquote>
+  Jika punya telegram lebih baik gunakan telegram dulu, nanti seterusnya pakek apa aja bisa. Soalnya jarang cek email.
+</blockquote>
+<h2>For bussines Contact :</h2>
+{{ range .Site.Menus.contact.Sort.ByWeight }}
+<a href='{{ .URL }}' rel='nofollow' target='_blank' title='{{ .Name }}'>
+  <span class='{{ .Name }}' /></a>
+{{ end }}
+<h2>Ask me on:</h2>
+{{ range .Site.Menus.ask.Sort.ByWeight }}
+<a href='{{ .URL }}' rel='nofollow' target='_blank' title='{{ .Name }}'>
+  <span class='{{ .Name }}' /></a>
+{{ end }}

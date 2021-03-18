@@ -4,6 +4,8 @@
           {{ partial "post/params.html" . }}
           {{ partial "authors/min.html" . }}
         </footer>
+        <div style="margin:50px"></div>
+    {{ partial "post/disqus.html" . }}
         <div class="nav-post">
           <div class="prev-post">
             {{ if .NextInSection }}
@@ -22,5 +24,4 @@
             {{ end }}
           </div>
         </div>
-        <div style="margin:50px"></div>
         {{ end }}

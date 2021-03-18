@@ -36,8 +36,8 @@ canonifyURLs = true
   twitter = "@alifmuryp"
   og_image = "https://muryp.gitlab.io/image/noimg.png"
   host = "https://muryp.gitlab.io/image"
-  img = "https://muryp.gitlab.io/image/authors/muryp.png"
-  thumb = "https://muryp.gitlab.io/image/authors/muryp.min.png"
+  img = "/img/authors/muryp.png"
+  thumb = "/img/authors/muryp.min.png"
   icon = "https://muryp.gitlab.io/image/muryp/favicon.ico"
   bagianAtas = "https://muryp.gitlab.io/image/bg.png"
     # Site Author

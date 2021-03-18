@@ -7,7 +7,46 @@
       <span></span>
     </label>
     <div class=kontenNav>
-      Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eius, magnam, illum nam itaque sint dolorem possimus debitis quam facere non laboriosam. Quidem beatae illum libero eaque, similique a quas nulla!
+      <div class="headerNav">
+        NAVIGATION
+      </div>
+      <!--memulai image-->
+    <div class="cardAuthor">
+      <a href="{{.Site.Params.Img}}"> <img src="{{.Site.Params.Thumb}}" alt="{{.Site.Params.Description}}"></a>
+      <div class="container">
+        <h4><a href="{{.Site.Params.urlAuthors}}">{{.Site.Params.Author}}</a></h4>
+        <p>
+          {{.Site.Params.Kataku | safeHTML}}
+        </p>
+        
+        {{if ne .RelPermalink "/"}}
+        <div class='sosmednav'>
+          {{ range .Site.Menus.sosmed.Sort.ByWeight }}
+          <a href='{{ .URL }}' rel='nofollow' target='_blank' title='{{ .Name }}'>
+            <span class='{{ .Name }}' /></a>
+          {{ end }}
+        </div>
+          {{ end }}
+      </div>
+    </div>
+      <!--end image-->
+        {{if ne .RelPermalink "/search/"}}
+        <div class="widget-search widget">
+          <form class="widget-search__form" role="search" method="get" action="{{ "search" | absURL }}">
+            <label>
+              <input class="widget-search__field" type="search" placeholder="{{ T "search_placeholder" }}Cari Apa?" value="" name="s" aria-label="{{ T "search_placeholder" }}">
+            </label>
+            <input class="widget-search__submit" type="submit" value="Search">
+          </form>
+        </div>
+        {{end}}
+      <!--start list nav-->
+            {{ range .Site.Menus.main.Sort.ByWeight }}
+      <li>
+        <a href="{{ .URL }}">{{ .Name }}</a>
+      </li>
+      {{ end }}
+      <!--end list nav-->
       <div class="spoiler myArrow">
         <input type="checkbox" id="listBar">
         <label for="listBar">How much?</label>
@@ -15,6 +54,18 @@
           Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nulla consectetur repudiandae tenetur alias ipsum odio quis, natus suscipit earum incidunt aspernatur dignissimos qui distinctio mollitia modi, fugit id sint facere.
         </div>
       </div>
+{{ $related := .Site.RegularPages.Related . | first 99 }}
+{{ with $related }}
+<h1 class="Contact">See Also</h1>
+<div class="related">
+	{{ range . }}
+      <div class="content">
+        <a href="{{ .RelPermalink }}">
+        <div class="readMore"><a href="{{ .RelPermalink }}">{{ .Title }}</a></div>
+      </a></div>
+	{{ end }}
+	</div>
+{{ end }}
     </div>
   </div>
 </div>

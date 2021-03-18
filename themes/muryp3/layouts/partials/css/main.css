@@ -115,7 +115,11 @@
   #darkBtn svg {
     fill: #fff !important;
   }
-
+  a.ohmyheader svg {
+    width: 300px;
+    transform: translate(0,6px);
+  }
+/*=============Bagian Navigasi===============*/
 input[type="checkbox"] {
   /*spoiler global*/
   padding: 5px;
@@ -130,7 +134,7 @@ input[type="checkbox"] {
   border-bottom: 1px solid red;
   text-align: right;
   padding: 8px 19px 8px 15px;
-  width: 90%;
+  width: 100%;
 }
 .shareTerbang label {
   /*btn share reset btn spoiler*/
@@ -145,62 +149,66 @@ input[type="checkbox"] {
   transform: translate(0,0);
   position: fixed;
   bottom: 0;
-  left: 0;
+  right: 0;
+  text-align: right;
 }
 .kontenNav,.spoilerKonten {
   /*reset daleman central*/
-  background: green;
-  overflow: hidden;
-  transition: all .6s;
+  background: rgb(234,234,234);/*warna bg nav&spoiler*/
+  overflow: hidden;/*menghilangkan konten spoiler*/
+  transition: all .6s;/*dursi animasi*/
 }
 .kontenNav {
   /*reset daleman spoiler navigasi*/
-  width: 100vw!important;
-  height: 100vh;
-  transform: translate(999px,0);
-  overflow: scroll;
-  margin: 0;
+  /*width: 100vw!important;*/
+  height: 100vh;/*tinggi konten nav*/
+  transform: translate(999px,0);/*menyembunyikan nav*/
+  overflow: scroll;/*efek scroll*/
+  /*margin: 0;*/
 }
 .spoilerKonten {
   /*reset daleman spoiler global*/
-  opacity: 0;
-  width: 100vw;
-  padding: 0;
-  height: 0;
+  opacity: 0;/*transparansi konten spoiler*/
+  width: 100vw;/*panjang konten spoiler*/
+  padding: 0;/*reset padding awal*/
+  height: 0;/*reset tinggi awal*/
 }
 .spoiler input[type="checkbox"]:checked ~  .spoilerKonten {
-  /*setelah di klick*/
-  opacity: 100%;
-  padding: 15px 0;
-  height: auto;
+  /*menampilkan konten*/
+  opacity: 100%;/*transparasi konten spoiler*/
+  padding: 15px 0;/*padding konten spoiler*/
+  height: auto;/*tinggi konten spoiler*/
 }
 /* Melayang */
 .navTerbang,.shareTerbang {
-  position: fixed;
-  bottom: 0;
-  width: 50px;
+  /*navigasi dan share btn*/
+  position: fixed;/*efek terbang*/
+  bottom: 0;/*jarak dengan bawah*/
+  width: 50px;/*panjang*/
 }
 .navTerbang {
-  z-index: 11;
-  right: 0;
+  z-index: 11;/*tingkatan layer*/
+  right: 0;/*jarak samping kiri/mirip seperti text-align:right*/
 }
 .shareTerbang {
-  left: 0;
-  z-index: 10;
+  z-index: 10;/*tingkatan layer*/
+  left: 0;/*jarak samping kanan/mirip seperti text-align:left*/
 }
 /* Tombol Nav & Spoiler*/
 i.iconShare {
-  background-size: 30px;
-  width: 50px;
-  min-height: 50px;
-  background-position: center;
-  background-repeat: no-repeat;
-  position: absolute;
-  left: 15px;
-  background-color: red;
-  border-radius: 15px;
-  bottom: 15px;
-  background-image: url("data:image/svg+xml, %3Csvg fill='white' viewBox='0 0 24 24' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath d='M5 7c2.761 0 5 2.239 5 5s-2.239 5-5 5-5-2.239-5-5 2.239-5 5-5zm11.122 12.065c-.073.301-.122.611-.122.935 0 2.209 1.791 4 4 4s4-1.791 4-4-1.791-4-4-4c-1.165 0-2.204.506-2.935 1.301l-5.488-2.927c-.23.636-.549 1.229-.943 1.764l5.488 2.927zm7.878-15.065c0-2.209-1.791-4-4-4s-4 1.791-4 4c0 .324.049.634.122.935l-5.488 2.927c.395.535.713 1.127.943 1.764l5.488-2.927c.731.795 1.77 1.301 2.935 1.301 2.209 0 4-1.791 4-4z' /%3E%3C/svg%3E");
+  /*icpn brn share*/
+  background-size: 30px;/*ukuran icon*/
+  width: 50px;/*panjang bg*/
+  min-height: 50px;/*min. tinggi bg*/
+  background-position: center;/*posisi bg*/
+  background-repeat: no-repeat;/*agar tidak mengulang*/
+  position: absolute;/*agar kelihatan*/
+  left: 15px;/*jarak samping kanan/mirip seperti text-align:leftf*/
+  background-color: red;/*warna bg btn*/
+  border-radius: 15px;/*tingkat ketumpulan btn*/
+  bottom: 15px;/*jarak bagian bawah*/
+  background-image: url("data:image/svg+xml, %3Csvg fill='white' viewBox='0 0 24 24' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath d='M5 7c2.761 0 5 2.239 5 5s-2.239 5-5 5-5-2.239-5-5 2.239-5 5-5zm11.122 12.065c-.073.301-.122.611-.122.935 0 2.209 1.791 4 4 4s4-1.791 4-4-1.791-4-4-4c-1.165 0-2.204.506-2.935 1.301l-5.488-2.927c-.23.636-.549 1.229-.943 1.764l5.488 2.927zm7.878-15.065c0-2.209-1.791-4-4-4s-4 1.791-4 4c0 .324.049.634.122.935l-5.488 2.927c.395.535.713 1.127.943 1.764l5.488-2.927c.731.795 1.77 1.301 2.935 1.301 2.209 0 4-1.791 4-4z' /%3E%3C/svg%3E");/*kalian bisa ganti warnanya 
+ pada bagian fill*/
 }
 /*Anak Panah (Arrow)*/
 .myArrow label::before {
@@ -277,9 +285,90 @@ i.iconShare {
   color: #fff;
   border: 3.5px solid;
 }
-  a.ohmyheader svg {
-    width: 300px;
-    transform: translate(0,6px);
+/*====Daleman Navigasi====*/
+.cardAuthor {
+  text-align: center;
+  box-shadow: 5px 10px 15px rgb(0,0,0,.07);
+  padding: 15px 0;
+}
+.headerNav{
+  background-color: red;
+  padding: 15px 0;
+  width:100vw;
+  font-weight: bold;
+  color: #fff;
+  margin-bottom: 70px;
+}
+  /* ========== SosMed ==========*/
+  .nav .sosmednav {
+    margin: 25px 50px;
+  }
+  .shareTerbang .sosmednav{
+    margin-left: 15px;
+    background: blue;
+  }
+  .shareTerbang .sosmednav span{
+    
+    background-color: transparent;
+  }
+  
+  .sosmedhome span,.sosmednav span {
+    background-color: {{$nav1}};
+    width: 50px;
+    height: 50px;
+    background-position: 50%;
+    background-repeat: no-repeat;
+    background-size: 30px;
+    display: inline-block;
+  }
+  .sosmednav span:hover {
+    background-color: {{$warna2}};
+  }
+/*list navigasi*/
+.nav li {
+    list-style: none;
+    cursor: pointer;
+    padding: 15px;
+  }
+.nav li a {
+    display: block;
+    width: 90%;
+    height: 20px;
+    color: {{$nav1}};
+    font-weight: bold;
+  }
+.nav li:hover {
+    background: red;
+  }
+.nav li:hover a {
+    color: #fff;
+  }
+  /* ========== search bar ========== */
+  ::placeholder {
+    color: {{$nav1}};
+  }
+:-ms-input-placeholder {
+    color: {{$nav1}};
+  }
+  ::-ms-input-placeholder {
+    color: {{$nav1}};
+  }
+  input.widget-search__field {
+    border: 0;
+    padding: 10px;
+    resize: none;
+    margin: 15px 0 ;
+    border: 1px solid {{$nav1}};
+    background-color: transparent;
+    width:78%;
+  }
+  input.widget-search__submit {
+    background-color: {{$warna2}}  !important;
+    padding: 10px!important;
+    color: #fff;
+    font-weight: bold;
+    text-transform: uppercase;
+    border: transparent;
   }
   /* ======== Readmore && Related ========= */
   .content {
@@ -337,59 +426,6 @@ i.iconShare {
   }
   .pagination a:hover {
     background: {{$warna2}};
-  }
-  /* ========== Contact ========== */
-  ::placeholder {
-    color: {{$nav1}};
-  }
-:-ms-input-placeholder {
-    color: {{$nav1}};
-  }
-  ::-ms-input-placeholder {
-    color: {{$nav1}};
-  }
-  .Contactb {
-    border-radius: 5px;
-    box-shadow: 0 0 5px rgb(0,0,0,.1);
-    padding-bottom: 100px;
-  }
-  /* form */
-
-  #ContactForm1 {
-    margin: auto;
-    padding: 5px;
-  }
-  #ContactForm1_input {
-    width: 100%
-  }
-  input.widget-search__field,#ContactForm1 input,#ContactForm1 textarea {
-    border: 0;
-    padding: 10px;
-    resize: none;
-    margin: 0 0 10px 10px;
-    border: 1px solid {{$nav1}};
-    background-color: transparent;
-  }
-  #ContactForm1 input,#ContactForm1 textarea {
-    width: 85%;
-  }
-  #ContactForm1 textarea {
-    height: 150px;
-  }
-  input.widget-search__submit,#ContactForm1 button {
-    background-color: {{$warna2}}  !important;
-    padding: 10px!important;
-    color: #fff;
-    font-weight: bold;
-    text-transform: uppercase;
-    border: transparent;
-  }
-  #ContactForm1 button {
-    width: 80%;
-  }
-  #ContactForm1 button:hover {
-    border-radius: 5px;
-    background: {{$nav1}} !important;
   }
   /* ========== Footer ========== */
 
