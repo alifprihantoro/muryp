@@ -11,7 +11,7 @@ type: pages
  
 tags: 
 - Journey
-
+image: /img/authors/muryp.png
 
  
  

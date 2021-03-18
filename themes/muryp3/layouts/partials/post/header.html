@@ -1,4 +1,3 @@
-<div class="headerPostTerbang">
 <div class="headerPost">
   {{ if eq .Params.Image "" }}
   <img src="/svg/noimg.svg" alt='{{ .Title }}' />
@@ -22,4 +21,3 @@
   {{else}}
   {{ partial "post/breadcrumb.html" . }}
   {{end}}
-</div>

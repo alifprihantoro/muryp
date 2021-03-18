@@ -75,36 +75,28 @@ min-height: 40vh!important;
 min-width: 70%!important;
 max-width: 70%!important
 }
-.headerPostTerbang{
-  position: sticky;
-  top: 0;
-  z-index: -99;
-}
-.responsive,.disqus{
-  z-index: 1;
-  background: {{.Site.Params.bgbody}};
-}
 .headerPost {
 position: relative;
 text-align: center;
-color: #fff
+color: #fff;
 }
 
 .headerPost img,.myjudul {
 border-radius: 0 0 5px 5px;
-max-height: 50vh
+height: 500px;
+
 }
 
 .headerPost img {
+max-height: 50vh;
 box-shadow: 0 0 10px #000;
 filter: blur(8px);
--webkit-filter: blur(8px);
-min-height: 50vh;
+-webkit-filter: blur(8px)
 }
 
 .headerPost a {
 color: #fff;
-font-weight: 900
+font-weight: 900;
 }
 
 header.breadcrumb {
@@ -133,7 +125,7 @@ top: 50%;
 left: 0;
 transform: translate(0,-50%);
 background-color: {{$muda}};
-width: 70%;
+width: 100%;
 height: 100%;
 display: flex;
 text-align: center;
@@ -160,18 +152,14 @@ margin-left: 15px!important
 padding: 15px;
 box-shadow: 0 0 10px rgba(0,0,0,.1);
 border-radius: 5px;
-margin: 5px;
-margin: auto;
+margin: 0;
 line-height: 30px;
 }
 
 .mainPostingan hr {
 width: 30%;
 border-color: transparent;
-background-color: {{$nav1}}
-
-
-;
+background-color: {{$nav1}};
 height: 5px;
 border-radius: 5px;
 margin: 25px auto
@@ -242,7 +230,7 @@ text-align: center
 }
 
 @media only screen and (min-width:720px) {
-.mainPostingan {
+.headerPost,.mainPostingan{
 margin: 0;
 width: 70%;
 }
