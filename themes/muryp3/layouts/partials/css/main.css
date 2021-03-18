@@ -87,7 +87,8 @@
     border-left: 5px solid {{$warna2}};
     color: #fff;
     font-weight: 500;
-    text-align: left
+    text-align: left;
+    font-size:.8rem;
   }
   /* ========= Header ========== */
   .header {
@@ -310,6 +311,7 @@ i.iconShare {
   }
   .sosmedhome{
     text-align: center;
+    padding:15px 0;
   }
   .sosmedhome span,.sosmednav span {
     background-color: {{$nav1}};
@@ -509,7 +511,7 @@ i.iconShare {
  .navBtn{
    display: none;
  }
- .main{
+ .main,#footer{
    width: 70%;
  }
   }
