@@ -20,7 +20,6 @@ disqusShortname = "muryp"
 
 languageCode = "id-id"
 DefaultContentLanguage = "id"
-paginate = 10
 
 enableEmoji = true
 enableGitInfo = true

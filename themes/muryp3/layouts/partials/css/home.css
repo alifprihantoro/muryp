@@ -4,6 +4,7 @@
   .BagianAtas {
     background-color:rgba(0,0,0,0.1);
     height: 90vh;
+    max-height: 500px;
     box-shadow: 5px 5px 10px rgba(0,0,0,.1);
     border-radius: 0 0 5px 5px;
     color:{{$rumah.nav1}};
@@ -48,18 +49,19 @@
   width: 80%;
 }
 .infoSkill h3{
-  font-size: 1.5rem;
-  color: red;
+  font-size: 1rem;/*ukuran font judul info skill*/
+  color: darkblue;
   font-weight: none;
 }
 .infoSkill p{
-  font-size: 1rem;
-  color: #000;
-  
+  font-size: .8rem;
+  color: rgb(0,0,0,.8);
 }
 .iconSkill{
   width:20%;
   margin: auto;
+  max-width: 100px!important;
+  max-height: 100px!important;
 }
   .left {
 text-align:left;
@@ -69,37 +71,20 @@ margin-left: 15px;
 text-align:right;
 margin-right: 15px;
   }
-
-
-
   .myskillcontainer svg {
     padding: 5px;
     box-shadow: 0 0 10px {{$rumah.bayangan}};
     border-radius: 5px;
     fill:   {{$muda}};
-    font-size: 50px
+    font-size: 50px;
   }
 
   .myskillcontainer p {
     margin-top: 15px
   }
   .main {
-    max-width: 720px!important;
-    text-align: center;
-    margin: auto;
-  }
-  .main h1, .h1myskill, h1.Contact {
-  padding: 5px;
-  color: {{$warna2}} !important;
-  margin-top: 50px;
-  text-align: center;
-    text-transform: uppercase;
-    font-weight: bold;
-    font-family: Serif !important;
-  }
-  .nameSite {
-    font-size: 40px;
-    font-weight: bold;
+    text-align: left;
+    margin: left;
   }
 .readBg{/*bg readmore*/
   background: rgb(0,0,0,.03);
