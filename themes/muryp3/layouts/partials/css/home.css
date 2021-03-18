@@ -2,11 +2,7 @@
 {{ $warna2 := $rumah.warna2 }}
 {{ $muda := $rumah.muda }}
   .BagianAtas {
-    background-image: url({{$rumah.bagianAtas}});
-    background-color:rgba(211,210,210,0.1);
-    background-size: 100vh;
-    background-position: center;
-    background-repeat: no-repeat;
+    background-color:rgba(0,0,0,0.1);
     height: 90vh;
     box-shadow: 5px 5px 10px rgba(0,0,0,.1);
     border-radius: 0 0 5px 5px;
@@ -44,12 +40,21 @@
   #sosmedh {
     margin: 50px auto
   }
-
-  .myskill {
-    display: inline-flex;
-    align-content: center;
-    align-items: center;
-    margin: auto
+.myskillcontainer{
+  display: flex;
+  align-content: center;
+}
+.infoSkill{
+  width: 80%;
+}
+.iconSkill{
+  width:20%;
+}
+  .left {
+text-align:left;
+  }
+  .right {
+text-align:right;
   }
 
   .myskillcontainer {
