@@ -2,15 +2,16 @@
 .header {
   padding: 25px 0;
   width: 100%;
-  position: relative;
+  position: relative;/*agar btn dark*/
   z-index: 5;
   background-color: #00008bcc;
   height: 50px;
 }
-.header a {
-  position: absolute;
-  top: 10px;
-  left: 10px;
+/*sementara*/
+.header a {/*logo*/
+  position: absolute;/*melayang*/
+  top: 10px;/*jarak atas*/
+  left: 10px;/*jarak bawah*/
   z-index: 99;
 }
 #darkBtn svg {
@@ -20,6 +21,7 @@ a.ohmyheader svg {
   width: 300px;
   transform: translate(0,6px);
 }
+/*sementara end*/
 /*=============Bagian Navigasi===============*/
 input[type="checkbox"] {
   /*spoiler global*/
