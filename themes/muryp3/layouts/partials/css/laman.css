@@ -1,7 +1,7 @@
 .post-body pre {
   background-color: #000;
   /* warna background */
-  border-left: 5px solid #ebebeb;
+  border-left: 5px solid #00008bcc;
   /* variasi border kiri */
   padding: 0;
   margin: .5em auto;
@@ -135,7 +135,7 @@ header.breadcrumb {
 }
 
 .mainPostingan a {
-  color: #ebebeb
+  color: #00008bcc
 
 }
 
@@ -209,7 +209,7 @@ li,ol,ul {
 
 .btn a {
   padding: 15px;
-  background-color: #ebebeb;
+  background-color: #00008bcc;
   border-radius: 5px;
   color: #fff;
   margin: 15px;
