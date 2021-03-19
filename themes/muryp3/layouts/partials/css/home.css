@@ -41,46 +41,22 @@
   #sosmedh {
     margin: 50px auto
   }
-.myskillcontainer{
+.myskill{
   display: flex;
   align-content: center;
 }
-.infoSkill{
-  width: 80%;
-}
-.infoSkill h3{
-  font-size: 1rem;/*ukuran font judul info skill*/
-  color: darkblue;
-  font-weight: none;
-}
-.infoSkill p{
-  font-size: .8rem;
-  color: rgb(0,0,0,.8);
-}
-.iconSkill{
-  width:20%;
+.myskillcontainer{
+  min-width:50px;
   margin: auto;
   max-width: 100px!important;
   max-height: 100px!important;
 }
-  .left {
-text-align:left;
-margin-left: 15px;
-  }
-  .right {
-text-align:right;
-margin-right: 15px;
-  }
   .myskillcontainer svg {
     padding: 5px;
     box-shadow: 0 0 10px {{$rumah.bayangan}};
     border-radius: 5px;
     fill:   {{$muda}};
     font-size: 50px;
-  }
-
-  .myskillcontainer p {
-    margin-top: 15px
   }
   .main {
     text-align: left;
