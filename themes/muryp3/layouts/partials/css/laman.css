@@ -175,17 +175,17 @@ margin-top: 100px;
 border-top: 2px solid  {{$nav1}}
 }
 
-.kategori {
+.tag {
 border-bottom: 2px solid   {{$nav1}};
 padding: 10px
 }
 
-.kategori a {
+.tag a {
 background-color: {{$nav1}};
 padding: 5px;
 color: #fff;
 border-radius: 5px;
-line-height: 40px
+line-height: 40px;
 }
 
 .authorBottom {
