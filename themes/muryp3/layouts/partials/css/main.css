@@ -393,7 +393,7 @@ div.content:hover {
   max-width: 600px;
   height: 400px;
 }*/
-.kontenNav h2,.main h2, .h2myskill {
+h2{
   padding: 5px;
   color: #00008b !important;
   margin-top: 50px;

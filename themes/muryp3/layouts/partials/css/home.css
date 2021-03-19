@@ -30,6 +30,8 @@ a:hover.btn {
 .bagianDalam h2 {
   /*judul h2*/
   color: #00008bcc !important;
+  text-align: left;
+  padding:0;
 }
 /*skill*/
 .myskill {
