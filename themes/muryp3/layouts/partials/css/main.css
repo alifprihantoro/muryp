@@ -325,7 +325,6 @@ div.content:hover {
   width: 100%;
   grid-template-columns: auto;
   text-align: left;
-  padding: 55px 0;
 }
 .myread a {
   color: #00008bcc;

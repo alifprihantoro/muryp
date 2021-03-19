@@ -57,10 +57,14 @@
           Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nulla consectetur repudiandae tenetur alias ipsum odio quis, natus suscipit earum incidunt aspernatur dignissimos qui distinctio mollitia modi, fugit id sint facere.
         </div>
       </div>
+        {{if ne .RelPermalink "/"}}
+    {{ partial "main/contact.html" . }}
     {{ partial "main/list.html" . }}
+    {{end}}
+<!--start related post-->
 {{ $related := .Site.RegularPages.Related . | first 99 }}
 {{ with $related }}
-<h2>See Also</h2>
+<h2>Lihat Juga</h2>
 <div class="related">
 	{{ range . }}
       <div class="content">
@@ -70,6 +74,7 @@
 	{{ end }}
 	</div>
 {{ end }}
+<!--end related post-->
     </div>
   </div>
 </div>
