@@ -168,20 +168,6 @@ li,ol,ul {
   margin-top: 100px;
   border-top: 2px solid  #00008bcc
 }
-
-.tag {
-  border-bottom: 2px solid   #00008bcc;
-  padding: 10px
-}
-
-.tag a {
-  background-color: #00008bcc;
-  padding: 5px;
-  color: #fff;
-  border-radius: 5px;
-  line-height: 40px;
-}
-
 .authorBottom {
   padding: 5px;
   display: flex

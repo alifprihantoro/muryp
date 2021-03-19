@@ -274,7 +274,7 @@ nb:iconShare ada di icon.css
   font-weight: bold;
 }
 .nav li:hover {
-  background: red;
+  background: rgba(0,0,139,0.5);
 }
 .nav li:hover a {
   color: #fff;
@@ -307,7 +307,20 @@ input.widget-search__submit {
   border: transparent;
   width: 20%;
 }
-/*end bagian dalam*/
+/*Tag*/
+.tag {
+  border-bottom: 2px solid   #00008bcc;
+  padding: 10px
+}
+.tag a {
+  background-color: #00008bcc;
+  padding: 5px;
+  color: #fff;
+  border-radius: 5px;
+  line-height: 40px;
+}
+/*end tag*/
+/* ======== end bagian dalam ========= */
 /* ======== Readmore && Related ========= */
 .content {
   display: flex;
