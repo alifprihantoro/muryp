@@ -1,114 +1,17 @@
-{{ $rumah := .Site.Params }}
-{{ $warna := $rumah.color }}
-{{ $warna2 := $rumah.warna2 }}
-{{ $nav1 := $rumah.nav1 }}
-{{ $bayangan := $rumah.bayangan }}
-{{ $muda := $rumah.muda }}
-  /* ======== reset ========= */
-  html {
-    box-sizing: border-box
-  }
-  *,::after,::before {
-    box-sizing: inherit;
-    max-width: 100%!important;
-    margin: 0;
-    padding: 0;
-    font-weight: 500
-  }
-@-ms-viewport {
-    width:device-width
-  }
-  article,aside,dialog,figcaption,figure,footer,header,hgroup,main,nav,section {
-    display: block
-  }
-  body {
-    font-family: sans-serif;
-    font-size: .8rem;
-    font-weight: 100;
-    line-height: 1.5;
-    color: rgb(0,0,0,.8);
-    background-color: {{ $rumah.bgbody }}
-  }
-  blockquote cite {
-    font-size: 70%;
-    opacity: .8;
-  }
-  blockquote em {
-    font-weight: 600;
-  }
-  h1, h2, h3, h4, h5, h6 {
-    font-weight: 500;
-    line-height: 1.3em;
-    margin: 30px 0 20px 0;
-    color: #000;
-  }
-  h1 {
-    font-size: 200%
-  }
-  h2 {
-    font-size: 180%
-  }
-  h3 {
-    font-size: 160%
-  }
-  h4 {
-    font-size: 140%
-  }
-  h5 {
-    font-size: 120%
-  }
-  h6 {
-    font-size: 100%
-  }
-  p {
-    margin-top: 0;
-    margin-bottom: 1rem
-  }
-
-  pre {
-    overflow: auto
-  }
-
-  a,a:hover {
-    text-decoration: none;
-    font-weight: 700;
-    overflow: hidden;
-    color: {{$warna2}}
-  }
-
-  b,strong {
-    font-weight:bold;
-    {{ $rumah.tebal }}
-  }
-
-  blockquote {
-    background-color: {{$muda}};
-    padding: 15px;
-    margin: 5px;
-    border-left: 5px solid {{$warna2}};
-    color: #fff;
-    font-weight: 500;
-    text-align: left;
-    font-size:.8rem;
-  }
-  /* ========= Header ========== */
+/* ========= Header ========== */
   .header {
-    padding: 20px 0;
+    padding: 25px 0;
     width: 100%;
     position: relative;
-    top: 0;
-    height: 18px;
     z-index: 5;
-    background-color: {{$nav1}};
+    background-color: #00008bcc;
     height: 50px;
   }
   .header a {
     position: absolute;
     top: 10px;
     left: 10px;
-    font-weight: bold;
-    font-size: 1em;
-    z-index: 9999;
+    z-index: 99;
   }
   #darkBtn svg {
     fill: #fff !important;
@@ -315,7 +218,7 @@ i.iconShare {
     padding:15px 0;
   }
   .sosmedhome span,.sosmednav span {
-    background-color: {{$nav1}};
+    background-color: #00008bcc;
     width: 50px;
     height: 50px;
     background-position: 50%;
@@ -324,7 +227,7 @@ i.iconShare {
     display: inline-block;
   }
   .sosmednav span:hover {
-    background-color: {{$warna2}};
+    background-color: #00008b;
   }
 /*list navigasi*/
 .nav li {
@@ -336,7 +239,7 @@ i.iconShare {
     display: block;
     width: 90%;
     height: 20px;
-    color: {{$nav1}};
+    color: #00008bcc;
     font-weight: bold;
   }
 .nav li:hover {
@@ -347,25 +250,25 @@ i.iconShare {
   }
   /* ========== search bar ========== */
   ::placeholder {
-    color: {{$nav1}};
+    color: #00008bcc;
   }
 :-ms-input-placeholder {
-    color: {{$nav1}};
+    color: #00008bcc;
   }
   ::-ms-input-placeholder {
-    color: {{$nav1}};
+    color: #00008bcc;
   }
   input.widget-search__field {
     border: 0;
     padding: 10px;
     resize: none;
     margin: 15px 0 ;
-    border: 1px solid {{$nav1}};
+    border: 1px solid #00008bcc;
     background-color: transparent;
     width:78%;
   }
   input.widget-search__submit {
-    background-color: {{$warna2}}  !important;
+    background-color: #00008b  !important;
     padding: 10px!important;
     color: #fff;
     font-weight: bold;
@@ -392,7 +295,7 @@ i.iconShare {
     padding: 55px 0;
   }
   .myread a {
-    color: {{$nav1}};
+    color: #00008bcc;
   }
   .myread .date {
     margin-right: 30px;
@@ -421,18 +324,18 @@ i.iconShare {
   .pagination a,.Total {
     padding: 15px;
     margin: 15px;
-    background: {{$muda}};
+    background: #00008b80;
     max-width: 50%;
     color: rgb(255,255,255,.8);
     font-weight: 900;
   }
   .pagination a:hover {
-    background: {{$warna2}};
+    background: #00008b;
   }
   /* ========== Footer ========== */
 
   #footer {
-    background: {{$nav1}};
+    background: #00008bcc;
     padding: 25px 10px;
     color: #fff;
     text-align: center;
@@ -470,7 +373,7 @@ i.iconShare {
 }*/
  .kontenNav h2,.main h2, .h1myskill {
   padding: 5px;
-  color: {{$warna2}} !important;
+  color: #00008b !important;
   margin-top: 50px;
   text-align: center;
     text-transform: uppercase;
