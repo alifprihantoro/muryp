@@ -39,23 +39,7 @@ input[type="checkbox"] {
   padding: 8px 19px 8px 15px;
   width: 100%;
 }
-.shareTerbang label {
-  /*btn share reset btn spoiler*/
-  border: 0;
-  width: 50px!important;
-  height: 50px;
-}
 /*isi konten spoiler*/
-#nav[type="checkbox"]:checked ~  .kontenNav {
-  /*setelah di klick*/
-  opacity: 100%;
-  transform: translate(0,0);
-  position: fixed;
-  bottom: 0;
-  right: 0;
-  text-align: right;
-  color: #00008b;
-}
 .kontenNav,.spoilerKonten {
   /*reset daleman central*/
   background: rgb(234,234,234);
@@ -75,6 +59,15 @@ input[type="checkbox"] {
   overflow: scroll;
   /*efek scroll*/
   /*margin: 0;*/
+  bottom: 0;
+  right: 0;
+  text-align: right;
+  color: #00008b;
+  position: fixed;
+}
+#nav[type="checkbox"]:checked ~  .kontenNav {
+  /*setelah di klick*/
+  transform: translate(0,0);
 }
 .spoilerKonten {
   /*reset daleman spoiler global*/
@@ -113,12 +106,6 @@ input[type="checkbox"] {
   /*tingkatan layer*/
   right: 0;
   /*jarak samping kiri/mirip seperti text-align:right*/
-}
-.shareTerbang {
-  z-index: 10;
-  /*tingkatan layer*/
-  left: 0;
-  /*jarak samping kanan/mirip seperti text-align:left*/
 }
 /* Tombol Nav & Spoiler*/
 /*Anak Panah (Arrow)*/
@@ -225,13 +212,6 @@ nb:iconShare ada di icon.css
 .nav .sosmednav {
   margin: 25px 50px;
 }
-.shareTerbang .sosmednav {
-  margin-left: 15px;
-  background: blue;
-}
-.shareTerbang .sosmednav span {
-  background-color: transparent;
-}
 .sosmedhome {
   text-align: center;
   padding: 15px 0;
@@ -274,7 +254,7 @@ nb:iconShare ada di icon.css
   font-weight: bold;
 }
 .nav li:hover {
-  background: rgba(0,0,139,0.5);
+  background: rgba(0,0,139,0.8);
 }
 .nav li:hover a {
   color: #fff;
@@ -315,7 +295,7 @@ input.widget-search__submit {
 .tag a {
   background-color: #00008bcc;
   padding: 5px;
-  color: #fff;
+  color: #fff!important;
   border-radius: 5px;
   line-height: 40px;
 }
