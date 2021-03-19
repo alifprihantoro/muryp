@@ -1,5 +1,6 @@
 .BagianAtas {
   background-color: rgba(0,0,0,0.1);
+  /*bg bagian atas home*/
   height: 90vh;
   max-height: 500px;
   box-shadow: 5px 5px 10px rgba(0,0,0,.1);
@@ -7,10 +8,7 @@
   color: #00008bcc;
   padding: 25px 10px;
 }
-
-.bagianDalam {
-  display: block;
-}
+/*contact me*/
 .btn span {
   width: 100px;
   height: 50px;
@@ -26,18 +24,14 @@
   padding: 10px 20px;
   border-radius: 5px;
 }
-
 a:hover.btn {
   color: #fff!important
 }
-
-.bagianDalam p {
-  color: #00008b80 !important;
+.bagianDalam h2 {
+  /*judul h2*/
+  color: #00008bcc !important;
 }
-
-#sosmedh {
-  margin: 50px auto
-}
+/*skill*/
 .myskill {
   display: flex;
   align-content: center;
@@ -55,10 +49,7 @@ a:hover.btn {
   fill: #00008b80;
   font-size: 50px;
 }
-.main {
-  text-align: left;
-  margin: left;
-}
+/*bagian readmore/main */
 .readBg {
   /*bg readmore*/
   background: rgb(0,0,0,.03);
