@@ -132,12 +132,12 @@ expiryDate = ["expiryDate"]
     weight = 8
     # contact me
   [[menu.contact]]
-    identifier = "telegram"
+    identifier = "@muryp"
     name = "telegram"
     url = "https://t.me/muryp"
     weight = 1
   [[menu.contact]]
-    identifier = "gmail"
+    identifier = "alifmuryp@gmail.com"
     name = "gmail"
     url = "mailto:alifmuryp@gmail.com"
     weight = 2

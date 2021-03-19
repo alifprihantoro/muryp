@@ -248,6 +248,18 @@ nb:iconShare ada di icon.css
 .sosmednav span:hover {
   background-color: #00008b;
 }
+/*special contact*/
+.bungkusLisIcon{
+  display: flex;
+  padding: 5px 15px;
+}
+.infoIconList{
+  padding: 15px;
+  background: #00008b80;
+  height: 50px;
+  font-weight: bold;
+  color: #fff;
+}
 /*list navigasi*/
 .nav li {
   list-style: none;

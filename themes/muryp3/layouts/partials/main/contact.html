@@ -4,8 +4,15 @@ Saya lebih sering menggunakan Telegram dan Instagram. Kalau yang lainnya jarang 
 </blockquote>
 <h2>For bussines Contact :</h2>
 {{ range .Site.Menus.contact.Sort.ByWeight }}
+<div class="bungkusLisIcon">
+<div class="iconList">
 <a href='{{ .URL }}' rel='nofollow' target='_blank' title='{{ .Name }}'>
   <span class='{{ .Name }}' /></a>
+</div>
+<div class="infoIconList">
+  {{.Identifier}}
+</div>
+</div>
 {{ end }}
 <h2>Ask me on:</h2>
 {{ range .Site.Menus.ask.Sort.ByWeight }}
