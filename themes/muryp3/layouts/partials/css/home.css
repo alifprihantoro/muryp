@@ -64,4 +64,10 @@
   }
 .readBg{/*bg readmore*/
   background: rgb(0,0,0,.03);
+  padding: 15px 0;
+  box-shadow: 0 -5px 10px rgb(0,0,0,.2);
+  margin-top:25px;
+}
+.readBg h2{
+  margin: 0;
 }
