@@ -7,8 +7,8 @@
       <span></span>
     </label>
     <div class=kontenNav>
-      <div class="headerNav">
-        NAVIGATION
+      <div class="headerNav bottom">
+        Author
       </div>
       <!--memulai image-->
     <div class="cardAuthor">
@@ -41,6 +41,9 @@
         </div>
         {{end}}
       <!--start list nav-->
+      <div class="headerNav top">
+        NAVIGATION
+      </div>
             {{ range .Site.Menus.main.Sort.ByWeight }}
       <li>
         <a href="{{ .URL }}">{{ .Name }}</a>

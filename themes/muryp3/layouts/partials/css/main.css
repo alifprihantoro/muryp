@@ -199,8 +199,15 @@ i.iconShare {
   width:100vw;
   font-weight: bold;
   color: #fff;
-  margin-bottom: 70px;
+  text-align: center;
 }
+  .top{
+    margin-top: 70px;
+  }
+    .bottom{
+    margin-bottom: 70px;
+    }
+    
   /* ========== SosMed ==========*/
   .nav .sosmednav {
     margin: 25px 50px;
@@ -273,6 +280,7 @@ i.iconShare {
     font-weight: bold;
     text-transform: uppercase;
     border: transparent;
+    width:20%;
   }
   /* ======== Readmore && Related ========= */
   .content {
