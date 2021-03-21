@@ -13,9 +13,7 @@
     <div class="mainPostingan">
       <hr />
       <div style="overflow:hidden;" class="post-content post-body">
-        <article>
         {{ .Content | safeHTML }}
-        </article>
         {{ partial "post/footer.html" . }}
       {{ partial "post/related.html" . }}
       </div>
