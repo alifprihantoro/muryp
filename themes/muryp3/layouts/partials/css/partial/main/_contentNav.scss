@@ -1,0 +1,135 @@
+@use "variable" as v;
+/*isi konten spoiler*/
+.kontenNav,.spoilerKonten {
+  /*reset daleman central*/
+  background: rgb(234,234,234);
+  /*warna bg nav&spoiler*/
+  overflow: hidden;
+  /*menghilangkan konten spoiler*/
+  transition: all .6s;
+  /*dursi animasi*/
+}
+.kontenNav {
+  /*reset daleman spoiler navigasi*/
+  /*width: 100vw!important;*/
+  height: 100vh;
+  /*tinggi konten nav*/
+  transform: translate(999px,0);
+  /*menyembunyikan nav*/
+  overflow: scroll;
+  /*efek scroll*/
+  /*margin: 0;*/
+  bottom: 0;
+  right: 0;
+  text-align: right;
+  color: #00008b;
+  position: fixed;
+}
+.spoilerKonten {
+  /*reset daleman spoiler global*/
+  opacity: 0;
+  /*transparansi konten spoiler*/
+  width: 100vw;
+  /*panjang konten spoiler*/
+  padding: 0;
+  /*reset padding awal*/
+  height: 0;
+  /*reset tinggi awal*/
+}
+#nav[type="checkbox"]:checked ~  .kontenNav {
+  /*setelah di klick*/
+  transform: translate(0,0);
+}
+.spoiler input[type="checkbox"]:checked ~  .spoilerKonten {
+  /*menampilkan konten*/
+  opacity: 100%;
+  /*transparasi konten spoiler*/
+  padding: 15px 0;
+  /*padding konten spoiler*/
+  height: auto;
+  /*tinggi konten spoiler*/
+}
+/*====Daleman Navigasi====*/
+.cardAuthor {
+  text-align: center;
+  box-shadow: v.$box;
+  padding: 15px 0;
+}
+.headerNav {
+  background-color: v.$bg1 ;
+  padding: 15px 0;
+  width: 100vw;
+  font-weight: bold;
+  color: v.$cl2;
+  text-align: center;
+  .top {
+    margin-top: 70px;
+  }
+  .bottom {
+    margin-bottom: 70px;
+  }
+}
+/*list navigasi*/
+.nav {
+  .tag a {
+    padding: 5px;
+    margin: 15px;
+  }
+  li {
+    list-style: none;
+    cursor: pointer;
+    padding: 15px;
+    :hover {
+      background: v.$bg1;
+    }
+    :hover a {
+      color: v.$cl2;
+    }
+    a {
+      display: block;
+      width: 90%;
+      height: 20px;
+      color: v.$cl1;
+      font-weight: bold;
+    }
+  }
+}
+/* ========== search bar ========== */
+input {
+  .widget-search__field {
+    border: 0;
+    padding: 10px;
+    resize: none;
+    margin: 15px 0;
+    border: v.$br1;
+    background-color: transparent;
+    width: 78%;
+  }
+  .widget-search__submit {
+    background-color: v.$bg2 !important;
+    padding: 10px!important;
+    color: v.$cl2;
+    font-weight: bold;
+    text-transform: uppercase;
+    border: transparent;
+    width: 20%;
+  }
+}
+/*Tag*/
+.tag {
+  border-bottom: v.$br1;
+  padding: 10px
+  a {
+    background-color: v.$bg1;
+    padding: 5px;
+    color: #fff!important;
+    border-radius: 5px;
+    line-height: 40px;
+  }
+}
+/*end tag*/
+::placeholder,
+:-ms-input-placeholder,
+::-ms-input-placeholder {
+  color: #00008bcc;
+}

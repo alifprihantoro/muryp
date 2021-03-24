@@ -1,0 +1,32 @@
+/* ========== SosMed ==========*/
+.nav .sosmednav {
+  margin: 25px 50px;
+}
+.sosmedhome {
+  text-align: center;
+  padding: 15px 0;
+}
+.sosmedhome span,.sosmednav span {
+  background-color: #00008bcc;
+  width: 50px;
+  height: 50px;
+  background-position: 50%;
+  background-repeat: no-repeat;
+  background-size: 30px;
+  display: inline-block;
+}
+.sosmednav span:hover {
+  background-color: #00008b;
+}
+/*special contact*/
+.bungkusLisIcon {
+  display: flex;
+  padding: 5px 15px;
+}
+.infoIconList {
+  padding: 15px;
+  background: #00008b80;
+  height: 50px;
+  font-weight: bold;
+  color: #fff;
+}

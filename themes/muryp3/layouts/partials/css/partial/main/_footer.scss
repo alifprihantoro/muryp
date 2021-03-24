@@ -1,0 +1,23 @@
+/* ========== Footer ========== */
+#footer {
+  background: #00008bcc;
+  padding: 25px 10px;
+  color: #fff;
+  text-align: center;
+  margin-top: 20px;
+  box-shadow: 0 -8px 15px rgba(0,0,0,.1);
+  border-radius: 5px 5px 0 0;
+}
+.credit a {
+  color: #fff;
+  padding: 10px 10px;
+  line-height: 35px;
+}
+#darkBtn {
+  position: absolute;
+  top: 15px;
+  right: 15px;
+}
+.content:hover {
+  transform: translate(15px,-15px) !important;
+}

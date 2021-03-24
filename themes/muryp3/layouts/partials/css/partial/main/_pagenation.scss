@@ -1,0 +1,20 @@
+/* ======== Pagenation ========= */
+.pagination {
+  list-style: none;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  width: 100%;
+}
+.pagination a,.Total {
+  padding: 15px;
+  margin: 15px;
+  background: #00008b80;
+  max-width: 50%;
+  color: rgb(255,255,255,.8);
+  font-weight: 900;
+}
+.pagination a:hover {
+  background: #00008b;
+  color: #fff;
+}

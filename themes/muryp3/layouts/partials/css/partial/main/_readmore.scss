@@ -1,0 +1,37 @@
+/* ======== Readmore && Related ========= */
+.content {
+  display: flex;
+  border-radius: 5px;
+  box-shadow: 0 0 5px rgb(0,0,0,.1);
+  margin: 25px auto !important;
+  padding: 15px;
+  width: 80%;
+}
+div.content:hover {
+  transform: translate(5px,-5px);
+}
+.myread {
+  display: grid;
+  width: 100%;
+  grid-template-columns: auto;
+  text-align: left;
+}
+.myread a {
+  color: #00008bcc;
+}
+.myread .date {
+  margin-right: 30px;
+  width: 64px;
+  text-align: center;
+}
+.myread .date .day {
+  font-weight: 700;
+  line-height: 0.45em;
+  font-size: 3em;
+  display: block;
+  margin: 20px auto;
+}
+.myread .date .rest {
+  display: block;
+  font-size: 0.75em;
+}

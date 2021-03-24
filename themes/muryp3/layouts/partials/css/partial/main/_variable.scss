@@ -1,0 +1,26 @@
+//light cl
+$cl1 : #00008bcc;
+$cl2 : #fff;
+$cl3 : #fff;
+$cl4 : #fff;
+// light bg 
+$bg1:rgba(0,0,139,0.8);
+$bg2:rgb(0,0,139);
+//dark cl
+$dark1 : #fff;
+$dark2 : #fff;
+$dark3 : #fff;
+$dark4 : #fff;
+// box shadow 
+$box : 5px 10px 15px rgb(0,0,0,.07);
+// border
+$br1 : 2px solid #00008bcc;//default
+$br2: 3.5px solid;//breadcrumb
+// transisi
+$tm:all .5s;// time
+// other
+%reset{
+  padding: 0;
+  margin: 0;
+  max-width: 100vh;
+}
