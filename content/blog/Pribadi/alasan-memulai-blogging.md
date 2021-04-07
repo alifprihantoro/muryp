@@ -10,11 +10,7 @@ show_comments: true
 type: pages 
  
 tags: 
-- Journey
-
-
- 
- 
+- Ceritaku
  
 description: "Alasan mengapa saya memulai blog. Dari main-main sampai mencoba serius." 
 keywords: "Alasan mengapa saya memulai blog. Dari main-main sampai mencoba serius." 

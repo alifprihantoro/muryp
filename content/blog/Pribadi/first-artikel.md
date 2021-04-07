@@ -3,7 +3,7 @@
 title = "First Artikel"
 date = 2017-12-22T01:44:00Z
 updated = 2017-12-22T01:58:46Z
-tags = ["Story"]
+tags = ["Ceritaku"]
 blogimport = true 
 [author]
 	name = "MuryP"

@@ -3,7 +3,7 @@
 title = "My Journey : Ngartis Guys"
 date = 2020-09-01T03:36:00Z
 updated = 2020-09-01T03:36:00Z
-tags = ["my Journey", "Story", "My Story"]
+tags = ["Ceritaku"]
 blogimport = true 
 [author]
 	name = "MuryP"

@@ -3,7 +3,7 @@
 title = "My Journe : Statistic Hidup"
 date = 2019-08-05T14:36:00Z
 updated = 2019-08-05T14:36:26Z
-tags = ["my Journey", "My Story", "Motivasi"]
+tags = ["Ceritaku"]
 draft = true
 blogimport = true 
 [author]

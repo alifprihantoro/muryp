@@ -3,7 +3,7 @@
 title = "MuryP on Journey : Lupa dan Low Power"
 date = 2020-08-31T02:53:00Z
 updated = 2020-08-31T05:57:37Z
-tags = ["pengalaman", "my Journey", "My Story", "Motivasi"]
+tags = ["Ceritaku"]
 blogimport = true 
 [author]
 	name = "MuryP"

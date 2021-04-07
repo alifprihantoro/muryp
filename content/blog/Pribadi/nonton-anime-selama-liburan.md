@@ -3,7 +3,7 @@
 title = "Nonton Anime selama Liburan"
 date = 2018-07-07T21:34:00Z
 updated = 2018-07-07T21:34:06Z
-tags = ["My Story"]
+tags = ["Ceritaku"]
 blogimport = true 
 [author]
 	name = "MuryP"

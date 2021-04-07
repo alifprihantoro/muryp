@@ -3,7 +3,7 @@
 title = "MuryP on Journey : Prolouge"
 date = 2019-08-13T03:14:00Z
 updated = 2020-01-02T21:33:41Z
-tags = ["my Journey", "My Story", "Motivasi"]
+tags = ["Ceritaku"]
 blogimport = true 
 [author]
 	name = "MuryP"

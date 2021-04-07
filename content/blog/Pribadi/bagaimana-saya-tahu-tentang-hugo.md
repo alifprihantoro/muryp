@@ -10,11 +10,7 @@ show_comments: true
 type: pages 
  
 tags: 
-- Journey
-
-
- 
- 
+- Ceritaku
  
 description: "Perjalanan saya menemukan framework hugo." 
 keywords: "Perjalanan saya menemukan framework hugo." 

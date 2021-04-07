@@ -3,7 +3,7 @@
 title = "My jouney : My First Wall"
 date = 2020-09-05T21:40:00Z
 updated = 2020-09-05T21:40:18Z
-tags = ["my Journey", "Story", "My Story", "Drawing", "Motivasi"]
+tags = ["Ceritaku"]
 blogimport = true 
 [author]
 	name = "MuryP"

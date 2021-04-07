@@ -3,7 +3,7 @@
 title = "My Journey : Bullying"
 date = 2020-09-05T21:56:00Z
 updated = 2020-09-05T21:57:29Z
-tags = ["my Journey", "Story", "My Story"]
+tags = ["Ceritaku"]
 blogimport = true 
 [author]
 	name = "MuryP"

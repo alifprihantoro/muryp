@@ -22,6 +22,7 @@ keywords: "Daftar tools online gratis"
 - [TinyPNG – Compress PNG images while preserving transparency](https://tinypng.com/)
 - [png to svg] (https://www.pngtosvg.com/)
 - [svg to css](https://yoksel.github.io/url-encoder/)
+- [svg compress](https://jakearchibald.github.io/svgomg/)
 
 ## Font
 - https://fontjoy.com/

@@ -3,7 +3,7 @@
 title = "Gua Rong, Keindahan di atas langit (terbaru 2019)"
 date = 2019-07-21T17:03:00Z
 updated = 2019-07-21T17:03:26Z
-tags = ["wisata", "Story", "My Story"]
+tags = ["Ceritaku"]
 blogimport = true 
 [author]
 	name = "MuryP"

@@ -7,15 +7,12 @@ disqusShortname = "muryp"
     home = ["HTML", "RSS", "JSON"]
 
 [taxonomies]
-  ide = "ide"
   tag = "tags"
   author = "authors"
-  projek = "projek"
 
 [permalinks]
   blog = "/:slug/"
   laman = "/:slug/"
-  ideku = "/:slug/"
   en = "/en/:slug/"
 
 languageCode = "id-id"
@@ -27,14 +24,15 @@ enableRobotsTXT = true
 canonifyURLs = true
 
 [params]
-  kataku = "I'm MuryP. I'm from Indonesian.<br/>I'm focus on Front End now. But I like Drawing, writing, and analyzed."
+  header = "Ingin Membuat Website?<br>Tapi tidak bisa coding. Tenang, serahkan projek anda kepada saya."
   github = "https://github.com/alifmuryp"
   gitlab = "https://gitlab.com/muryp"
   facebook = "https://facebook.com/alifmuryp"
   sitename = "MuryP Beta"
   twitter = "@alifmuryp"
   og_image = "https://muryp.gitlab.io/image/noimg.png"
-  host = "https://muryp.gitlab.io/image"
+  hosting = "https://muryp.gitlab.io/hosting/muryp/css/"
+  host = "https://muryp.gitlab.io/image/"
   img = "/img/authors/muryp.png"
   thumb = "/img/authors/muryp.min.png"
   icon = "https://muryp.gitlab.io/image/muryp/favicon.ico"
@@ -115,21 +113,6 @@ expiryDate = ["expiryDate"]
     name = "pinteres"
     url = "https://pinterest.com/alifmuryp/"
     weight = 6
-  [[menu.sosmed]]
-    identifier = "deviantart"
-    name = "deviantart"
-    url = "https://www.deviantart.com/alifmuryp"
-    weight = 7
-  [[menu.sosmed]]
-    identifier = "behance"
-    name = "behance"
-    url = "https://www.behance.net/muryp"
-    weight = 8
-  [[menu.sosmed]]
-    identifier = "drible"
-    name = "drible"
-    url = "https://www.dribbble.com/murypstudio"
-    weight = 8
     # contact me
   [[menu.contact]]
     identifier = "@muryp"
@@ -141,6 +124,11 @@ expiryDate = ["expiryDate"]
     name = "gmail"
     url = "mailto:alifmuryp@gmail.com"
     weight = 2
+  [[menu.contact]]
+    identifier = "+6283 829 383 123"
+    name = "tlp"
+    url = "wa_link"
+    weight = 3
    # Ask me
   [[menu.ask]]
     identifier = "@alifmuryp"

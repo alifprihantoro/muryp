@@ -3,7 +3,7 @@
 title = "My Journey : Motivasiku"
 date = 2020-09-05T21:27:00Z
 updated = 2020-09-05T21:27:23Z
-tags = ["pengalaman", "my Journey", "Tips Trik", "Story", "My Story", "Motivasi"]
+tags = ["Ceritaku"]
 blogimport = true 
 [author]
 	name = "MuryP"
