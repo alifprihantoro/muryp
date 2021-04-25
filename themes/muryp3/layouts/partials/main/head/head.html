@@ -1,18 +1,10 @@
 {{ partial "main/head/seoku.html" . }}
 {{- if .IsHome -}}
 <link rel="stylesheet" href="{{ .Site.Params.Hosting}}home.css" type="text/css" media="all" />
-<style type="text/css" media="all">
-  
-  {{ partial "css/home.css" . | safeCSS}}
-</style>
 {{- end -}}
 {{- if .IsHome -}}
 {{- else -}}
 <link rel="stylesheet" href="{{ .Site.Params.Hosting}}main.css" type="text/css" media="all" />
-<style type="text/css" media="all">
-  
-  {{ partial "css/main.css" . | safeCSS}}
-</style>
 {{- end -}}
 <style>
 @import url('https://fonts.googleapis.com/css2?family=Quando&display=swap');
@@ -47,6 +39,5 @@ b,strong{
   
 }
 {{- end -}}
-  {{ partial "css/icon.css" . | safeCSS}}
 </style>
 <link rel="stylesheet" href="{{ .Site.Params.Hosting}}icon.css" type="text/css" media="all" />

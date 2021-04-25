@@ -1,0 +1,31 @@
+theme = "muryp3"
+baseurl = "https://muryp.my.id/"
+title = "MuryP Beta"
+disqusShortname = "muryp"
+
+[outputs]
+    home = ["HTML", "RSS", "JSON"]
+
+[taxonomies]
+  tag = "tags"
+  author = "authors"
+
+[permalinks]
+  blog = "/:slug/"
+  laman = "/:slug/"
+  en = "/en/:slug/"
+
+languageCode = "id-id"
+DefaultContentLanguage = "id"
+
+enableEmoji = true
+enableGitInfo = true
+enableRobotsTXT = true
+canonifyURLs = true
+
+[frontmatter]
+date = ["date", "publishDate", "lastmod"]
+lastmod = [":git", "lastmod", "date", "publishDate"]
+publishDate = ["publishDate", "date"]
+expiryDate = ["expiryDate"]
+
