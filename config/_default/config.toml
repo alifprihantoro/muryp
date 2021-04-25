@@ -1,6 +1,6 @@
-theme = "muryp3"
 baseurl = "https://muryp.my.id/"
 title = "MuryP Beta"
+theme = "muryp3"
 disqusShortname = "muryp"
 
 [outputs]
