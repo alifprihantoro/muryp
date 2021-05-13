@@ -2,52 +2,24 @@
   <div id="project">
     <h2>My Project</h2>
     <p>
-      Mohon maaf projek belum bisa ditampilkan, silahkan kunjungi <a href="https://github.com/alifmuryp">Github</a> atau <a href="https://gitlab.com/muryp">Gitlab</a> dulu. Meskipun masih acak-acakan sih.
+dikarenakan belum ada project yang bagus untuk ditampilkan, silahkan kunjungi <a href="https://github.com/alifmuryp" target="_blank" rel="nofollow">Github</a> atau <a href="https://gitlab.com/muryp" target="_blank" rel="nofollow">Gitlab</a> dulu. Meskipun masih acak-acakan sih.
     </p>
   </div>
   <div id="blog">
     <h2>My Blog</h2>
     <div class="myread">
-      <a href="https://muryp.my.id/blog">
+      {{ range .Site.Menus.web.Sort.ByWeight }}
+      <a href="{{.URL}}">
         <div class="content">
           <div class="date">
-            <span class="nameSite">Blog </span>
+            <span class="nameSite">{{.Name}} </span>
           </div>
           <div class="readMore">
-            Kumpulan artikel/tulisan pribadi
+            {{.Identifier}}
           </div>
         </div>
       </a>
-      <a href="https://lms.muryp.my.id/">
-        <div class="content">
-          <div class="date">
-            <span class="nameSite">LMS </span>
-          </div>
-          <div class="readMore">
-            Kumpulan modul belajar gratis
-          </div>
-        </div>
-      </a>
-      <a href="https://code.muryp.my.id/">
-        <div class="content">
-          <div class="date">
-            <span class="nameSite">Code </span>
-          </div>
-          <div class="readMore">
-            Kumpulan Project (upcoming)
-          </div>
-        </div>
-      </a>
-      <a href="https://murypstudio.my.id/">
-        <div class="content">
-          <div class="date">
-            <span class="nameSite">Arts </span>
-          </div>
-          <div class="readMore">
-            Lihat konten gambar,arts, dan video (upcoming)
-          </div>
-        </div>
-      </a>
+    {{end}}
     </div>
   </div>
 </div>

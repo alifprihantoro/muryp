@@ -1,3 +1,4 @@
+{{ if not partial 'blog' }}
 <!DOCTYPE html>
 <html>
 <head itemscope itemtype="{{ .Site.BaseURL }}">
@@ -28,3 +29,5 @@
   {{ partial "main/myjs.html" . }}
 </body>
 </html>
+{{else}}
+{{end}}

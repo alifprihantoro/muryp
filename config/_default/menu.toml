@@ -90,3 +90,25 @@ identifier = "Muryp Beta"
 name = "facebook"
 url = "https://facebook.com/muryp"
 weight = 2
+
+
+[[web]]
+identifier = "Kumpulan artikel/tulisan pribadi"
+name = "Blog"
+url = "/blog"
+weight = 1
+[[web]]
+identifier = "Kumpulan catatan/penjelasan mengenai IT"
+name = "LMS"
+url = "/lms"
+weight = 2
+[[web]]
+identifier = "Kumpulan hasil karya digital (cuming soon!)"
+name = "Studio"
+url = "https://murypstudio.my.id"
+weight = 3
+[[web]]
+identifier = "Kumpulan hasil koding(coming soon!)"
+name = "Blog"
+url = "https://murypstudio.my.id/code"
+weight = 4
