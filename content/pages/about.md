@@ -9,7 +9,6 @@ type: page
 image: "/img/about-me.jpg"
 description: "Halo, Saya MuryP. Salam kenal!"
 ---
-{{< portofolio/halo >}}
 {{< html >}}
 <h1>
 About Blog :</h1>

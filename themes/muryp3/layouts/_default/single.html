@@ -1,4 +1,6 @@
-{{ if not partial 'blog' }}
+{{ if eq .Section "pages" }}
+        {{ .Content | safeHTML }}
+{{else}}
 <!DOCTYPE html>
 <html>
 <head itemscope itemtype="{{ .Site.BaseURL }}">
@@ -29,5 +31,4 @@
   {{ partial "main/myjs.html" . }}
 </body>
 </html>
-{{else}}
 {{end}}
