@@ -59,3 +59,6 @@ keywords: "Daftar tools online gratis"
 - emailjs.com 
 - caniuse.com 
 - 
+
+## bash
+- https://scriptim.github.io/bash-prompt-generator/
