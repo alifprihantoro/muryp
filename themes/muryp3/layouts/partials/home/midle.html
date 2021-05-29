@@ -6,20 +6,45 @@ dikarenakan belum ada project yang bagus untuk ditampilkan, silahkan kunjungi <a
     </p>
   </div>
   <div id="blog">
-    <h2>My Blog</h2>
+    <h2>My Blog</h2> 
+      {{ with .Site.GetPage "/blog" }}
     <div class="myread">
-      {{ range .Site.Menus.web.Sort.ByWeight }}
-      <a href="{{.URL}}">
-        <div class="content">
-          <div class="date">
-            <span class="nameSite">{{.Name}} </span>
-          </div>
-          <div class="readMore">
-            {{.Identifier}}
-          </div>
+	{{ range .Paginator.Pages }}
+	      <a href="{{ .RelPermalink }}">
+      <div class="content">
+        <div class="date">
+									<span class="day">{{ dateFormat "02" .Date }}</span>
+							<span class="rest">{{ if $.Site.Data.month }}{{ index $.Site.Data.month (printf "%d" .Date.Month) }} {{ .Date.Year }}{{ else }}{{ dateFormat "Jan 2006" .Date }}{{ end }}</span>
+								</div>
+        <div class="readMore">
+            {{ .Title }}
         </div>
-      </a>
-    {{end}}
+     </div>
+            </a>
+      {{ end }}
     </div>
+    {{end}}
+    <div class="btn btn-2">See More</div>
+  </div>
+  <div id="lms">
+    <h2>Learning Module System</h2> 
+      {{ with .Site.GetPage "/lms" }}
+    <div class="myread">
+	{{ range .Paginator.Pages }}
+	      <a href="{{ .RelPermalink }}">
+      <div class="content">
+        <div class="date">
+									<span class="day">{{ dateFormat "02" .Date }}</span>
+							<span class="rest">{{ if $.Site.Data.month }}{{ index $.Site.Data.month (printf "%d" .Date.Month) }} {{ .Date.Year }}{{ else }}{{ dateFormat "Jan 2006" .Date }}{{ end }}</span>
+								</div>
+        <div class="readMore">
+            {{ .Title }}
+        </div>
+     </div>
+            </a>
+      {{ end }}
+    </div>
+    {{end}}
+    <div class="btn btn-2">See More</div>
   </div>
 </div>
