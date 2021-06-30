@@ -52,6 +52,8 @@ this repo only on gitlab. with gitflow branch name.
 - pages database like search engine, shortir.
 - lazy load
 - PWA (progressive web app)
+- comment api
+- page number api
 - Try For SPA SEO :
     if firts get normal
     link not href
