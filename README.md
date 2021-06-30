@@ -61,5 +61,9 @@ this repo only on gitlab. with gitflow branch name.
     if change link on blog use spa
     spa get content from js
     use other repo and theme for api
-    comment
+    comment pop up/new tab
+    id on content
+    blank post with keyword, content without img,video
+    cms
+
 
