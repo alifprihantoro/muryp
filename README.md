@@ -16,6 +16,7 @@ My personal blog with hugo.
 ## Server
 - Gitlab : img, script, pages api/json
 - Netlify : static blog
+- blog-api (comingsoon)
 
 ## how start
 ```
@@ -33,7 +34,7 @@ this repo only on gitlab. with gitflow branch name.
 - Minify
 
 ## Structure dir
-- Static => img, script (diferent repo)
+- Static => img, script, pages-api, blog-api (diferent repo)
 - theme => muryp => Partial
 - theme => muryp => Shortcut
 - theme => muryp => index.json # search engine
