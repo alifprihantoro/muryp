@@ -55,4 +55,5 @@ this repo only on gitlab. with gitflow branch name.
     link not href
     if change link on blog use spa
     spa get content from js
+    use other repo and theme for api
 
