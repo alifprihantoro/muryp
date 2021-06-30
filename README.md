@@ -43,12 +43,16 @@ this repo only on gitlab. with gitflow branch name.
 -  
 
 
-## kurang
+## Next Project for this theme
 - if click auto complete to post link
 - if click search button go to page search
 - pages simple
 - pages database like search engine, shortir.
 - lazy load
 - PWA (progressive web app)
-
+- Try For SPA SEO :
+    if firts get normal
+    link not href
+    if change link on blog use spa
+    spa get content from js
 
