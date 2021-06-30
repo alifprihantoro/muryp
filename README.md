@@ -1,34 +1,36 @@
-## MuryP Studio
+# MuryP Studio
 
 [![pipeline status](https://gitlab.com/muryp/muryp/badges/master/pipeline.svg)](https://gitlab.com/muryp/muryp/commits/master)
-[![Hugo version](https://img.shields.io/badge/hugo-v0.80.0-ff69b4.svg)](http://gohugo.io/)
+[![Hugo version](https://img.shields.io/badge/hugo-v0.84.1-ff69b4.svg)](http://gohugo.io/)
 
-This is my blog's source code. Sorry, I don't accept pull request, because
-this repository is [mirrored from Gitlab](https://gitlab.com/muryp/muryp/). But, feel free
-to [report any issue](https://github.com/muryp/muryp/issues).
+## About
+My personal blog with hugo.
 
-## Requirements
+## Language
+- Javascript/ES6
+- SASS/CSS
+- YAML
+- JSON
+- Bash
 
-You need to install Hugo min. `0.80.0` to build and run this blog
+## Server
+- Gitlab : img, script
+- Netlify : static blog
 
-## Build
-
-To read this blog locally, you need to clone this repository:
-
-```bash
-git clone --depth 1 https://github.com/muryp/muryp.git muryp
+## how start
+```
+git clone https://gitlab.com/muryp/muryp/
+cd muryp
+hugo server --minify
 ```
 
-Then run the hugo server:
+## Git
+this repo only on gitlab. with gitflow branch name.
 
-```bash
-▶ cd muryp
-▶ hugo version
+## App support
+- Bash alias
+- SASS
+- Minify
 
-Started building sites ...
-.
-.
-Serving pages from memory
-Web Server is available at http://localhost:1313/ (bind address 127.0.0.1)
-Press Ctrl+C to stop
-```
+## Theme docs
+-  
