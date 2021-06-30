@@ -14,7 +14,7 @@ My personal blog with hugo.
 - Bash
 
 ## Server
-- Gitlab : img, script
+- Gitlab : img, script, pages api/json
 - Netlify : static blog
 
 ## how start
@@ -32,5 +32,23 @@ this repo only on gitlab. with gitflow branch name.
 - SASS
 - Minify
 
+## Structure dir
+- Static => img, script (diferent repo)
+- theme => muryp => Partial
+- theme => muryp => Shortcut
+- theme => muryp => index.json # search engine
+- theme => muryp => index.js # auto complete
+-
 ## Theme docs
 -  
+
+
+## kurang
+- if click auto complete to post link
+- if click search button go to page search
+- pages simple
+- pages database like search engine, shortir.
+- lazy load
+- PWA (progressive web app)
+
+
