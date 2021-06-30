@@ -54,6 +54,7 @@ this repo only on gitlab. with gitflow branch name.
 - PWA (progressive web app)
 - comment api
 - page number api
+- page data view/comment use api
 - Try For SPA SEO :
     if firts get normal
     link not href
