@@ -16,6 +16,7 @@ My personal blog with hugo.
 ## Server
 - Gitlab : img, script, pages api/json
 - Netlify : static blog
+- bitbucket (comingsoon)
 - blog-api (comingsoon)
 
 ## how start
