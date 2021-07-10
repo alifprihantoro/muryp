@@ -38,13 +38,13 @@ Sekilas info mengenai front end. Biasanya untuk membuat tampilan tidak bergerak 
   - [Apa itu browser dan bagaimana cara kerjanya](#)
   - [Apa itu DNS dan bagaimana cara kerjanya](#)
   - Apa itu Domain Name
+  - pasang domain
+  - domain gratis
   - Apa itu Hosting
-- HTML
-  - Bassic HTML
-  - Writing Sematic HTML
-  - Form and Falidation
-- CSS
-- javascript
+  - hosting gratis
+- HTML : rekomendasi belajar html (pengertian)
+- CSS: rekomendasi belajar html (pengertian)
+- javascript: rekomendasi belajar html (pengertian)
 - Version Control sistem
 - Pengetahuan mengenai keamanan web
 - Package Managers
