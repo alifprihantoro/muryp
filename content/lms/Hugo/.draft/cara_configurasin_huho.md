@@ -1,4 +1,0 @@
-## konfigurasi saya
-
-## mungkin dibutuhkan
-
