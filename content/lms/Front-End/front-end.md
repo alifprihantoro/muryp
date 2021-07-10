@@ -34,7 +34,7 @@ Sekilas info mengenai front end. Biasanya untuk membuat tampilan tidak bergerak 
 
 ### menengah
 - Internet
-  - [Bagaimana internet bekerja](#)
+  - [Bagaimana internet bekerja](/lms/front-end/penjelasan/bagaimana-internet-bekerja/)
   - [Apa itu browser dan bagaimana cara kerjanya](#)
   - [Apa itu DNS dan bagaimana cara kerjanya](#)
   - Apa itu Domain Name
