@@ -16,11 +16,14 @@ description: "isi"
 keywords : "isi"
 ---
 
-
-### Penutup
-
-Oh mungkin segini dulu penjelasan dari saya, semoga bermanfaat. Tetap semangat, dan sampai jumpa.
-
-Wassalamualaikum Warahmatullahi wabarakatuh
-
-### Source 
+- Memulai Hugo
+- buat postingan
+- Download template
+- membuat template
+  * arcetype
+  * partial
+  * output
+  * cheatsheet list
+- configurasi
+- unggah blog
+- alias
