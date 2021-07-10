@@ -2,7 +2,7 @@
 title: "Bassic untuk Mempelajari Web"
 slug: bassic
 date: 2021-01-10T05:55:29Z
-draft: true
+draft: false
 show_comments: false
 
 type: pages
@@ -20,16 +20,19 @@ description: ""
 
 # Bassic untuk mempelajari Web
 ### Awal
-- [Apa itu Git](/apa-itu-git-dan-github-bagaimana-cara-cloning-repo-dan-daftar-perintahnya.)
+- [Git](/lms/git/)
+  - connect to github, gitlab, bitbucket (updated)
+  - github pages
+  - gitlab yaml
+  - [SSH](/lms/bahas-ssh/) 
+  - 
 - [Apa itu Server](/apa-itu-server-dan-jenis-jenisnya)
 - [Apa sih IP Address itu?](/apa-sih-ip-address-itu-dan-jenis-serta-fungsinya)
-- Git version control
+- [Penjelasan singkat mengenai server](/lms/penjelasan-singkat-mengenai-shared-hosting-dedicated-hosting-cloud-hosting-dan-vps)
 - bassic terminal usage
 - Data struktur dan algoritma
-- Github atau Gitlab
 - Lisensi
 - Sematic Versioning
-- SSH 
 - HTTP/HTTPS
 - APIs
 - Design Patern

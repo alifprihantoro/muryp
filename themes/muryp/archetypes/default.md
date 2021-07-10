@@ -2,6 +2,7 @@
 title: "{{ replace .TranslationBaseName "-" " " | title }}"
 slug: {{ .BaseFileName }}
 date: {{ .Date }}
+lastmod:{{ .Date}}
 authors:
 - muryp
 

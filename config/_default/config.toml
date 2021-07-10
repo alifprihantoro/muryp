@@ -11,9 +11,10 @@ disqusShortname = "muryp"
   author = "authors"
 
 [permalinks]
-  blog = "/:slug/"
-  laman = "/:slug/"
-  en = "/en/:slug/"
+  blog = "/blog/:slug/"
+  lms = "/lms/:slug/"
+  laman = "/pages/:slug/"
+  # en = "/en/:slug/"
 
 languageCode = "id-id"
 DefaultContentLanguage = "id"

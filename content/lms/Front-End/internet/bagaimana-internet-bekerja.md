@@ -36,7 +36,9 @@ Dan internet pada daktu itu sangatlah buruk. Dimana hanya beberapa kbs saja. Dan
 Oke mari kita lihat bagaiamana internet bekerja di belakang layar. Perlu diketahui internet bekerja menggunakan sebuah jaringan yang dihubungkan melalui **kabel** ataupu **wireless** seperti **bts cellular network** atau bisa kita sebut **GSM**. Untuk lengkap mengenai internet bisa kalian baca-baca di `https://lms.onnocenter.or.id/wiki/index.php/OpenBTS `.
 
 ## Beberapa Hal yang dipelajari :
+
 > artikel atau video dibawah akan saya update nantinya. sehingga menambah banyak refrensi.
+
 - Wires, Cables, and Wi-Fi
   - [EN] : `https://youtu.be/ZhEf7e4kopM ` 
   - [ID] : `https://www.robicomp.com/mana-yang-lebih-baik-jaringan-wire-atau-wireless-untuk-lan.html `
