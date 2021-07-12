@@ -16,20 +16,3 @@ description: "isi"
 keywords : "isi"
 ---
 
-- Pengenalan cli
-- Termux/linux command
-- Bash
-- Zsh
-- alias and config (optional)
-- termux-api
-- neovim
-  * bassic
-  * cheatshet command
-  * plug
-  * config
-  * mapping
-- combinasi
-  * fuzzy
-  * git
-  * hugo
-  * npm
