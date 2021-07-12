@@ -12,8 +12,11 @@
   <div class="main">
          {{ if eq .Section "authors" }}
         {{ partial "authors/pages.html" . }}
+         {{end}}
+         {{ if eq .Section "lms" }}
+        {{ partial "list/lms.html" . }}
          {{else}}
-        {{ partial "list.html" . }}
+        {{ partial "list/blog.html" . }}
          {{end}}
 </div>
         {{ partial "main/footer.html" . }}

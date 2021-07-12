@@ -12,7 +12,6 @@ disqusShortname = "muryp"
 
 [permalinks]
   blog = "/blog/:slug/"
-  lms = "/lms/:slug/"
   laman = "/pages/:slug/"
   # en = "/en/:slug/"
 
