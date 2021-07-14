@@ -38,4 +38,4 @@ Dan untuk saya sendiri masih bingung untuk memilih framework dan library untuk p
 Oh mungkin segini dulu cerita singkat dari saya, gak tahu harus cerita apa lagi. semoga kedepannya lebih baik dan bagus lagi. terimakasih bagi yang membaca ini, 
 
 
-assalamualaikum warahmatullahi wabarakatuh
+Wa'Alaikum Salam Wr.Wb

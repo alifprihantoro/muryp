@@ -10,7 +10,7 @@ description: "Belajar web dev pertama"
 ---
 > Mohon maaf, untuk saat ini. Saya sedang mengusahakan untuk melengkapi artikel/video untuk pembelajaran. Jika link belum aktif, mohon bersabar atau kalian bisa cari keyword sesuai urutan dibawah.
 
-# Bassic untuk mempelajari Web
+## Bassic untuk mempelajari Web
 ### Awal
 - [Belajar Terminal](./terminal/bassic.md)
 - [Git](./terminal/git/bassic)

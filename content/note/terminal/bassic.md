@@ -8,7 +8,7 @@ show_comments: false
 
 type: post
 
-tags:
+note:
     - Penjelasan
     - Front End
     - Bassic
@@ -32,19 +32,24 @@ description: ""
 
   Kenapa kita harus memakai cli ? karena ada hal yang tidak bisa dilakukan melalui gui. Dan pendapat pribadiku, lebih enak menggunakan cli ketimbang gui saat coding. Bahkan saya menggunakn text editur berbasis cli yaitu **nvim**. Seperti contohnya, jika kita melakukan sesuatu perintah seperti mengganti file ekstensi atau merubah nama yang sama dalam jumlah banyak. Jika di gui kita harus klik satu per satu, namun di cli kita hanya perlu membuat sebuah command saja. Contoh lainnya saya akan praktikkan nantinya melalui video (jika sudah sempat)
 
-### Termux/linux Command
-Nah untuk menggunakan cli sendiri kita perlu tahu apa yang akan kita gunakan, jika di windows kalian bisa cari di gogle. Jika kalian pengguna linux, android atau mac, silahkan coba-coba command [disini](../../cheatsheet/bassic)
+### Termux/linux Command bash
+Nah untuk menggunakan cli sendiri kita perlu tahu apa yang akan kita gunakan, jika di windows kalian bisa cari di gogle. Jika kalian pengguna linux, android atau mac, silahkan coba-coba command [disini (command bash)](./bash/cheatsheet)
 
 ## Belajar CLI lanjutan
 ### Alias (Optional)
-  Nah untuk mempermudah kita dalam mengoperasikan **cli** kita bisa mempersingkat perintah diatas. contoh : [klick disini](/dotfile/cara-menggunakan-alias-pada-bash)
+  Nah untuk mempermudah kita dalam mengoperasikan **cli** kita bisa mempersingkat perintah diatas. contoh : [klick disini](./bash/alias)
 
 ### Function
-  Dan untuk beberapa kasus kita harus menggunakan function untuk mempersingkat perintah kita. Untuk penggunaannya bisa dilihat [disini](/dotfile/membuat-function-di-shell)
+  Dan untuk beberapa kasus kita harus menggunakan function untuk mempersingkat perintah kita. Untuk penggunaannya bisa dilihat [disini](./bash/function)
 
 ### Install App dan Config (Optional)
-  Bagi kalian yang ingin menginstall beberapa aplikasi di cli. Kalian bisa lihat [disini](/dotfile/install-app-dan-cara-configurasinya) 
+  Bagi kalian yang ingin menginstall beberapa aplikasi di cli. Kalian bisa lihat [disini](./intsall-dan-config)
 ### Perbedaan Bash vs Zsh vs Fish
+- Bash : umumnya sudah terinstall jika kalian penghuna linux atau termux
+- zsh :
+- fish :
+lihat selengkapnya di `link`
+
 ### Menggunakan Termux Api (Jika kalian pakek Android)
 ### Tesk Editor
   Mungkin banyak teks editor baik itu *based on cli* ataupun *GUI*. Namun untuk kesuakaan saya ialah Neovim. Meskipun akan sulit bagi pemula namun jika sudah terviasa akan sangat luar biasa. Untuk Pembahasannya silahkan klick link dibawah.
