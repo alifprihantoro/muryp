@@ -115,14 +115,6 @@ description: ""
  * ./configure
  * make
  * make install
+ * apt install (for ubuntu/linux)
+ * pkg install (for termux)
 
-##Shortcuts:
- * Ctrl+C – halts the current command
- * Ctrl+Z – stops the current command, resume with
- * fg in the foreground or bg in the background
- * Ctrl+D – log out of current session, similar to exit
- * Ctrl+W – erases one word in the current line
- * Ctrl+U – erases the whole line
- * Ctrl+R – type to bring up a recent command
- * !! - repeats the last command
- * exit – log out of current session 
