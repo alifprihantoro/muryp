@@ -1,6 +1,6 @@
 ---
 title: "Belajar Terminal via Termux"
-slug: belajar-terminal
+slug: bassic
 date: 2021-07-12T13:20:09+07:00
 lastmod: 2021-07-12T13:20:49+07:00
 draft: false
@@ -48,7 +48,7 @@ Nah untuk menggunakan cli sendiri kita perlu tahu apa yang akan kita gunakan, ji
 ### Menggunakan Termux Api (Jika kalian pakek Android)
 ### Tesk Editor
   Mungkin banyak teks editor baik itu *based on cli* ataupun *GUI*. Namun untuk kesuakaan saya ialah Neovim. Meskipun akan sulit bagi pemula namun jika sudah terviasa akan sangat luar biasa. Untuk Pembahasannya silahkan klick link dibawah.
-- [Belajar Bassic NeoVim](/lms/bassic/belajar-neovim)
+- [Belajar Bassic NeoVim](./nvim/bassic)
 - [List Command NeoVim](/lms/bassic/list-command-neovim)
 - [Install Plugin dan cara Configurasi NVIM](/lms/bassic/install-plugin-dan-cara-convigurasi)
 - [Cara membuat shortcut dan command sendiri di NVIM](/lms/bassic/)

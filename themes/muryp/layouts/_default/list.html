@@ -13,8 +13,8 @@
          {{ if eq .Section "authors" }}
         {{ partial "authors/pages.html" . }}
          {{end}}
-         {{ if eq .Section "lms" }}
-        {{ partial "list/lms.html" . }}
+         {{ if eq .Section "note" }}
+        {{ partial "list/note.html" . }}
          {{else}}
         {{ partial "list/blog.html" . }}
          {{end}}

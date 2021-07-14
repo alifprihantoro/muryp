@@ -1,6 +1,6 @@
 ---
 title: "Cheatsheet Command Bash"
-slug: slug
+elug: bash
 date: 2021-07-14T07:47:35+07:00
 lastmod: 2021-07-14T07:47:35+07:00
 draft: false

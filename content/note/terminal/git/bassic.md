@@ -1,12 +1,12 @@
 ---
 title: "Bahas Git: Version Control, Penggunaan dan Configurasi"
-slug: bahas-git-version-control
+slug: bassic
 date: 2021-07-10T04:58:51Z
 lastmod: 2021-07-10T04:58:51Z
 authors:
 - muryp
 
-draft: true
+draft: false
 show_comments: true
 
 image : "link"

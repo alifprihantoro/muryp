@@ -1,6 +1,5 @@
 ---
 title: "Bassic untuk Mempelajari Web"
-slug: bassic
 date: 2021-01-10T05:55:29Z
 
 image: ""
@@ -8,12 +7,12 @@ thumbnail : ""
 
 description: "Belajar web dev pertama"
 ---
-> Mohon maaf, untuk saat ini. Saya sedang mengusahakan untuk melengkapi artikel/video untuk pembelajaran. Jika link belum aktif, mohon bersabar atau kalian bisa cari keyword sesuai urutan dibawah.
+> artikel dibawah saya gunakan sebagai catatan/materi di youtube nantinya jika ada kesalahan kata mohon dimaklumi, namun jika penyampaian yang kurang jelas kalian bisa lihat video yang mungkin belum jadi saat ini
 
 # Bassic untuk mempelajari Web
 ### Awal
-- [Belajar Terminal](./belajar-terminal)
-- [Git](/lms/git/)
+- [Belajar Terminal](./Bassic/belajar-terminal)
+- [Git](./git/_index)
   * penjelasan git
   * version control
   * command git

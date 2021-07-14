@@ -1,6 +1,6 @@
 ---
 title: "Bassic untuk Mempelajari Web"
-slug: bassic
+slug: bassic-web
 date: 2021-01-10T05:55:29Z
 
 image: ""
@@ -12,8 +12,8 @@ description: "Belajar web dev pertama"
 
 # Bassic untuk mempelajari Web
 ### Awal
-- [Belajar Terminal](./belajar-terminal)
-- [Git](/lms/git/)
+- [Belajar Terminal](./terminal/bassic.md)
+- [Git](./terminal/git/bassic)
   * penjelasan git
   * version control
   * command git
