@@ -41,6 +41,28 @@ Bagi kalian yang hanya menggunakan blog sebagai **tutorial, dokumentasi, cerita,
 
 Ada beberapa folder, mulai dari content, template, dan config. Dimana didalamnya masih ada sub folder. Yang nantinya akan dijadikan satu kesatuan web/blog. Kalian hanya perlu menyambungkan antara file satu dengan file lainnya.
 
+## cara install
+
+Untuk menginstallnya sendiri cukup mudah. Kalian tinggal ketikkan `apt install hugo` atau jika di termux `pkg install hugo`.
+
+## buat web
+
+Untuk memulai membuat web, kalian coba ketikkan `hugo new site nama-situs` lalu masuk ke direktori situs yang sudah kalian buat.
+
+## buat post
+
+Untuk membuat post sendiri ada beberapa cara. Untuk di **cli** sendiri kita hanya perlu mengetikkan `hugo new name-post`.
+
+### Menggunakan nvim sebagai hugo content
+
+Untuk mengikuti cara ini sebaiknya anda sudah tahu cara menggunakan nvim sebelumbya. Jika belum silahkan [klick disini](/note/terminal/nvim/bassic). yang kalian butuhkan hanya satu plugin yaitu : `Plug 'robertbasic/vim-hugo-helper' , { 'for': 'markdown' }` taruh code tersebut kedalam file **.nvim** kalian. install alalu untuk configurasi lebih lanjut berikut ini :
+
+
+
+## buat theme
+## Compile
+ 
+
 ## kesimpulan 
 Hugo adalah salah satu framrwork yang cepat,aman, dan mudah mengelolanya. Ya meskipun tak semudah menggunakan wordpress atau blogger yang klick-klick. Namun jika kalian sudah mempelajarinya, pasti kalian akan lebih suka menggunakan hugo ketimbang wordpress atau blogger.
 
