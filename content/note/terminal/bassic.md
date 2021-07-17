@@ -20,10 +20,12 @@ thumbnail : ""
 
 description: ""
 ---
+Assalamualaikum Warahmatullahi Wabarakatuh
+
+Apa itu **cli** ? kenapa harus memakai **cli** ? apa kelebihan **cli** ? bukankah gui lebih baik ?
+  
 ## bassic terminal usage
 ### Pengenalan cli
-  Apa itu **cli** ? kenapa harus memakai **cli** ? apa kelebihan **cli** ? bukankah gui lebih baik ?
-  
   **Cli adalah** sebuah Command Line Interface yang digunakan untuk mengatur atau berkomunikasi dengan komputer.
 
   Meskipun dulu **cli** umumnya digunakan hanya untuk komputer saja, namun semenjak munculnya android yang berbasis unix system. Kita dapat melakukan hal yang bisa dilakukan oleh komputer di handphone kita.
@@ -43,7 +45,9 @@ Nah untuk menggunakan cli sendiri kita perlu tahu apa yang akan kita gunakan, ji
   Dan untuk beberapa kasus kita harus menggunakan function untuk mempersingkat perintah kita. Untuk penggunaannya bisa dilihat [disini](./bash/function)
 
 ### Install App dan Config (Optional)
-  Bagi kalian yang ingin menginstall beberapa aplikasi di cli. Kalian bisa lihat [disini](./intsall-dan-config)
+  Bagi kalian yang ingin menginstall beberapa aplikasi di cli. Kalian bisa lihat :
+- pkg/apt install
+
 ### Perbedaan Bash vs Zsh vs Fish
 - Bash : umumnya sudah terinstall jika kalian penghuna linux atau termux
 - zsh :
@@ -62,3 +66,8 @@ lihat selengkapnya di `link`
   * git
   * hugo
   * npm
+
+## Penutup
+Oke cukup segini saja untuk **Belajar terminal/termux-nya**. Semoga lancar, jika ada kendala ataupun masalah jangan sungakan-sungkan untuk menghubungi saya baik melalui kolon komentar dibawah ataupun dm langsung.
+
+Wa'Alaikum Salam Warahmatullahi Wabarakatuh 
