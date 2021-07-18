@@ -11,6 +11,9 @@ type: pages
  
 tags: 
 - Hugo
+- Front End
+- Back End
+- 
 
  
 description: "Apa itu hugo? Apa kelebihan hugo? Kenapa harus pakek hugo?" 
@@ -20,12 +23,12 @@ keywords: "Apa itu hugo? Apa kelebihan hugo? Kenapa harus pakek hugo?"
 Hello world!
 Saya muryp dari indonesia. Kali ini saya akan memulai seri hugo dan bagaiamana tanggapan saya mengenai framework ini. 
 
-# Hugo 
+# Penjelasan Singkat Mengenai Hugo 
 Menurut wikipedia, **Hugo adalah** generator web statis yang ditulis dalam bahasa pemrograman Go. Hugo dikembangkan oleh **Bjørn Erik Pedersen, Steve Francia**, dan kontributor lainnya. Hugo adalah sebuah proyek sumber terbuka di bawah Lisensi Apache 2.0. 
 
-Menurutku : Hugo adalah alat untuk memudahkan proses pembuatn blog. Dimana syntax yang digunakan menggunakan bahasa yang mudah. Mulai dari templating, hingga configurasi. Bahkan kita tak perlu menginstall cms untuk membuat konten. Karena hugo menggunakan markdown sebagai isi content-nya.
+Menurutku : Hugo adalah alat untuk memudahkan proses pembuatn blog. Layaknya sebuah puzle, hugo dibagi menjadi folder dan file terpisah. Sehingga kita bisa mengatur blog dengan baris kode yang tak terlalu panjang. Dan dengan hugo template dan postingan lebih **costumable** atau mudah untuk diubah dan diatur sesuai kebutuhan.
 
-## kapan kita harus pakek hugo ?
+## Kapan Kita Harus Pakek Hugo ?
 
 Bagi kalian yang hanya menggunakan blog sebagai **tutorial, dokumentasi, cerita, atau artikel** dan hal lainnya yang tidak berubah dengan sangat cepat. Selain itu hugo **tidak menggunakan database** untuk menyimpan content dan template. Meskipun tidak menutup kemubgkinan bisa menggunakan database. Dan yang kalian perlukan ialah repositori git. Jadi untuk mengikuti tutorial ini kalian sebaiknya harus akrab dengan git terlebih dahulu.
 
@@ -53,15 +56,21 @@ Untuk memulai membuat web, kalian coba ketikkan `hugo new site nama-situs` lalu 
 
 Untuk membuat post sendiri ada beberapa cara. Untuk di **cli** sendiri kita hanya perlu mengetikkan `hugo new name-post`.
 
-### Menggunakan nvim sebagai hugo content
+### Menggunakan nvim untuk mengatur content
 
-Untuk mengikuti cara ini sebaiknya anda sudah tahu cara menggunakan nvim sebelumbya. Jika belum silahkan [klick disini](/note/terminal/nvim/bassic). yang kalian butuhkan hanya satu plugin yaitu : `Plug 'robertbasic/vim-hugo-helper' , { 'for': 'markdown' }` taruh code tersebut kedalam file **.nvim** kalian. install alalu untuk configurasi lebih lanjut berikut ini :
-
-
+Untuk menggunakan nvim untuk mengatur konten, yang kita perlukan adalah plugin hugo helper dan wikivim (optional). Untuk caranya sendiri bisa dilihat [disini](/note/terminal/nvim/hugo)
 
 ## buat theme
+
+Untuk membuat tema sendiri, silahkan ketik `hugo new theme nama-tema`. Untuk tutorial selengkapnya [klick disini](./templating)
+
 ## Compile
- 
+
+Untuk melihat hasilnya kalian bisa ketikkan `hugo server` jika ingin di minify `hugo serve --minify`. Silahkan hapus serve jika ingin mendapatkan file public-nya.
+
+## Hosting
+
+Untuk hosting sendiri, bermacam-macam. Dari yang gratis hingga yang berbayar. Untuk kasus yang saya alami, saya hanya menggunakan hosting gratis. Untuk penggunaannya silahkan [klick disini](./hosting)
 
 ## kesimpulan 
 Hugo adalah salah satu framrwork yang cepat,aman, dan mudah mengelolanya. Ya meskipun tak semudah menggunakan wordpress atau blogger yang klick-klick. Namun jika kalian sudah mempelajarinya, pasti kalian akan lebih suka menggunakan hugo ketimbang wordpress atau blogger.
