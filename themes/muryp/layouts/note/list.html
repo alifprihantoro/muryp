@@ -10,11 +10,7 @@
     <body class="">
   {{ partial "main/topNav/main.html" . }}
   <div class="main">
-         {{ if eq .Section "authors" }}
-        {{ partial "authors/pages.html" . }}
-         {{else}}
-        {{ partial "list/blog.html" . }}
-         {{end}}
+        {{ partial "list/note.html" . }}
 </div>
         {{ partial "main/footer.html" . }}
         {{ partial "main/myjs.html" . }}

@@ -1,31 +1,6 @@
 <div class="bagian-tengah">
-  <div id="project">
-    <h2>My Project</h2>
-    <p>
-dikarenakan belum ada project yang bagus untuk ditampilkan, silahkan kunjungi <a href="https://github.com/alifmuryp" target="_blank" rel="nofollow">Github</a> atau <a href="https://gitlab.com/muryp" target="_blank" rel="nofollow">Gitlab</a> dulu. Meskipun masih acak-acakan sih.
-    </p>
-  </div>
-  <div id="blog">
-    <h2>My Blog</h2> 
-      {{ with .Site.GetPage "/blog" }}
-    <div class="myread">
-	{{ range .Paginator.Pages }}
-	      <a href="{{ .RelPermalink }}">
-      <div class="content">
-        <div class="date">
-									<span class="day">{{ dateFormat "02" .Date }}</span>
-							<span class="rest">{{ if $.Site.Data.month }}{{ index $.Site.Data.month (printf "%d" .Date.Month) }} {{ .Date.Year }}{{ else }}{{ dateFormat "Jan 2006" .Date }}{{ end }}</span>
-								</div>
-        <div class="readMore">
-            {{ .Title }}
-        </div>
-     </div>
-            </a>
-      {{ end }}
-    </div>
-    {{end}}
-    <div class="btn btn-2">See More</div>
-  </div>
+{{ partial "home/midle/project.html" }}
+{{ partial "home/midle/blog.html" }}
   <div id="lms">
     <h2>Learning Module System</h2> 
       {{ with .Site.GetPage "/lms" }}

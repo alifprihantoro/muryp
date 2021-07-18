@@ -4,7 +4,6 @@
 Terdapat "{{ len .RegularPages }}" Postingan dari {{ .Title }} yang bisa kalian baca dan komentari.
 </p>
 </div>
-        {{ .Content | safeHTML }}
     <div class="myread">
 	{{ range .Paginator.Pages }}
 	      <a href="{{ .RelPermalink }}">
