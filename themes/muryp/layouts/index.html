@@ -10,8 +10,11 @@
   {{ partial "home/nav.html" . }}
   <div class="main">
     {{ partial "home/top.html" . }}
-    {{ partial "home/midle/blog.html" . }}
-    {{ partial "home/midle.html" . }}
+    <div class="bagian-tengah">
+      {{ partial "home/midle/project.html" . }}
+      {{ partial "home/midle/note.html" . }}
+      {{ partial "home/midle/blog.html" . }}
+    </div>
     {{ partial "home/last.html" . }}
   </div>
   {{ partial "main/footer.html" . }}
