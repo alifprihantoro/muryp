@@ -5,7 +5,7 @@ date: 2021-01-08T05:03:57Z
 draft: false
 show_comments: true
 
-type: post
+[type](type): post
 
 tags:
     - tag

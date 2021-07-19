@@ -7,6 +7,7 @@ thumbnail : ""
 
 description: "Belajar web dev pertama"
 ---
+
 > artikel dibawah saya gunakan sebagai catatan/materi di youtube nantinya jika ada kesalahan kata mohon dimaklumi, namun jika penyampaian yang kurang jelas kalian bisa lihat video yang mungkin belum jadi saat ini
 
 # Bassic untuk mempelajari Web
