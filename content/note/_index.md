@@ -1,7 +1,7 @@
 ---
 title: "Bassic untuk Mempelajari Web"
 date: 2021-01-10T05:55:29Z
-
+ 
 image: ""
 thumbnail : ""
 

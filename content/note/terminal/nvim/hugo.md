@@ -30,19 +30,31 @@ Plug 'robertbasic/vim-hugo-helper' , { 'for': 'markdown' }
 " Markdown support
 Plug 'godlygeek/tabular', { 'for': 'markdown' }
 Plug 'plasticboy/vim-markdown', { 'for': 'markdown' }
-" Wiki / to do list / note
-Plug 'vimwiki/vimwiki'
- 
+
+" NERD Tree - tree explorer
+" (loaded on first invocation of the command)
+  Plug 'scrooloose/nerdtree', { 'on':  'NERDTreeToggle' }
+" File Explorer with Icons
+  Plug 'scrooloose/nerdtree', { 'on':  'NERDTreeToggle' }
+  Plug 'ryanoasis/vim-devicons', { 'on':  'NERDTreeToggle' }
+Plug 'scrooloose/nerdtree' , { 'on':  'NERDTreeToggle' }|
+            \ Plug 'Xuyuanp/nerdtree-git-plugin' , { 'on':  'NERDTreeToggle' }|
+
+" File Search
+  Plug 'junegunn/fzf', { 'dir': '~/.fzf', 'do': './install --all' }
+  Plug 'junegunn/fzf.vim'
 ```
+
 keterangan :
 - hugo helper : digunakan untuk membuat post, update date, slug
-- vimwiki : digunakan untuk link, table (dan untuk catatan serta checklist)
 - markdown support : untuk memudahkan kita saat mengedit file markdown
+- nerdthree : file manager pada umumnya
+- fzf : untuk mencari file dengan cepat
 
 ## Configurasi
 
 ### struktur file yang saya gunakan :
-```
+```sh
 |-app
 |-autoload
 |-conf
@@ -106,13 +118,6 @@ endfun
 ```
 keterangan : Menyalin judul menjadi slug/link
 
-### Save dan Update Tanggal Lasmod(Terakhir Dimodifikasi)
-bhat file lagi `update.vim` di folder yang sama
-```
-:HugoHelperLastmodIsNow
-w
-```
-
 ### Command shortcut
 
 ```vim
@@ -123,18 +128,29 @@ command Ct s/\<\(\w\)\(\w*\)\>/\u\1\L\2/g
 " add
 command Huga source ~/storage/external-1/config/nvim/app/add_post.vim
 " update
-command Hugs source ~/storage/external-1/config/nvim/app/update.vim
+command Hu HugoHelperLastmodIsNow
 " to slug
 command Hslug call Hugotitletoslug()
-
-" Vimwiki (optional)
-" wiki list
-command Wl VimwikiUISelect
-" to development
-command Wd VimwikiIndex1
-" to documentation
-command Wdoc VimwikiIndex2
-" to private
-command Wp VimwikiIndex3
 ```
 
+### Nerdthree
+```vim
+" Let quit work as expected if after entering :q the only window left open is NERD Tree itself
+let g:NERDTreeShowHidden = 1
+let g:NERDTreeMinimalUI = 1
+let g:NERDTreeIgnore = []
+let g:NERDTreeStatusline = ''
+" Automaticaly close nvim if NERDTree is only thing left open
+autocmd bufenter * if (winnr("$") == 1 && exists("b:NERDTree") && b:NERDTree.isTabTree()) | q | endif
+" font
+let g:NERDTreeGitStatusUseNerdFonts = 1 " you should install nerdfonts by yourself. default: 0
+ ```
+
+### Fzf
+
+> fyi untuk menginstall fzf ketikkan `pkg install fzf`
+
+```vim
+" fuzzy
+let g:fzf_layout = { 'window': '-tabnew' }
+```

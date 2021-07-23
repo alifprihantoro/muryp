@@ -5,6 +5,7 @@ date: 2021-01-20T13:34:12Z
 draft: false 
 authors:
  - MuryP
+
 show_comments: true 
  
 type: pages 
@@ -13,9 +14,8 @@ tags:
 - Hugo
 - Front End
 - Back End
-- 
 
- 
+
 description: "Apa itu hugo? Apa kelebihan hugo? Kenapa harus pakek hugo?" 
 keywords: "Apa itu hugo? Apa kelebihan hugo? Kenapa harus pakek hugo?" 
 --- 
@@ -39,7 +39,6 @@ Bagi kalian yang hanya menggunakan blog sebagai **tutorial, dokumentasi, cerita,
 - Menggunakan bahasa markdown yang mudah dimengerti.
 - Mungkin itu dulu. jika ada lagi silahkan tulis di kolom komentar dibawah.
 
-
 ## Cara kerja 
 
 Ada beberapa folder, mulai dari content, template, dan config. Dimana didalamnya masih ada sub folder. Yang nantinya akan dijadikan satu kesatuan web/blog. Kalian hanya perlu menyambungkan antara file satu dengan file lainnya.
@@ -58,7 +57,7 @@ Untuk membuat post sendiri ada beberapa cara. Untuk di **cli** sendiri kita hany
 
 ### Menggunakan nvim untuk mengatur content
 
-Untuk menggunakan nvim untuk mengatur konten, yang kita perlukan adalah plugin hugo helper dan wikivim (optional). Untuk caranya sendiri bisa dilihat [disini](/note/terminal/nvim/hugo)
+Untuk menggunakan nvim untuk mengatur konten, yang membutuhkan beberapa plugin. Untuk caranya sendiri bisa dilihat [disini](/note/terminal/nvim/hugo)
 
 ## buat theme
 
@@ -79,4 +78,3 @@ Hugo adalah salah satu framrwork yang cepat,aman, dan mudah mengelolanya. Ya mes
 
 ## Penutup
 Trimakasih sudah membaca sampai akhir, semoga bermanfaat dan sampai jumpa di artikel selanjutnya. Oh ya jika kalian suka dengan konten ini silahkan bagikan ke keteman atau komunitasnu.
-

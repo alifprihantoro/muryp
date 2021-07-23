@@ -5,6 +5,7 @@ date: 2021-01-21T03:17:38Z
 draft: false 
 authors:
  - MuryP
+
 show_comments: true 
  
 type: pages 
@@ -15,6 +16,8 @@ tags:
 description: "Cara install hugo lewat termux" 
 keywords: "Cara install hugo lewat termux" 
 --- 
+> ini artikel lama, mungkin ada sedikit masalah/kesalahan
+
 Hello world!
 Tahukah jika kalian bisa membuat website hanya bermodalkan hp saja. Meskipun nanti akan sedikit kerepotan dan bisa tidak sesuai ekspetasi dikarenakan keterbatasan yang ada. Tapi tenang, kalian setidaknya bisa membuat blog/web seperti saya. Asalkan kalian betah aja ngodingnya. Dan untyk pengerjaan emang lebih lama, kecuali hp kalian sudah bagus. Misal RAM min.2-4gb, Memori internal/yang bisa digunakan untuk aplikasi : min.32gb soalnya kalo 16gb gak hanya sisa berapa gb aja, untuk soc min 1,5ghz aja sudah cukup. Soalnya gak terlalu membutuhkan soc terlalu besar. Tapi juga jangan kecil-kecil, takut lag.
 
