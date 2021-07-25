@@ -1,6 +1,5 @@
 ---
 title: "Front End"
-slug: front-end
 date: 2021-01-07T05:49:44Z
 draft: false
 show_comments: false
