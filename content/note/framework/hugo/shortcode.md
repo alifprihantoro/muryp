@@ -29,10 +29,15 @@ description: ""
 </span>
 ```
 #### Penggunaan
-```{{< span class-name >}}
-<html>
-{{</ span>}}
 ```
+{{< span class-name >}}
+<html/>
+{{</ span >}}
+```
+
+#### Keterangan
+
+Digunakan untuk membuat span, yang didalamnya bisa diisi html. Dan kalian bisa mengganti `span` menjadi `div` dan untuk penggunaannya silahkan ubah nama filenya sesuai kebutuhan. 
 
 ### image
 
@@ -45,3 +50,12 @@ description: ""
 {{< /img.png "alt" "description" "keywords" >}}
 ```
 
+#### Keterangan
+
+Sama seperti sebelumnya. bisa dilakukan lebih dari satu variabel.
+
+## Info Penting :
+
+- Bisa menggunakan menambah folder atau subfolder
+- Bisa mengguankan partial
+- Untuk contoh berikutnya nanti saya akan update
