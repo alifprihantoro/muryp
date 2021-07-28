@@ -1,21 +1,18 @@
 ---
-title: "Menulis Artikel Dari Termux [Hugo]"
-slug: menulis-artikel-dari-termux-hugo
-date: 2021-01-30T06:27:29Z
-draft: false 
 authors:
- - MuryP
-show_comments: true 
- 
-type: pages 
- 
-tags: 
+- MuryP
+date: "2021-01-30T06:27:29Z"
+description: Menulis artikel di hugo dengan termux
+draft: false
+keywords: Menulis artikel di hugo dengan termux
+show_comments: true
+slug: menulis-artikel-dari-termux-hugo
+tags:
 - Hugo
-
+title: Menulis Artikel Dari Termux [Hugo]
+type: pages
+---
  
-description: "Menulis artikel di hugo dengan termux" 
-keywords: "Menulis artikel di hugo dengan termux" 
---- 
 Hello World!
 Kita sudah tahu apa itu hugo dan cara menginstallnya. Lalu bagaimana cara kita membuat kontent di hugo? tenang itu mudah kok, cuman butuh text editor apa aja, yang penting kalian nyaman. 
 

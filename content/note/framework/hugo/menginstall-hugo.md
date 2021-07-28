@@ -1,21 +1,18 @@
 ---
-title: "Menginstall Hugo"
-slug: install
-date: 2021-01-21T03:17:38Z
-draft: false 
 authors:
- - MuryP
-
-show_comments: true 
- 
-type: pages 
- 
-tags: 
+- MuryP
+date: "2021-01-21T03:17:38Z"
+description: Cara install hugo lewat termux
+draft: false
+keywords: Cara install hugo lewat termux
+show_comments: true
+slug: install
+tags:
 - hugo
-
-description: "Cara install hugo lewat termux" 
-keywords: "Cara install hugo lewat termux" 
---- 
+title: Menginstall Hugo
+type: pages
+---
+ 
 > ini artikel lama, mungkin ada sedikit masalah/kesalahan
 
 Hello world!

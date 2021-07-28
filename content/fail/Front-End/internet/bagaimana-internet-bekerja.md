@@ -1,18 +1,15 @@
 ---
-title: "Bagaimana Internet Bekerja"
-date: 2021-07-09T22:35:23Z
+date: "2021-07-09T22:35:23Z"
+description: Ringkasan Cara Kerja Internet.
 draft: false
-slug: bagaimana-internet-bekerja
-show_comments: true
-
-learn:
-    - Front End
-    - Bassic
- 
 image: ""
-thumbnail : ""
-
-description: "Ringkasan Cara Kerja Internet."
+learn:
+- Front End
+- Bassic
+show_comments: true
+slug: bagaimana-internet-bekerja
+thumbnail: ""
+title: Bagaimana Internet Bekerja
 ---
 Assalamualaikum wr.wb
 Saya Alief Prihantoro bisa panggil saja muryp. Disini saya akan sedikit sharing mengenai bagaiamna internet bekerja. Disini saya hanya akan memberikan ringkasan saja untuk full nya bisa kalian baca artikel aslinya.

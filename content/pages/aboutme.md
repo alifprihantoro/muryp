@@ -1,18 +1,13 @@
 ---
-title: "Mengenai Penulis"
-slug: author
-date: 2021-01-07T04:31:27Z
+date: "2021-01-07T04:31:27Z"
+description: Hello world! I'm MuryP from Indonesian. I hope. I can create unique,
+  usefully, and simple I like Coding and Drawing. I hope you enjoy.
 draft: false
-
+image: /img/profil-muryp-studio-min.png
+slug: author
+thumbnail: /img/profil-muryp-studio-thumb-min.png
+title: Mengenai Penulis
 type: page
-
-image: "/img/profil-muryp-studio-min.png"
-thumbnail : "/img/profil-muryp-studio-thumb-min.png"
-
-description: "Hello world!
-I'm MuryP from Indonesian. 
-I hope. I can create unique, usefully, and simple
-I like Coding and Drawing. I hope you enjoy."
 ---
 # About Me
 Hello world! 

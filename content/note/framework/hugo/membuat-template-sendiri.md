@@ -1,20 +1,17 @@
 ---
-title: "Membuat Template Sendiri"
-slug: membuat-template-sendiri
-date: 2021-01-21T09:46:37Z
-draft: false
 authors:
 - MuryP
+date: "2021-01-21T09:46:37Z"
+description: Cara membuat template hugo dari nol.
+draft: false
+keywords: Cara membuat template hugo dari nol.
 show_comments: true
-
-type: pages
-
+slug: membuat-template-sendiri
 tags:
 - Hugo
 - Template
-
-description: "Cara membuat template hugo dari nol."
-keywords: "Cara membuat template hugo dari nol."
+title: Membuat Template Sendiri
+type: pages
 ---
 
 > belum jadi

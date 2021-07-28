@@ -1,21 +1,16 @@
 ---
-title: "Membuat Function pada perintah Bash"
-slug: function
-date: 2021-07-14T15:33:17+07:00
-lastmod: 2021-07-14T15:33:17+07:00
-draft: false
-show_comments: false
-
-type: post
-
-tags:
-    - Tag
-
-image: ""
-thumbnail : ""
-
+date: "2021-07-14T15:33:17+07:00"
 description: ""
-
+draft: false
+image: ""
+lastmod: "2021-07-14T15:33:17+07:00"
+show_comments: false
+slug: function
+tags:
+- Tag
+thumbnail: ""
+title: Membuat Function pada perintah Bash
+type: post
 ---
 Assalamualaikum Warahmatullahi Wabarakatuh
 

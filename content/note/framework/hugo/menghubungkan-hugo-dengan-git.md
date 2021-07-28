@@ -1,25 +1,19 @@
 ---
-title: "Menghubungkan Hugo Dengan Github dan Gitlab"
-slug: menghubungkan-hugo-dengan-git
-date: 2021-01-21T05:51:46Z
-draft: false 
 authors:
- - MuryP
-show_comments: true 
- 
-type: pages 
- 
-tags: 
-- Hugo 
+- MuryP
+date: "2021-01-21T05:51:46Z"
+description: Cara menghubungkan hugo dengan git, github, gitlab.
+draft: false
+keywords: Cara menghubungkan hugo dengan git, github, gitlab.
+show_comments: true
+slug: menghubungkan-hugo-dengan-git
+tags:
+- Hugo
 - Git
-
-
-  
-  
+title: Menghubungkan Hugo Dengan Github dan Gitlab
+type: pages
+---
  
-description: "Cara menghubungkan hugo dengan git, github, gitlab." 
-keywords: "Cara menghubungkan hugo dengan git, github, gitlab." 
---- 
 Hello World!
 Saya muryp dari Indonesia. Saya saat ini sedang mendalami front end. Dan spesifiknya lagi saya sedang mencoba framework hugo untuk blog saya. Yang sebelumnya saya pakai blogger. Dan karena keuntungan hugo ialah git system, agar ketika salah atau ingin coba-coba template tanpa memengaruhi konten utama.
 

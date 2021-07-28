@@ -1,22 +1,19 @@
 ---
-title: "Membahas Mengenai SSH dan Contoh Penggunaannya"
-slug: bahas-ssh
-date: 2021-01-29T14:01:11Z
-draft: false 
 authors:
- - MuryP
-show_comments: true 
- 
-type: pages 
- 
-tags: 
+- MuryP
+date: "2021-01-29T14:01:11Z"
+description: membahas ssh dasar
+draft: false
+keywords: membahas ssh dasar
+show_comments: true
+slug: bahas-ssh
+tags:
 - Security
 - Bassic
+title: Membahas Mengenai SSH dan Contoh Penggunaannya
+type: pages
+---
  
- 
-description: "membahas ssh dasar" 
-keywords: "membahas ssh dasar" 
---- 
 
 Hello world!
 Disini saya tidak akan membahas terlalu dalam mengenai ssh. Saya ahanya akan memberikan gambaran bagi kalian yang belum sama sekali tahu apa itu ssh.

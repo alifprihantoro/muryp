@@ -1,22 +1,17 @@
 ---
-title: "Markdown Cheat Sheet"
-slug: cheatsheet
-date: 2021-07-23T11:17:28+07:00
-lastmod: 2021-07-23T11:17:28+07:00
-draft: false
-show_comments: false
-
-type: post
-
-tags:
-    - Cheat Sheet
-    - Markdown
-
-image: ""
-thumbnail : ""
-
+date: "2021-07-23T11:17:28+07:00"
 description: ""
-
+draft: false
+image: ""
+lastmod: "2021-07-23T11:17:28+07:00"
+show_comments: false
+slug: cheatsheet
+tags:
+- Cheat Sheet
+- Markdown
+thumbnail: ""
+title: Markdown Cheat Sheet
+type: post
 ---
 contoh penulisan : 
 ```markdown

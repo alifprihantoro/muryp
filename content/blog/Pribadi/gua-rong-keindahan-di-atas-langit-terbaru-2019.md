@@ -1,14 +1,16 @@
-+++
- authors=["muryp"] 
-title = "Gua Rong, Keindahan di atas langit (terbaru 2019)"
-date = 2019-07-21T17:03:00Z
-updated = 2019-07-21T17:03:26Z
-tags = ["Ceritaku"]
-blogimport = true 
-[author]
-	name = "MuryP"
-	uri = "https://www.blogger.com/profile/14798613158789333825"
-+++
+---
+author:
+  name: MuryP
+  uri: https://www.blogger.com/profile/14798613158789333825
+authors:
+- muryp
+blogimport: true
+date: "2019-07-21T17:03:00Z"
+tags:
+- Ceritaku
+title: Gua Rong, Keindahan di atas langit (terbaru 2019)
+updated: "2019-07-21T17:03:26Z"
+---
 
  {{< html >}} 
 &nbsp; &nbsp; Welcome dude! bagi kalian yang baru mampir dan salam juga bagi kalian para pembaca setia blog ini hehehe. kali ini  saya ingin menceritakan tentang cerita saya saat kegiatan di Gua Rong. Gua Rong? dimana itu? emang bagunya apa? penasaran ya. langsung saja kalian bisa melihat foto/vidio dan tentunya cerita saya hehehe.<br /><div class="separator" style="clear: both; text-align: center;"><a href="https://1.bp.blogspot.com/-CINtzIba_5g/XTT9GS-NpQI/AAAAAAAAEYo/aFk4WlFV2CM3JUliklFdvmjZNTI2wt7ggCLcBGAs/s1600/IMG-20190718-WA0023-min.jpg" imageanchor="1" style="margin-left: 1em; margin-right: 1em;"><img border="0" data-original-height="506" data-original-width="1280" height="253" src="https://1.bp.blogspot.com/-CINtzIba_5g/XTT9GS-NpQI/AAAAAAAAEYo/aFk4WlFV2CM3JUliklFdvmjZNTI2wt7ggCLcBGAs/s640/IMG-20190718-WA0023-min.jpg" width="640" /></a></div><br /><h2>Gua Rong, Keindahan di atas langit (terbaru 2019)</h2>&nbsp; &nbsp; alarm berbunyi, tapi aku hanya mematikannya saja. aku melanjutkan tidurku, sampai terdengarlah suara adzan. meskipun masih ngantuk aku melanjutkan tidur lagi. sampai jam lima tepat, saya shalat.<br /><br />&nbsp; &nbsp; setelah shalat, saya mempersiapkan perlengkapan dan berangkat. meskipun sebelum itu sempat tergesa-gesa. kali ini diakibatkan oleh sarapan. saya harus menunggu beberapa menit dan hampir mendekati jam enam. hingga sarapanpun sudah selesai dan sayapun berangkat.<br /><br />&nbsp; &nbsp; alhamdulillah ternyata dugaanku meleset. angkot yang saya tumpangi cepat sehingga tidak tertinggal oleh angkot yang menuju ke sekolah langsung.<br /><br />&nbsp; &nbsp; mungkin karena aku rajin ya, hehehe. aku tidak ingin terlambat datang ke sekolah. selain tambah biaya angkot, juga harus mempersiapkan alasan yang bagus.<br /><br />&nbsp; &nbsp; kegiatan sekolah kali ini adalah jalan-jalan ke Gua Rong. yeah, meskipun akan membuatku lelah.<br /><br />&nbsp; &nbsp; jam tujuh, dan bel masuk pun mulai berbunyi. kami pun disuruh baris di lapangan lalu melanjutkan perjalanan. kami yang malas jalan ke sana berencana ingin membawa sepeda motor, tapi karena banyak guru yang melarang kita pun terpaksa berjalan kaki.<br /><br />&nbsp; &nbsp; perjalanan dimulai, kami menelusuri jalan yang berliku-liku. dan beberapa teman kami ingin kabur atau apa, tapi gagal. lalu untuk mempersingkat, akmi menerobos jalan dengan cara mendaki. sehingga lebih cepat dua kali lipat.<br /><br />&nbsp; &nbsp; dan lucunya aku yang memiliki phobia dengan ketinggian memaksakan untuk ikut mendaki. meskipun setelahnya agak gak bisa berdiri saat sudah sampai di puncak.<br /><br />&nbsp; &nbsp; mungkin dengan ini phobia ku bisa berkurang. dan saat melakukan pendakian saya hampir terjatuh karenaa batu kecil yang membuatku terpeleset. saya memegang erat rumput yang berada di atasku. dan melanjutkannya. dengan jantung yang berdebar-debar saat melihat ke atas maupun ke bawah. akhirnya sayapun sampai di puncak.<br /><br />&nbsp; &nbsp; dengan berbekal makanan ringan dan miuman kecil. kamipun beristirahat, di atas batu dekat Gua Rong. setelah beristirahat beberapa waktu sayapun melanjutkan ke atas lagi. kami mendaki lagi, alhamdulillah yang ke dua ini ada tangganya meskipun agak ekstream menurutku.<br /><br />&nbsp; &nbsp; karena pemandangan yang indah sayapun mengambil handphone di dalam tasku dan mengabadikan dengan kamera. <br /><br />(foto)<br /><br />&nbsp; &nbsp; perasaan saat sampai di Gua Rong adalah rasa puas, lelah, dan sedikit agak lemas karena harus mendaki dulu. tetapi keindahan di sana memang indah, di sana ada beberapa fasilitas seperti taman bermain, lapangan kalau sekolah kami digunakan untuk pentas seni atau bernyanyi dan berjoget bersama. <br /><br />&nbsp; &nbsp; tak hanya itu kalian bisa menikmati hidangan di sana baik membawa sendiri atau pun memesan makanan di sana. kalian bisa bersantai dan menikmati pemandangan di sana.<br /><br /><h4>info Gua Rong :</h4><h4>tiket :</h4>5000/orang di hari biasa<br />7500/orang pada saat weekend dan hari libur<br />jam buka : setiap hari jam 08:00 sampai 18:00<br /><br /><h4>akomodasi penginapan</h4>Ada kok penginapan di dekat Gua Rong dan jika kamu ingin berkemah juga bisa. di sini sudah terdapat camping ground, jadi tak perlu kawatir.<br /><br />lokasi :<br />goa rong, Lopait, Tuntang, Lopait, Kec. Tuntang, Semarang, Jawa Tengah 50773<br />atau bisa klick disini<br /><br />&nbsp; &nbsp; terimakasih telah membaca, semoga menghibur dan bermanfaat bagi anda. saya MuryP meminta maaf jika ada kesalahan kata maupun typo. tetap semangat dan raih cita-citamu. dan jangan lupa sebelum meninggalkan artikel ini silahkan beri tanggapan anda dengan berkomentar dan tekan icon di atas kolom komentar.<br /><br />regrad MuryP<br /><br /><h4>source info :</h4>https://www.brobali.com<br />google map

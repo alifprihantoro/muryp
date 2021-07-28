@@ -1,22 +1,17 @@
 ---
-title: "Cara Menggunakan Alias Pada Bash"
-slug: alias
-date: 2021-07-14T10:37:07+07:00
-lastmod: 2021-07-14T10:37:07+07:00
-draft: false
-show_comments: false
-
-type: post
-
-tags:
-    - Tutorial
-    - Bash
-
-image: ""
-thumbnail : ""
-
+date: "2021-07-14T10:37:07+07:00"
 description: ""
-
+draft: false
+image: ""
+lastmod: "2021-07-14T10:37:07+07:00"
+show_comments: false
+slug: alias
+tags:
+- Tutorial
+- Bash
+thumbnail: ""
+title: Cara Menggunakan Alias Pada Bash
+type: post
 ---
 Assalamualaikum Warahmatullahi Wabarakatuh
 hai, Tahukah kalian bahwa perintah dalam *cli* bisa kalian persingkat sehingga mudah diingat dan diketik. Lalu bagaimana cara melakukannya. Mari kita simak berikut.

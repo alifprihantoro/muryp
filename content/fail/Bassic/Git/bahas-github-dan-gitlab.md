@@ -1,24 +1,20 @@
 ---
-title: "Bahas Github Dan Gitlab"
-slug: bahas-github-dan-gitlab
-date: 2021-01-26T13:18:49Z
-draft: false 
 authors:
- - MuryP
-show_comments: true 
- 
-type: pages 
- 
-tags: 
+- MuryP
+date: "2021-01-26T13:18:49Z"
+description: Bahas topik github dan gitlab. Mana yang bagus dan cocok untuk kita.
+draft: false
+keywords: Bahas topik github dan gitlab. Mana yang bagus dan cocok untuk kita.
+show_comments: true
+slug: bahas-github-dan-gitlab
+tags:
 - Git
 - Github
 - Gitlab
-
-
+title: Bahas Github Dan Gitlab
+type: pages
+---
  
-description: "Bahas topik github dan gitlab. Mana yang bagus dan cocok untuk kita." 
-keywords: "Bahas topik github dan gitlab. Mana yang bagus dan cocok untuk kita." 
---- 
 Hello world!
 
 Nama saya MuryP, dari Indonesia. Kali ini saya ingin membicarakan tentang github dan gitlab, dan tentunyq ini opini saya aja. Mungkin kalian tidak sama dengan pengalaman saya. 

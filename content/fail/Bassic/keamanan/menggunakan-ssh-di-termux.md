@@ -1,22 +1,21 @@
 ---
-title: "Menggunakan SSH Di Termux"
-slug: menggunakan-ssh-di-termux
-date: 2021-01-16T02:06:04Z
-draft: false 
 authors:
- - MuryP
-show_comments: true 
- 
-type: pages 
- 
-tags: 
+- MuryP
+date: "2021-01-16T02:06:04Z"
+description: Bagaimana cara kita bisa memasang ssh melalui termux? Dan manfaatnya
+  apa?
+draft: false
+keywords: Bagaimana cara kita bisa memasang ssh melalui termux? Dan manfaatnya apa?
+show_comments: true
+slug: menggunakan-ssh-di-termux
+tags:
 - Security
 - Bassic
 - Termux
-
-description: "Bagaimana cara kita bisa memasang ssh melalui termux? Dan manfaatnya apa?" 
-keywords: "Bagaimana cara kita bisa memasang ssh melalui termux? Dan manfaatnya apa?" 
---- 
+title: Menggunakan SSH Di Termux
+type: pages
+---
+ 
 1. Buat folder **.ssh** jika tidak ada, lalu masuk dan buat key
 ```
 $ mkdir .ssh

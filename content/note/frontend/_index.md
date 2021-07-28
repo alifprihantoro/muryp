@@ -1,19 +1,15 @@
 ---
-title: "Front End"
-date: 2021-01-07T05:49:44Z
+date: "2021-01-07T05:49:44Z"
+description: Daftar modul untuk Front End developer.
 draft: false
-show_comments: false
-
-type: pages
-
-learn:
-    - List
-    - Front End
-
 image: ""
-thumbnail : ""
-
-description: "Daftar modul untuk Front End developer."
+learn:
+- List
+- Front End
+show_comments: false
+thumbnail: ""
+title: Front End
+type: pages
 ---
 > Mohon maaf, untuk saat ini. Saya sedang mengusahakan untuk melengkapi artikel/video untuk pembelajaran. Jika link belum aktif, mohon bersabar atau kalian bisa cari keyword sesuai urutan dibawah.
 

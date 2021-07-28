@@ -1,15 +1,12 @@
 ---
-title: "Contact"
-slug: contact
-date: 2020-12-29T11:58:50Z
+date: "2020-12-29T11:58:50Z"
+description: Contact Me. MuryP untuk personal ataupun bisnis
 draft: false
-
-type: page
-
 image: ""
-thumbnail : ""
-
-description: "Contact Me. MuryP untuk personal ataupun bisnis"
+slug: contact
+thumbnail: ""
+title: Contact
+type: page
 ---
 {{< html >}}
 <div>Telegram : <a href="https://t.me/muryp">t.me/muryp</a></div>Line : muryp<br />

@@ -1,19 +1,16 @@
 ---
-title: "Bahas Git: Version Control, Penggunaan dan Configurasi"
-slug: bassic
-date: 2021-07-10T04:58:51Z
-lastmod: 2021-07-10T04:58:51Z
 authors:
 - muryp
-
+date: "2021-07-10T04:58:51Z"
+description: isi
 draft: false
+image: link
+keywords: isi
+lastmod: "2021-07-10T04:58:51Z"
 show_comments: true
-
-image : "link"
-thumbnail : "link"
-
-description: "isi"
-keywords : "isi"
+slug: bassic
+thumbnail: link
+title: 'Bahas Git: Version Control, Penggunaan dan Configurasi'
 ---
 Hai, Assalamualaikum wr.wb
 kali ini saya mau membahas mengenai git version control. walaupun tidak secara spesifik.

@@ -1,21 +1,16 @@
 ---
-title: "Cheatsheet Command Bash"
-elug: cheatshet
-date: 2021-07-14T07:47:35+07:00
-lastmod: 2021-07-14T07:47:35+07:00
-draft: false
-show_comments: false
-
-type: post
-
-tags:
-    - Tag
-
-image: ""
-thumbnail : ""
-
+date: "2021-07-14T07:47:35+07:00"
 description: ""
-
+draft: false
+elug: cheatshet
+image: ""
+lastmod: "2021-07-14T07:47:35+07:00"
+show_comments: false
+tags:
+- Tag
+thumbnail: ""
+title: Cheatsheet Command Bash
+type: post
 ---
 > cheatshet ini mungkin akan terus di perbarui
 #Linux Cheat Sheet

@@ -1,24 +1,19 @@
 ---
-title: "Memanfaatkan Android Untuk Coding"
-slug: memanfaatkan-Android-untuk-coding
-date: 2021-02-24T06:18:43Z
-draft: false 
 authors:
- - MuryP
-show_comments: true 
- 
-type: pages 
- 
-tags: 
-- Tips Trik
+- MuryP
+date: "2021-02-24T06:18:43Z"
+description: Cara saya memanfaatkan Android saya untuk coding.
+draft: false
 image: /img/authors/muryp.png
-
+keywords: Cara saya memanfaatkan Android saya untuk coding.
+show_comments: true
+slug: memanfaatkan-Android-untuk-coding
+tags:
+- Tips Trik
+title: Memanfaatkan Android Untuk Coding
+type: pages
+---
  
- 
- 
-description: "Cara saya memanfaatkan Android saya untuk coding." 
-keywords: "Cara saya memanfaatkan Android saya untuk coding." 
---- 
 
 assalamualaikum warahmatullahi wabarakatuh
 

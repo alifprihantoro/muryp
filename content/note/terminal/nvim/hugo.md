@@ -1,24 +1,19 @@
 ---
-Title: "Menggunakan Nvim Untuk Mengatur Postingan Hugo"
-slug: hugo
-date: 2021-07-18T09:03:58+07:00
-lastmod: 2021-07-18T09:31:12+07:00
-draft: false
-show_comments: false
-
-type: post
-
-tags:
-    - Nvim
-    - Back End
-    - Text Editor
-    - Hugo
-
-image: ""
-thumbnail : ""
-
+Title: Menggunakan Nvim Untuk Mengatur Postingan Hugo
+date: "2021-07-18T09:03:58+07:00"
 description: ""
-
+draft: false
+image: ""
+lastmod: "2021-07-18T09:31:12+07:00"
+show_comments: false
+slug: hugo
+tags:
+- Nvim
+- Back End
+- Text Editor
+- Hugo
+thumbnail: ""
+type: post
 ---
 ## Tools dan Installing
 

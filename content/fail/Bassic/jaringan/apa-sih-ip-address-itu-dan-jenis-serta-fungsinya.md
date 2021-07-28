@@ -1,13 +1,16 @@
-+++
-title = "Apa Sih IP Address Itu? Dan Jenis Serta Fungsinya"
-date = 2020-11-26T02:07:00Z
-updated = 2020-11-26T02:07:20Z
-tags = ["Jaringan", "Back End","Bassic"]
-blogimport = true 
-[author]
-	name = "MuryP"
-	uri = "https://www.blogger.com/profile/14798613158789333825"
-+++
+---
+author:
+  name: MuryP
+  uri: https://www.blogger.com/profile/14798613158789333825
+blogimport: true
+date: "2020-11-26T02:07:00Z"
+tags:
+- Jaringan
+- Back End
+- Bassic
+title: Apa Sih IP Address Itu? Dan Jenis Serta Fungsinya
+updated: "2020-11-26T02:07:20Z"
+---
 
 {{< html >}}
 {{< html >}}

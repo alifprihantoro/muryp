@@ -1,24 +1,20 @@
 ---
-title: "Belajar Hugo: Perkenalan"
-slug: bassic
-date: 2021-01-20T13:34:12Z
-draft: false 
 authors:
- - MuryP
-
-show_comments: true 
- 
-type: pages 
- 
-tags: 
+- MuryP
+date: "2021-01-20T13:34:12Z"
+description: Apa itu hugo? Apa kelebihan hugo? Kenapa harus pakek hugo?
+draft: false
+keywords: Apa itu hugo? Apa kelebihan hugo? Kenapa harus pakek hugo?
+show_comments: true
+slug: bassic
+tags:
 - Hugo
 - Front End
 - Back End
-
-
-description: "Apa itu hugo? Apa kelebihan hugo? Kenapa harus pakek hugo?" 
-keywords: "Apa itu hugo? Apa kelebihan hugo? Kenapa harus pakek hugo?" 
---- 
+title: 'Belajar Hugo: Perkenalan'
+type: pages
+---
+ 
 
 Hello world!
 Saya muryp dari indonesia. Kali ini saya akan memulai seri hugo dan bagaiamana tanggapan saya mengenai framework ini. 

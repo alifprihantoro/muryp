@@ -1,25 +1,20 @@
 ---
-title: "Perkenalan NeoVim"
-slug: perkenalan-neovim
-date: 2021-07-16T16:13:35+07:00
-lastmod: 2021-07-16T16:13:35+07:00
-draft: false
-show_comments: false
-
-type: post
-
-tags:
-    - Nvim
-    - Bassic
-    - Front End
-    - Back End
-    - Text Editor
-
-image: ""
-thumbnail : ""
-
+date: "2021-07-16T16:13:35+07:00"
 description: ""
-
+draft: false
+image: ""
+lastmod: "2021-07-16T16:13:35+07:00"
+show_comments: false
+slug: perkenalan-neovim
+tags:
+- Nvim
+- Bassic
+- Front End
+- Back End
+- Text Editor
+thumbnail: ""
+title: Perkenalan NeoVim
+type: post
 ---
 Assalamualaikum Warahmatullahi Wabarakatuh
 

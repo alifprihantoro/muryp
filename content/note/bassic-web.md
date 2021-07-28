@@ -1,12 +1,10 @@
 ---
-title: "Bassic untuk Mempelajari Web"
-slug: bassic-web
-date: 2021-01-10T05:55:29Z
-
+date: "2021-01-10T05:55:29Z"
+description: Belajar web dev pertama
 image: ""
-thumbnail : ""
-
-description: "Belajar web dev pertama"
+slug: bassic-web
+thumbnail: ""
+title: Bassic untuk Mempelajari Web
 ---
 > Mohon maaf, untuk saat ini. Saya sedang mengusahakan untuk melengkapi artikel/video untuk pembelajaran. Jika link belum aktif, mohon bersabar atau kalian bisa cari keyword sesuai urutan dibawah.
 

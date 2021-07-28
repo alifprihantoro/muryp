@@ -1,13 +1,17 @@
-+++
-title = "Apa itu server? Dan jenis-jenisnya"
-date = 2020-11-24T02:55:00Z
-updated = 2020-11-24T04:06:02Z
-tags = ["Jaringan", "Back End","Server","Bassic"]
-blogimport = true 
-[author]
-	name = "MuryP"
-	uri = "https://www.blogger.com/profile/14798613158789333825"
-+++
+---
+author:
+  name: MuryP
+  uri: https://www.blogger.com/profile/14798613158789333825
+blogimport: true
+date: "2020-11-24T02:55:00Z"
+tags:
+- Jaringan
+- Back End
+- Server
+- Bassic
+title: Apa itu server? Dan jenis-jenisnya
+updated: "2020-11-24T04:06:02Z"
+---
 
 {{< html >}}
 {{< html >}}

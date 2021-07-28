@@ -1,21 +1,16 @@
 ---
-title: "Install dan configurasi"
-slug: install-dan-config
-date: 2021-07-14T15:05:30+07:00
-lastmod: 2021-07-14T15:05:30+07:00
-draft: false
-show_comments: false
-
-type: post
-
-tags:
-    - Tag
-
-image: ""
-thumbnail : ""
-
+date: "2021-07-14T15:05:30+07:00"
 description: ""
-
+draft: false
+image: ""
+lastmod: "2021-07-14T15:05:30+07:00"
+show_comments: false
+slug: install-dan-config
+tags:
+- Tag
+thumbnail: ""
+title: Install dan configurasi
+type: post
 ---
 ## Cara install
 ## Cara configurasi

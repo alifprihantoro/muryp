@@ -1,3 +1,3 @@
 ---
-title: "Halaman Blog"
+title: Halaman Blog
 ---

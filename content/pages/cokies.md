@@ -1,15 +1,12 @@
 ---
-title: "Apa itu Cokie?"
-slug: cokie
-date: 2021-01-04T22:50:13Z
+date: "2021-01-04T22:50:13Z"
+description: Apa itu cokie? jenis makanan apa itu? kegunaan cokie itu apa?
 draft: false
-
-type: page
-
 image: ""
-thumbnail : ""
-
-description: "Apa itu cokie? jenis makanan apa itu? kegunaan cokie itu apa?"
+slug: cokie
+thumbnail: ""
+title: Apa itu Cokie?
+type: page
 ---
 Hello world!
 I'm MuryP, kali ini saya akan membahas apa itu cokies. Dikarenakan web saya menggunakannya juga. Mungkin dari kalian pernah dengar, tapi tidak tahu cokies itu apa dan menggunakan tanpa sadar cokies tersebut. 

@@ -1,4 +1,4 @@
 ---
-title: "Daftar Penulis MuryP Beta"
+title: Daftar Penulis MuryP Beta
 ---
 teslah

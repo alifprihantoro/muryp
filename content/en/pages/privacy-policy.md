@@ -1,15 +1,12 @@
 ---
-title: "Privacy Policy"
-slug: privacy-policy
-date: 2021-01-04T02:53:22Z
+date: "2021-01-04T02:53:22Z"
+description: Privacy Policy atau kebijakan privasi dari MuryP Beta
 draft: true
-
-type: page
-
 image: ""
-thumbnail : ""
-
-description: "Privacy Policy atau kebijakan privasi dari MuryP Beta"
+slug: privacy-policy
+thumbnail: ""
+title: Privacy Policy
+type: page
 ---
 # Persyaratan Situs MuryP
 Terakhir Diperbarui: 4 January 2021.
