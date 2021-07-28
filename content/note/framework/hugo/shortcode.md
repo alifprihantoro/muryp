@@ -28,11 +28,13 @@ description: ""
 {{ .Get 1 | safeHTML }}
 </span>
 ```
+
 #### Penggunaan
-```
+
+```html
 {{< span class-name >}}
 <html/>
-{{</ span >}}
+{{< /span >}}
 ```
 
 #### Keterangan
@@ -47,7 +49,7 @@ Digunakan untuk membuat span, yang didalamnya bisa diisi html. Dan kalian bisa m
 ```
 #### Penggunaan
 ```
-{{< /img.png "alt" "description" "keywords" >}}
+{{%/* /img.png "alt" "description" "keywords" */%}}
 ```
 
 #### Keterangan

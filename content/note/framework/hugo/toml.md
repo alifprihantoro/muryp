@@ -226,15 +226,15 @@ disqusShortname = "muryp"
 1. Hanya untuk tambahan dimana kalian bisa mengubanya sesuai kebutuhan. Untuk ini saya belum terlalu mengerti. Yang saya tahu hanya pagenationnya saja. Yaitu untuk menampilkn berapa artikel nantinya. kode tersebut saya dapatkan saat mencoba menyalin kode SEO. 
 
 > languageCode = "id-id"
-DefaultContentLanguage = "id"
-paginate = 10
+  DefaultContentLanguage = "id"
+  paginate = 10
 
 2. Ini juga saya dapatkan dari penggunaan SEO. Namun saya tahu sedikit. Dimana nilai true, mwngijinkan untuk memuat emoji, git info, robot txt, dan yang terakhir untuk masalah url.
 
 > enableEmoji = true
-enableGitInfo = true
-enableRobotsTXT = true
-canonifyURLs = true
+  enableGitInfo = true
+  enableRobotsTXT = true
+  canonifyURLs = true
 
 3. Params ini digunakan untuk pemanggilan konten. Seperti saat kita membuat judul, slug, deskripsi di postingan. Yang nantinya bisa dipanggil dimana saja. Dan params ini saya gunakan untuk default dari quote, url image authors, dan beberapa hal lainnya seperti warna dll. Sehingga ketika orang lain ingin mengubah warna atau authors lebih mudah saja. 
 
@@ -244,13 +244,46 @@ canonifyURLs = true
 5. ini juga dari seo dan saya tidak tahu, dan untuk fronmatter, digunakan untuk mendeskripsikan tanggal yang akan tampil atau dicatat nantinya.
 
 > pygmentsUseClasses=true
-[frontmatter]
-date = ["date", "publishDate", "lastmod"]
-lastmod = [":git", "lastmod", "date", "publishDate"]
-publishDate = ["publishDate", "date"]
-expiryDate = ["expiryDate"]
+  [frontmatter]
+  date = ["date", "publishDate", "lastmod"]
+  lastmod = [":git", "lastmod", "date", "publishDate"]
+  publishDate = ["publishDate", "date"]
+  expiryDate = ["expiryDate"]
 
 6. untuk hal ini akan dibahas lebih lengkap [disini](/membuat-menu-dihugo)
 
 > [menu]
   [[menu.main]]
+
+## yaml
+
+```yaml
+---
+title: "judul blog"
+slug: url
+
+date: 2021-07-28T09:38:08+07:00
+lastmod: 2021-07-28T09:38:08+07:00
+
+draft: false
+show_comments: false
+
+type: post
+
+tags:
+    - tag1
+    - tag2
+
+image: "/url.png"
+thumbnail : "/url.png"
+
+description: "Ipsum qui in sint cumque cupiditate Doloremque explicabo fugiat consequuntur aperiam ipsa Nisi ipsam porro velit animi nobis, expedita Voluptatibus natus consequuntur corporis adipisci laudantium Optio saepe accusantium accusamus quis"
+
+---
+```
+
+## Info Penting
+
+- Kalian bisa buat menjadi beberapa file terpisah
+- Untuk folder saya belum tahu/mungkin tidak bisa. Jika ada info lebih lanjut akan saya beri tahu via sosial media, dan artikel ini akan saya update.
+- Kalian bisa menggunakan semua menjadi toml atau yaml saja
