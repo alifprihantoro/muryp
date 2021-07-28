@@ -10,7 +10,6 @@ type: post
 
 tags:
     - Nvim
-    - Front End
     - Back End
     - Text Editor
     - Hugo
@@ -154,3 +153,10 @@ let g:NERDTreeGitStatusUseNerdFonts = 1 " you should install nerdfonts by yourse
 " fuzzy
 let g:fzf_layout = { 'window': '-tabnew' }
 ```
+## Cara Penggunaan
+
+- Masuk ke folder content/<subfolder jika ada>
+- Ketik `nvim judul.md` enter
+- Tekan `:` lalu ketikkan `Huga`
+- Ubah sesuai kebutuhan
+- Save

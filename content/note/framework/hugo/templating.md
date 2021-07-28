@@ -45,8 +45,8 @@ hai, kali ini saya akan membahas bagaimana membuat **template/tema di hugo**. La
 
 ## Tutorial membuat template
 
-- hugo install dan template
-- pastikan sudah ada postingan
+- [hugo install dan template](./install)
+- [pastikan sudah ada postingan](./bassic)
 - main them
   - kerangka html
   - nav

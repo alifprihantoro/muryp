@@ -53,7 +53,7 @@ Untuk memulai membuat web, kalian coba ketikkan `hugo new site nama-situs` lalu 
 
 ## buat post
 
-Untuk membuat post sendiri ada beberapa cara. Untuk di **cli** sendiri kita hanya perlu mengetikkan `hugo new name-post`.
+Untuk membuat post sendiri ada beberapa cara. Untuk di **cli** sendiri kita hanya perlu mengetikkan `hugo new name-post.md`.
 
 ### Menggunakan nvim untuk mengatur content
 
