@@ -1,17 +1,21 @@
 ---
+title: Cara Configurasi toml
+slug: toml
+type: post
+
 date: "2021-07-28T09:38:08+07:00"
+lastmod: "2021-07-28T09:38:08+07:00"
+
 description: ""
 draft: false
-image: ""
-lastmod: "2021-07-28T09:38:08+07:00"
 show_comments: false
-slug: toml
+
+image: ""
+thumbnail: ""
+
 tags:
 - hugo
 - configurasi
-thumbnail: ""
-title: Cara Configurasi toml
-type: post
 ---
 
 ## Configurasi toml 
