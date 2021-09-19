@@ -1,8 +1,8 @@
 ---
-title: "Search Results"
+layout: search
 sitemap:
-  priority : 0.1
-layout: "search"
+  priority: 0.1
+title: Search Results
 ---
 
 Nothing on this page will be visible. This file exists solely to respond to /search URL.

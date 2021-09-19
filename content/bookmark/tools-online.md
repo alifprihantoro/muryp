@@ -1,27 +1,23 @@
 ---
-title: "Tools Online"
-slug: tools-online
-date: 2021-02-21T22:24:47Z
-draft: false 
 authors:
- - MuryP
-show_comments: false 
+- MuryP
+date: "2021-02-21T22:24:47Z"
+description: Daftar tools online gratis
+draft: false
+keywords: Daftar tools online gratis
+show_comments: false
+slug: tools-online
+title: Tools Online
+type: pages
+---
  
-type: pages 
- 
-
- 
- 
- 
-description: "Daftar tools online gratis" 
-keywords: "Daftar tools online gratis" 
---- 
 > list ini akan terus ditambahkan seiring waktu
 
 ## Image
 - [TinyPNG – Compress PNG images while preserving transparency](https://tinypng.com/)
 - [png to svg] (https://www.pngtosvg.com/)
 - [svg to css](https://yoksel.github.io/url-encoder/)
+- [svg compress](https://jakearchibald.github.io/svgomg/)
 
 ## Font
 - https://fontjoy.com/
@@ -58,3 +54,6 @@ keywords: "Daftar tools online gratis"
 - emailjs.com 
 - caniuse.com 
 - 
+
+## bash
+- https://scriptim.github.io/bash-prompt-generator/

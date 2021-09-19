@@ -1,28 +1,21 @@
 ---
-title: "Alif MuryP - Front End"
-
-date: 2021-01-07T04:31:27Z
-draft: false
-
-type: page
-image: "/img/authors/muryp.png"
-thumbnail : "/img/authors/muryp.min.png"
-description: "Mengenai penulis. MuryP, Alif MuryP, Alief Prihantoro."
-
 authors:
 - muryp
-name: "Alif MuryP"
-
-bio: "Hello world!<br/>
-I'm MuryP from Indonesian. I hope. I can create unique, usefully, and simple.
-I like Coding and Drawing. I hope you enjoy."
-
-
-twitter: "alifmuryp"
-facebook: "alifmuryp"
-instagram: "alifmuryp"
-github: "alifmuryp"
-gitlab: "muryp"
+bio: Hello world!<br/> I'm MuryP from Indonesian. I hope. I can create unique, usefully,
+  and simple. I like Coding and Drawing. I hope you enjoy.
+date: "2021-01-07T04:31:27Z"
+description: Mengenai penulis. MuryP, Alif MuryP, Alief Prihantoro.
+draft: false
+facebook: alifmuryp
+github: alifmuryp
+gitlab: muryp
+image: /img/authors/muryp.png
+instagram: alifmuryp
+name: Alif MuryP
+thumbnail: /img/authors/muryp.min.png
+title: Alif MuryP - Front End
+twitter: alifmuryp
+type: page
 ---
 # About Me
 Hello world! 

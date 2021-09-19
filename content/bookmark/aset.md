@@ -1,21 +1,16 @@
 ---
-title: "Aset"
-slug: aset
-date: 2021-02-21T22:38:00Z
-draft: false 
 authors:
- - MuryP
-show_comments: false 
+- MuryP
+date: "2021-02-21T22:38:00Z"
+description: Beberapa tempat penyedia aset gratis
+draft: false
+keywords: Beberapa tempat penyedia aset gratis
+show_comments: false
+slug: aset
+title: Aset
+type: pages
+---
  
-type: pages 
- 
-
- 
- 
- 
-description: "Beberapa tempat penyedia aset gratis" 
-keywords: "Beberapa tempat penyedia aset gratis" 
---- 
 > akan terus diupdate kedepannya
 
 Icon

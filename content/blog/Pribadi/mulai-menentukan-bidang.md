@@ -1,24 +1,18 @@
 ---
-title: "Mulai Menentukan Bidang"
-slug: mulai-menentukan-bidang
-date: 2021-02-24T04:26:33Z
-draft: false 
 authors:
- - MuryP
-show_comments: true 
+- MuryP
+date: "2021-02-24T04:26:33Z"
+description: Memilih jalan untuk masa depan.
+draft: false
+keywords: Memilih jalan untuk masa depan.
+show_comments: true
+slug: mulai-menentukan-bidang
+tags:
+- Ceritaku
+title: Mulai Menentukan Bidang
+type: pages
+---
  
-type: pages 
- 
-tags: 
-- Journey
-
-
- 
- 
- 
-description: "Memilih jalan untuk masa depan." 
-keywords: "Memilih jalan untuk masa depan." 
---- 
 
 assalamualaikum warahmatullahi wabarakatuh
 
@@ -38,4 +32,4 @@ Dan untuk saya sendiri masih bingung untuk memilih framework dan library untuk p
 Oh mungkin segini dulu cerita singkat dari saya, gak tahu harus cerita apa lagi. semoga kedepannya lebih baik dan bagus lagi. terimakasih bagi yang membaca ini, 
 
 
-assalamualaikum warahmatullahi wabarakatuh
+Wa'Alaikum Salam Wr.Wb

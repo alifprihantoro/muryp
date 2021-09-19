@@ -1,24 +1,18 @@
 ---
-title: "Bagaimana Saya Tahu Tentang Hugo"
-slug: bagaimana-saya-tahu-tentang-hugo
-date: 2021-02-24T04:53:37Z
-draft: false 
 authors:
- - MuryP
-show_comments: true 
+- MuryP
+date: "2021-02-24T04:53:37Z"
+description: Perjalanan saya menemukan framework hugo.
+draft: false
+keywords: Perjalanan saya menemukan framework hugo.
+show_comments: true
+slug: bagaimana-saya-tahu-tentang-hugo
+tags:
+- Ceritaku
+title: Bagaimana Saya Tahu Tentang Hugo
+type: pages
+---
  
-type: pages 
- 
-tags: 
-- Journey
-
-
- 
- 
- 
-description: "Perjalanan saya menemukan framework hugo." 
-keywords: "Perjalanan saya menemukan framework hugo." 
---- 
 
 
 assalamualaikum warahmatullahi wabarakatuh

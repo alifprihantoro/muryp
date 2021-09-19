@@ -1,21 +1,16 @@
 ---
-title: "Anime Legal"
-slug: anime-legal
-date: 2021-02-21T22:34:54Z
-draft: false 
 authors:
- - MuryP
-show_comments: false 
+- MuryP
+date: "2021-02-21T22:34:54Z"
+description: Beberapa web/channel untuk nonton anime gratis dan legal.
+draft: false
+keywords: Beberapa web/channel untuk nonton anime gratis dan legal.
+show_comments: false
+slug: anime-legal
+title: Anime Legal
+type: pages
+---
  
-type: pages 
- 
-
- 
- 
- 
-description: "Beberapa web/channel untuk nonton anime gratis dan legal." 
-keywords: "Beberapa web/channel untuk nonton anime gratis dan legal." 
---- 
 > akan terus diupdate kedepannya
 
 youtube :

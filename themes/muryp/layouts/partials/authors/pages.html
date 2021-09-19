@@ -6,7 +6,7 @@
   {{ with $.Site.GetPage $path }}
   <a href="/img{{ $path }}.png">	<img src="/img{{ $path }}.min.png" alt="Profil {{ $path }}" width="200px"></a>
   {{ .Content | emojify | safeHTML}}
-          {{ partial "list.html" . }}
+          {{ partial "list/blog.html" . }}
   {{ end }}
   {{ end }}
   {{ else }}

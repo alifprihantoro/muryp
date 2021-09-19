@@ -1,0 +1,53 @@
+baseurl = "https://muryp.my.id/"
+title = "MuryP Beta"
+theme = "muryp3"
+disqusShortname = "muryp"
+
+[outputs]
+    home = ["HTML", "RSS", "JSON"]
+
+[taxonomies]
+  tag = "tags"
+  author = "authors"
+
+[permalinks]
+  blog = "/:slug/"
+  laman = "/:slug/"
+  en = "/en/:slug/"
+
+languageCode = "en-en"
+DefaultContentLanguage = "id"
+
+enableEmoji = true
+enableGitInfo = true
+enableRobotsTXT = true
+canonifyURLs = true
+
+[params]
+  header = "Ingin Membuat Website?<br>Tapi tidak bisa coding. Tenang, serahkan projek anda kepada saya."
+  github = "https://github.com/alifmuryp"
+  gitlab = "https://gitlab.com/muryp"
+  facebook = "https://facebook.com/alifmuryp"
+  sitename = "MuryP Beta"
+  twitter = "@alifmuryp"
+  og_image = "https://muryp.gitlab.io/image/noimg.png"
+  hosting = "https://muryp.gitlab.io/hosting/muryp/css/"
+  host = "https://muryp.gitlab.io/image/"
+  img = "/img/authors/muryp.png"
+  thumb = "/img/authors/muryp.min.png"
+  icon = "https://muryp.gitlab.io/image/muryp/favicon.ico"
+  bagianAtas = "https://muryp.gitlab.io/image/bg.png"
+    # Site Author
+    author = "MuryP"
+    # Description/subtitle for homepage
+    description = "MuryP, MuryP Beta, Internet, Technology, hardware, Operating Sistem, Software, Jaringan Komunikasi, JarKom, TIK, Ringkasan, Alief Prihantoro, Alif MuryP, Buku, Ebook,My Project Drawing/Desain,UI/UX,front end,Blogging, SEO,catatan"
+
+
+pygmentsUseClasses=true
+
+[frontmatter]
+date = ["date", "publishDate", "lastmod"]
+lastmod = [":git", "lastmod", "date", "publishDate"]
+publishDate = ["publishDate", "date"]
+expiryDate = ["expiryDate"]
+

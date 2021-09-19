@@ -1,24 +1,24 @@
 {{ with .Params.tags }}
-<div class="kategori">
-  Kategori :
+<div class="tag">
+  Tag :
   {{range .}}
-  <a href="/tags/{{ . | urlize }}">{{ . }}</a>
+  <a href="/tags/{{ . | urlize }}">#{{ replace . " " "_"  }}</a>
   {{end}}
 </div>
 {{ end }}
 {{ with .Params.catatan }}
-<div class="kategori">
-  Kategori :
+<div class="tag">
+  Tag :
   {{range .}}
-  <a href="/catatan/{{ . | urlize }}">{{ . }}</a>
+  <a href="/tags/{{ . | urlize }}">#{{ replace . " " "_"  }}</a>
   {{end}}
 </div>
 {{ end }}
 {{ with .Params.ide }}
-<div class="kategori">
-  Kategori :
+<div class="tag">
+  Tag :
   {{range .}}
-  <a href="/ide/{{ . | urlize }}">{{ . }}</a>
+  <a href="/tags/{{ . | urlize }}">#{{ replace . " " "_"  }}</a>
   {{end}}
 </div>
 {{ end }}

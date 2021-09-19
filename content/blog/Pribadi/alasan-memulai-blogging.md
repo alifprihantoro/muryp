@@ -1,24 +1,18 @@
 ---
-title: "Alasan Memulai Blogging"
-slug: alasan-memulai-blogging
-date: 2021-02-24T03:46:12Z
-draft: false 
 authors:
- - MuryP
-show_comments: true 
+- MuryP
+date: "2021-02-24T03:46:12Z"
+description: Alasan mengapa saya memulai blog. Dari main-main sampai mencoba serius.
+draft: false
+keywords: Alasan mengapa saya memulai blog. Dari main-main sampai mencoba serius.
+show_comments: true
+slug: alasan-memulai-blogging
+tags:
+- Ceritaku
+title: Alasan Memulai Blogging
+type: pages
+---
  
-type: pages 
- 
-tags: 
-- Journey
-
-
- 
- 
- 
-description: "Alasan mengapa saya memulai blog. Dari main-main sampai mencoba serius." 
-keywords: "Alasan mengapa saya memulai blog. Dari main-main sampai mencoba serius." 
---- 
 
 assalamualaikum warahmatullahi wabarakatuh
 
